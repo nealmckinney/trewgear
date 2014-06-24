@@ -1,0 +1,5 @@
+<div class="header1">ANDREW MONTY GOLDMAN</div>
+<p>&nbsp;</p>
+<p>Sun Valley, Idaho<br>Naish Kites</p>
+<p>&nbsp;</p>
+<p>Andrew picked up his first kite in 1999 on the shores of his college campus at the University of California Santa Barbara. He preferred the ocean and beach over lecture halls and papers. At the expense of his kiting passion he received a degree in Socio Economics and Geopolitics. Kiting is now a central theme in his life. A certified PASA instructor, he has taught kiting across the world, including two of the most respected schools in the U.S. (Kite the Gorge & Big Winds) A professional Extreme skier, Andrew traveled the world competing in many venues, including several X games qualifiers. He started Snowkite Soldier in 2006. In the years since the company’s conception, he has published several articles in various magazines, been featured in kite movies and put Idaho on the map as one of the best places to Snowkite. Currently riding for Naish and sponsored by Trew Gear. He lives in Sun Valley, ID with the love of his life and when the snow falls, he kites 7 days a week.</p>

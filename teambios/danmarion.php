@@ -1,0 +1,3 @@
+<div class="header1">DAN MARION</div>
+<p>&nbsp;</p>
+<p>Dan Marion is twenty-something? I have no idea. Marion and his friends (see Meathead Films) dominate the most underappreciated part of our industry: the east. 80’s hairband metal, slushy never-ending bumps, steep shitty snow, huge cliff drops into stupidly tight trees, backcountry booters, icy half pipes, slaying crazy deep snow, boosting weird urban hits, and all sorts of crazy shit that makes us want to live there too because Marion makes it looks stupid easy and really fun. Oh yeah, he’s also a X-Games veteran, loves to surf, and probably likes spicy food?</p>

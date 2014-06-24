@@ -1,0 +1,3 @@
+<div class="header1">CEDRIC "THE PIRATE" TREMBLAY-FOURNIER</div>
+<p>&nbsp;</p>
+<p>Ced lives somewhere in eastern Canada and shreds crazy east coast style jibs and park so fast and fluidly that it makes our spoiled west coast legs tremble. He speaks French and probably eats poutine. He’s building a new house and is a new father. He’s been involved in progressing park skiing on the east coast for many years, and he continues to evolve the sport every year. Check him out in Meathead Film’s new releases…and get inspired. </p>

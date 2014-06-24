@@ -1,0 +1,3 @@
+<div class="header1">PHINEAS ENGLAND</div>
+<p>&nbsp;</p>
+<p>Phineas England was born in 1986 in Hood River, Oregon. Mt. Hood became his passion, his love, his mistress.  The playground on that mountain kept him in Hood River for 23 years straight. Until the inevitable happened: somebody suggested he try to grow up a little.  Scary as it was, Phineas decided the only way to continue to see his mistress mountain was to find a job that left early bird mornings free.  So it was set, in 2007 Phineas started pursuing the art of Sushi.  Phineas carved pow in the mornings and yellowtail at night.  3 years later this has led him to Portland, where he explores the culinary realms of a city and continues to sneak away in the mornings to play on his mountain, Mt. Hood.</p>

@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+        RewriteEngine on
+
+		#RewriteCond %{HTTP_HOST} !^www\.trewgear\.com
+		#RewriteRule (.*) http://www.trewgear.com/$1 [R=301,L]
+		
+		RewriteRule ^pdp/(.*) pdp.php?pID=$1
+		RewriteRule ^productwall/(.*) productwall.php?cID=$1
+		RewriteRule ^team/(.*) team.php?tID=$1
+		RewriteRule ^pro/(.*) pro.php?authcode=$1
+		RewriteRule ^setPromotion/(.*) setPromotion.php?promotion=$1
+		RewriteCond %{REQUEST_FILENAME} !-d
+		RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteRule (.*) $1.php [L]
+</IfModule>

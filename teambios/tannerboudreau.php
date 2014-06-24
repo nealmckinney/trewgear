@@ -1,0 +1,5 @@
+<div class="header1">TANNER BOUDREAU</div>
+<p>&nbsp;</p>
+<p>The Hood River Valley High School Ski Team proudly represents TREW outerwear on the slopes. Every season we choose one graduating senior – based on their results from the season and recommendations from the coaches – to represent the TREWth. This season we’re stoked to have Tanner reppin the threads!</p>
+
+<p>My name is Tanner Boudreau. I am currently 18 years old fresh out of Hood River Oregon. When I started skiing around three years old I was hooked for life. I started out racing but once I found that being in the air was more fun for me I switched. Now I pretty much do everything from sending the cliffs in the backcountry, to urban rails in town, to tricking out the man made jumps, and helping out my local high school team racing. My favorite trick is a rodeo. My favorite day is a Sunny day in the park or in the powder. On my none skiing time I long board, work, try to skate, wake surf, school, tramp, and watch edits on NS. So if you ever roll through the Hood hit me up but till then stay TREW.</p>

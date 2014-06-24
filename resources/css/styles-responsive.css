@@ -1,0 +1,422 @@
+#fpo-marquee {
+	background:url(../images/home/cosmic.jpg) top center no-repeat;
+	background-size:cover;
+	height:948px;
+}
+
+.btn-navbar {
+	width:33px;
+	position:absolute;
+	top:60px;
+	left:5%;
+	cursor:pointer;
+	background:#fff;
+	z-index:20;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	   -moz-border-radius: 3px 3px 3px 3px;
+	        border-radius: 3px 3px 3px 3px;
+}
+
+.btn-navbar .icon-bar {
+  	width: 100%;
+  	height: 6px;
+	margin-bottom:3px;
+  	background: #979797;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+}
+
+.btn-navbar:hover .icon-bar {
+	background: #000;
+}
+
+
+@media (min-width: 980px) {
+	
+	
+	
+	.nav-collapse {
+		height: auto !important;
+		overflow: visible !important;
+	}
+	
+	.btn-navbar {
+		display:none;
+	}
+	
+	.mobile-only {
+		display:none;
+	}
+}
+
+
+
+@media (max-width: 979px) {
+	
+	.shipping-notice {
+		display:none;
+	}
+	
+	#fpo-marquee {
+		height:475px;
+	}
+	
+	.btn-navbar {
+		display:block;
+	}
+	
+	.nav-collapse {
+		height: 0;
+	    overflow: hidden;
+	}
+	
+	.nav-collapse.auto {
+		height: auto;
+		overflow: visible;
+	}
+	
+	body {
+		min-width:640px;
+	}
+	
+	#trew_nav_wrap {
+		width:100%;
+		margin:150px 0 0 0;
+	}
+	
+	#trew_nav_main {
+		width:auto;
+		height:auto;
+		min-height:100px;
+	}
+	
+	#trew_nav_logo {
+/*		top:10px;*/
+		left:50%;
+		margin-left:-60px;
+	}
+	
+	#trew_nav {
+/*		display:none;*/
+		margin-top:180px;
+		background:#fff;
+		overflow:hidden;
+		width:90%;
+		margin:0 auto;
+	}
+	
+	#photo-scroll1 {
+		margin-top:0;
+	}
+	
+	
+	
+	#trew_nav ul, #trew_nav li {
+		float:none;
+		display:block !important;
+		visibility:visible !important;
+		background:none !important;
+		position:static;
+		width:auto !important;
+		height:auto !important;
+		-webkit-box-shadow: none;
+		   -moz-box-shadow: none;
+		        box-shadow: none;
+	}
+	
+	#trew_nav .subButton, #trew_nav .subButton.top {
+		margin-top:20px;
+/*		background:#e9e9e9 !important;*/
+/*		padding-bottom:10px;*/
+	}
+	
+	#trew_nav .tier1.secondary {
+/*		display:none !important;*/
+		padding-top:0;
+	}
+
+	
+	#trew_nav .tier2 {
+		padding-top:5px;
+		overflow:hidden;
+		display:none !important;
+	}
+	
+	#trew_nav .tier2 .subButton {
+		margin-top:0;
+		padding:0;
+		float:left;
+	}
+	
+	#trew_nav .tier2 .subButton a, #trew_nav .tier1.secondary a {
+		width:auto;
+		color:#979797;
+	}
+	
+	#trew_nav .tier2 .subButton a:hover, #trew_nav .tier1.secondary a:hover {
+		color:#666666;
+	}
+	
+	
+	
+	#trew_nav li {
+/*		padding-left:30px;*/
+	}
+	
+	#trew_nav .topButton {
+		background:none;
+/*		text-align:center;*/
+		overflow:hidden;
+		padding:20px 0;
+		margin-bottom:5px;
+		border-bottom:#000 4px solid;
+	}
+	
+	#trew_nav .topButton.last {
+		border-bottom:none;
+	}
+	
+	#trew_nav .topA {
+/*		   border-top:#e9e9e9 1px solid;
+		border-bottom:#e9e9e9 1px solid;
+		padding:20px 0;*/
+	}
+
+	#trew_nav li ul a {
+		width: auto;
+		float: none;
+	}
+	
+	#trew_nav .topButton a {
+		font-size:72px;
+		padding-left:0;
+	}
+	
+	#trew_nav a:hover {
+		background:none !important;
+	}
+	
+
+	
+	#trew_nav .tier1.secondary, #trew_nav .tier2 {
+		margin-left:20px;
+		margin-top:5px;
+	}
+	
+	#trew_nav .tier1.secondary .subButton {
+		margin:0;
+	}
+	
+	.fontface #trew_nav .subButton a {
+		font-size:40px;
+		line-height:40px;
+	}
+	
+	
+	.fontface #trew_nav .tier1.secondary a {
+		font-size:24px;
+		line-height:32px;
+	}
+	
+	.fontface #trew_nav .tier2 a, .fontface #trew_nav .tier1.secondary .tier2 a {
+		font-size:22px;
+		margin:5px 10px 0 10px;
+	}
+
+
+
+	
+	.trew_nav_social, #mc_embed_signup {
+		right:4%;
+	}
+	
+	#mc_embed_signup {
+		top:20px;
+	}
+	
+	#signup-label, #mc_embed_signup label {
+		position:relative;
+		right:0px;
+	}
+	
+	ul.pullright.nav.right-nav {
+		right: 4%;
+		bottom:-15px;
+		margin-right:-10px;
+	}
+	
+	#toutWrap {
+		width:auto;
+	}
+	
+	.content, .tweet, .tweet .content, #footerContent {
+		width:auto;
+	}
+	
+	.content {
+		width:90%;
+		margin:0 auto;
+	}
+	
+	#footer .column {
+		width:25%;
+/*		float:none;*/
+		margin:0 auto;
+	}
+	
+	#footerLogo {
+		margin-left:5%;
+	}
+	
+	#footerBase .content {
+		width:90%;
+		margin:0 auto;
+	}
+	
+	.tout, .tout.last {
+		width:445px;
+		height:280px;
+		float:none;
+		margin:40px auto;
+		background-size:cover;
+	}
+	
+	.tout.accessorize {
+		background-image:url(../images/home/tout-accessorize-mobile.jpg);
+	}
+
+	.tout.team {
+		background-image:url(../images/home/tout-team-mobile.jpg);
+	}
+	
+	.photo-scroll, .scroll-wrap, .scroll {
+		height:350px;
+	}
+	
+	.photo-scroll {
+		width:490px;
+	}
+	
+	.slide img {
+		height:328px;
+		
+	}
+	
+	/*PDP*/
+	
+	#productWall {
+		padding-left:100px;
+	}
+	
+	#pdpWrap {
+		min-width: 640px;
+		margin-top: 0;
+		padding-top: 20px;
+	}
+	
+	#pdp, #features {
+		width:auto;
+		color:#fff;
+	}
+	
+	#pdp #productImageWrap {
+		position:relative;
+		margin: 0 auto;
+	}
+	
+	#productImage {
+		float:none;
+	}
+	
+	#pdp #description, #overview, #featureBullets, #fabricPics, #fabricInfo, #related, #pdp #description .inner {
+		width:90%;
+		margin: 0 auto;
+		float: none;
+	}
+	
+	#pdp #description {
+		background:#fff;
+		width:100%;
+		min-width:640px;
+		padding-top:30px;
+	}
+	
+	#overview, #featureBullets {
+		margin:20px auto;
+	}
+	
+	#productVideo {
+		width:576px;
+		border:0;
+		margin:30px auto;
+	}
+	
+	#related {
+		margin-top:40px;
+	}
+	
+	#productZoomCta { display:none; }
+	
+	#sb-overlay {
+		min-width:640px;
+		min-height:900px;
+	}
+	
+	
+	/*CART*/
+	
+	#cart-page {
+		padding:0;
+		min-width:0;
+	}
+	
+	#cart-page .left, #cart-page .right {
+		float: none;
+		width: auto;
+		margin:0 auto;
+		position:static !important;
+		margin-bottom:40px;
+	}
+	
+	#cart-page .right {
+		padding-top:0;
+	}
+	
+	#cart-page .right .main-header {
+		position:relative !important;
+		width:auto;
+		display:block;
+	}
+	
+	
+	/*GENERAL*/ 
+	#contentWrap {
+		min-width:640px;
+		width:100%;
+		margin: 0 auto;
+		float: none;
+	}
+	
+	#content {
+		margin-top:0;
+		min-width:640px;
+	}
+	
+	#content .page-marquee {
+		height:300px !important;
+	}
+	
+/*	.tout {
+		width:576px;
+		height:363px;
+		background-size:cover;
+	}*/
+	
+	
+
+}
+
+
+
+
