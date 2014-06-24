@@ -1,0 +1,4 @@
+                     -1758533889<br />
+<b>Warning</b>:  include(F:\Dev\php\workspaces\FAlbum\FAlbum-Trunk\src\falbum/styles//albums.tpl.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in <b>F:\Dev\php\workspaces\FAlbum\FAlbum-Trunk\src\falbum\Template.class.php</b> on line <b>50</b><br />
+<br />
+<b>Warning</b>:  include() [<a href='function.include'>function.include</a>]: Failed opening 'F:\Dev\php\workspaces\FAlbum\FAlbum-Trunk\src\falbum/styles//albums.tpl.php' for inclusion (include_path='.') in <b>F:\Dev\php\workspaces\FAlbum\FAlbum-Trunk\src\falbum\Template.class.php</b> on line <b>50</b><br />

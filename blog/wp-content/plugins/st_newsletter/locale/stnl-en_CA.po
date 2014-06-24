@@ -1,0 +1,2409 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Newsletter\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-11-14 16:06-0700\n"
+"Last-Translator: Marcus <m@devbits.ca>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\st_newsletter php5\n"
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:74
+# C:\STNL\st_newsletter/stnl_categories.php:64
+# C:\STNL\st_newsletter/stnl_sharedfunctions.php:181
+#: php5/shiftthis-newsletter.php:77
+#: php5/stnl_categories.php:61
+#: php5/stnl_sharedfunctions.php:181
+msgid "Newsletter"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:75
+# C:\STNL\st_newsletter/stnl_news.php:53
+#: php5/shiftthis-newsletter.php:78
+#: php5/stnl_news.php:53
+msgid "Create"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:77
+# C:\STNL\st_newsletter/stnl_news.php:54
+#: php5/shiftthis-newsletter.php:80
+#: php5/stnl_news.php:54
+msgid "Manage"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:79
+# C:\STNL\st_newsletter/stnl_categories.php:20
+# C:\STNL\st_newsletter/stnl_news.php:55
+# C:\STNL\st_newsletter/stnl_subscribers.php:102
+# C:\STNL\st_newsletter/stnl_subscribers.php:257
+# C:\STNL\st_newsletter/stnl_subscribers1.php:125
+# C:\STNL\st_newsletter/stnl_subscribers1.php:419
+#: php5/shiftthis-newsletter.php:82
+#: php5/stnl_categories.php:17
+#: php5/stnl_news.php:55
+#: php5/stnl_subscribers.php:102
+#: php5/stnl_subscribers.php:257
+#: php5/stnl_subscribers1.php:125
+#: php5/stnl_subscribers1.php:419
+msgid "Categories"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:81
+# C:\STNL\st_newsletter/stnl_news.php:56
+# C:\STNL\st_newsletter/stnl_preview.php:143
+#: php5/shiftthis-newsletter.php:84
+#: php5/stnl_news.php:56
+#: php5/stnl_preview.php:143
+msgid "Preview/Send"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:84
+# C:\STNL\st_newsletter/stnl_categories.php:64
+#: php5/shiftthis-newsletter.php:87
+#: php5/stnl-responder.php:237
+#: php5/stnl_categories.php:61
+msgid "Auto-Responder"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:87
+#: php5/shiftthis-newsletter.php:89
+msgid "Options"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:89
+#: php5/shiftthis-newsletter.php:91
+msgid "Subscription Text"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:91
+# C:\STNL\st_newsletter/stnl_news.php:57
+# C:\STNL\st_newsletter/stnl_sending.php:92
+# C:\STNL\st_newsletter/stnl_subscribers.php:47
+#: php5/shiftthis-newsletter.php:93
+#: php5/stnl_news.php:57
+#: php5/stnl_sending.php:104
+#: php5/stnl_subscribers.php:47
+msgid "Subscribers"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:93
+#: php5/shiftthis-newsletter.php:95
+msgid "Import/Export"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:95
+#: php5/shiftthis-newsletter.php:97
+msgid "Swift Test"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:97
+#: php5/shiftthis-newsletter.php:99
+msgid "Help"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:133
+#: php5/shiftthis-newsletter.php:134
+msgid "Documentation &amp; Support"
+msgstr ""
+
+# C:\STNL\st_newsletter/shiftthis-newsletter.php:134
+#: php5/shiftthis-newsletter.php:135
+msgid "Online Documentation"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:214
+msgid "New Auto-Responder Message"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:215
+#: php5/stnl-responder.php:224
+#: php5/stnl-responder.php:386
+msgid "Manage Auto-Responders"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:215
+#: php5/stnl-responder.php:224
+#: php5/stnl-responder.php:238
+msgid "Manage Categories"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:223
+msgid "Edit Auto-Responder Message"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:224
+#: php5/stnl-responder.php:238
+#: php5/stnl-responder.php:386
+msgid "Create New Message"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:252
+msgid "No Auto-Responder Messages Available"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:302
+msgid "Responder Message Saved"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:317
+msgid "Category:"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:324
+msgid "Interval (days):"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:328
+msgid "Subject:"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:332
+msgid "Message:"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:347
+msgid "Save Responder Message"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:28
+# C:\STNL\st_newsletter/stnl_manage.php:42
+# C:\STNL\st_newsletter/stnl_preview.php:83
+#: php5/stnl-responder.php:390
+#: php5/stnl_categories.php:25
+#: php5/stnl_manage.php:42
+#: php5/stnl_preview.php:83
+msgid "ID"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:30
+#: php5/stnl-responder.php:391
+#: php5/stnl_categories.php:27
+msgid "Name"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:66
+# C:\STNL\st_newsletter/stnl_manage.php:75
+# C:\STNL\st_newsletter/stnl_subscribers.php:135
+# C:\STNL\st_newsletter/stnl_subscribers1.php:191
+#: php5/stnl-responder.php:407
+#: php5/stnl_categories.php:63
+#: php5/stnl_manage.php:75
+#: php5/stnl_subscribers.php:135
+#: php5/stnl_subscribers1.php:191
+msgid "Edit"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:68
+# C:\STNL\st_newsletter/stnl_manage.php:76
+# C:\STNL\st_newsletter/stnl_subscribers.php:136
+# C:\STNL\st_newsletter/stnl_subscribers.php:213
+# C:\STNL\st_newsletter/stnl_subscribers1.php:193
+#: php5/stnl-responder.php:408
+#: php5/stnl_categories.php:65
+#: php5/stnl_manage.php:76
+#: php5/stnl_subscribers.php:136
+#: php5/stnl_subscribers.php:213
+#: php5/stnl_subscribers1.php:193
+msgid "Delete"
+msgstr ""
+
+# C:\st_newsletter
+#: php5/stnl-responder.php:413
+msgid "Create New Category"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:88
+#: php5/stnl-responder.php:418
+#: php5/stnl_categories.php:85
+msgid "Edit Category"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:96
+#: php5/stnl-responder.php:424
+#: php5/stnl_categories.php:93
+msgid "New Category"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "January"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "February"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "March"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "April"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_create.php:147
+# C:\STNL\st_newsletter/stnl_create.php:508
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_create.php:147
+#: php5/stnl_create.php:508
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "May"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "June"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "July"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "August"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "September"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "October"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "November"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:37
+# C:\STNL\st_newsletter/stnl_create.php:21
+# C:\STNL\st_newsletter/stnl_display_template.php:60
+# C:\STNL\st_newsletter/stnl_manage.php:54
+# C:\STNL\st_newsletter/stnl_preview.php:107
+# C:\STNL\st_newsletter/stnl_show_iframe.php:72
+#: php5/stnl_archive.php:37
+#: php5/stnl_create.php:21
+#: php5/stnl_display_template.php:60
+#: php5/stnl_manage.php:54
+#: php5/stnl_preview.php:107
+#: php5/stnl_show_iframe.php:72
+msgid "December"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:45
+# C:\STNL\st_newsletter/stnl_archive.php:49
+#: php5/stnl_archive.php:45
+#: php5/stnl_archive.php:49
+msgid "Sent on "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:48
+# C:\STNL\st_newsletter/stnl_create.php:310
+# C:\STNL\st_newsletter/stnl_create.php:490
+# C:\STNL\st_newsletter/stnl_manage.php:59
+# C:\STNL\st_newsletter/stnl_preview.php:117
+#: php5/stnl_archive.php:48
+#: php5/stnl_create.php:310
+#: php5/stnl_create.php:490
+#: php5/stnl_manage.php:59
+#: php5/stnl_preview.php:117
+msgid "Draft"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:49
+# C:\STNL\st_newsletter/stnl_create.php:312
+# C:\STNL\st_newsletter/stnl_create.php:491
+# C:\STNL\st_newsletter/stnl_manage.php:60
+# C:\STNL\st_newsletter/stnl_preview.php:119
+# C:\STNL\st_newsletter/stnl_show_iframe.php:96
+#: php5/stnl_archive.php:49
+#: php5/stnl_create.php:312
+#: php5/stnl_create.php:491
+#: php5/stnl_manage.php:60
+#: php5/stnl_preview.php:119
+#: php5/stnl_show_iframe.php:96
+msgid "Private"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:63
+#: php5/stnl_archive.php:63
+msgid "&laquo; Previous"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_archive.php:78
+#: php5/stnl_archive.php:78
+msgid "Next &raquo;"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:32
+#: php5/stnl_categories.php:29
+msgid "Type"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:34
+# C:\STNL\st_newsletter/stnl_manage.php:47
+# C:\STNL\st_newsletter/stnl_preview.php:93
+# C:\STNL\st_newsletter/stnl_subscribers.php:106
+# C:\STNL\st_newsletter/stnl_subscribers1.php:133
+#: php5/stnl_categories.php:31
+#: php5/stnl_manage.php:47
+#: php5/stnl_preview.php:93
+#: php5/stnl_subscribers.php:106
+#: php5/stnl_subscribers1.php:133
+msgid "Action"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:52
+#: php5/stnl_categories.php:49
+msgid "(default)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:68
+#: php5/stnl_categories.php:65
+msgid "You are about to delete this category"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:68
+#: php5/stnl_categories.php:65
+msgid ""
+"Any Newsletters within this category will be moved to the default category\\n"
+"  OK to delete, Cancel to stop."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:80
+#: php5/stnl_categories.php:77
+msgid "Create new category"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:124
+#: php5/stnl_categories.php:121
+msgid "Category Updated"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:156
+#: php5/stnl_categories.php:153
+msgid "Category Title"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:160
+#: php5/stnl_categories.php:157
+msgid "Set as Default Category"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_categories.php:166
+#: php5/stnl_categories.php:163
+msgid "Save Category"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:8
+#: php5/stnl_create.php:8
+msgid "Create Newsletter"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:40
+#: php5/stnl_create.php:40
+msgid "Newsletter Updated"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:40
+# C:\STNL\st_newsletter/stnl_manage.php:13
+#: php5/stnl_create.php:40
+#: php5/stnl_manage.php:13
+msgid "Manage Newsletters"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:118
+# C:\STNL\st_newsletter/stnl_subtext.php:61
+#: php5/stnl_create.php:118
+#: php5/stnl_subtext.php:61
+msgid "Dynamic Text Tags"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:122
+#: php5/stnl_create.php:122
+msgid "These tags can be used as replacements for subscriber data.  When your newsletter is sent these tags will be replaced with actual subscriber data."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:131
+# C:\STNL\st_newsletter/stnl_create.php:496
+#: php5/stnl_create.php:131
+#: php5/stnl_create.php:496
+msgid "Newsletter Date"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:139
+# C:\STNL\st_newsletter/stnl_create.php:500
+#: php5/stnl_create.php:139
+#: php5/stnl_create.php:500
+msgid "Jan"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:141
+# C:\STNL\st_newsletter/stnl_create.php:502
+#: php5/stnl_create.php:141
+#: php5/stnl_create.php:502
+msgid "Feb"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:143
+# C:\STNL\st_newsletter/stnl_create.php:504
+#: php5/stnl_create.php:143
+#: php5/stnl_create.php:504
+msgid "Mar"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:145
+# C:\STNL\st_newsletter/stnl_create.php:506
+#: php5/stnl_create.php:145
+#: php5/stnl_create.php:506
+msgid "Apr"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:149
+# C:\STNL\st_newsletter/stnl_create.php:510
+#: php5/stnl_create.php:149
+#: php5/stnl_create.php:510
+msgid "Jun"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:151
+# C:\STNL\st_newsletter/stnl_create.php:512
+#: php5/stnl_create.php:151
+#: php5/stnl_create.php:512
+msgid "Jul"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:153
+# C:\STNL\st_newsletter/stnl_create.php:514
+#: php5/stnl_create.php:153
+#: php5/stnl_create.php:514
+msgid "Aug"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:155
+# C:\STNL\st_newsletter/stnl_create.php:516
+#: php5/stnl_create.php:155
+#: php5/stnl_create.php:516
+msgid "Sep"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:157
+# C:\STNL\st_newsletter/stnl_create.php:518
+#: php5/stnl_create.php:157
+#: php5/stnl_create.php:518
+msgid "Oct"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:159
+# C:\STNL\st_newsletter/stnl_create.php:520
+#: php5/stnl_create.php:159
+#: php5/stnl_create.php:520
+msgid "Nov"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:161
+# C:\STNL\st_newsletter/stnl_create.php:522
+#: php5/stnl_create.php:161
+#: php5/stnl_create.php:522
+msgid "Dec"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:171
+# C:\STNL\st_newsletter/stnl_create.php:554
+# C:\STNL\st_newsletter/stnl_manage.php:45
+# C:\STNL\st_newsletter/stnl_preview.php:89
+# C:\STNL\st_newsletter/stnl_preview.php:301
+#: php5/stnl_create.php:171
+#: php5/stnl_create.php:554
+#: php5/stnl_manage.php:45
+#: php5/stnl_preview.php:89
+#: php5/stnl_preview.php:301
+msgid "Category"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:189
+# C:\STNL\st_newsletter/stnl_create.php:563
+#: php5/stnl_create.php:189
+#: php5/stnl_create.php:563
+msgid "Template"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:255
+#: php5/stnl_create.php:255
+msgid "Include These Posts"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:261
+# C:\STNL\st_newsletter/stnl_create.php:598
+#: php5/stnl_create.php:261
+#: php5/stnl_create.php:598
+msgid "(hold ctrl to select multiple posts)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:272
+# C:\STNL\st_newsletter/stnl_create.php:599
+#: php5/stnl_create.php:272
+#: php5/stnl_create.php:599
+msgid "Custom Post Order:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:274
+# C:\STNL\st_newsletter/stnl_create.php:599
+#: php5/stnl_create.php:274
+#: php5/stnl_create.php:599
+msgid "(Place the ID numbers of the posts you selected above seperated by a space in the order you want them to display in your newsletter)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:284
+#: php5/stnl_create.php:284
+msgid "Send Newsletter as:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:290
+# C:\STNL\st_newsletter/stnl_create.php:608
+#: php5/stnl_create.php:290
+#: php5/stnl_create.php:608
+msgid "Multi-Part (Text/HTML)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:292
+# C:\STNL\st_newsletter/stnl_create.php:609
+#: php5/stnl_create.php:292
+#: php5/stnl_create.php:609
+msgid "HTML Only"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:294
+# C:\STNL\st_newsletter/stnl_create.php:610
+#: php5/stnl_create.php:294
+#: php5/stnl_create.php:610
+msgid "Text Only"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:304
+#: php5/stnl_create.php:304
+msgid "Newsletter Archive Status:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:314
+# C:\STNL\st_newsletter/stnl_create.php:492
+# C:\STNL\st_newsletter/stnl_manage.php:61
+# C:\STNL\st_newsletter/stnl_preview.php:121
+#: php5/stnl_create.php:314
+#: php5/stnl_create.php:492
+#: php5/stnl_manage.php:61
+#: php5/stnl_preview.php:121
+msgid "Published"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:346
+#: php5/stnl_create.php:346
+msgid "Newsletter Title / Email Subject:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:356
+#: php5/stnl_create.php:356
+msgid "Header Image :"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:368
+#: php5/stnl_create.php:368
+msgid "Content:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:414
+#: php5/stnl_create.php:414
+msgid "Sidebar"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:441
+#: php5/stnl_create.php:441
+msgid "Metabox:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:462
+# C:\STNL\st_newsletter/stnl_create.php:530
+#: php5/stnl_create.php:462
+#: php5/stnl_create.php:530
+msgid "Save Newsletter"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:482
+#: php5/stnl_create.php:482
+msgid "Publish Status"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:537
+# C:\STNL\st_newsletter/stnl_manage.php:44
+# C:\STNL\st_newsletter/stnl_preview.php:87
+#: php5/stnl_create.php:537
+#: php5/stnl_manage.php:44
+#: php5/stnl_preview.php:87
+msgid "Title"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:547
+#: php5/stnl_create.php:547
+msgid "Content"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:560
+#: php5/stnl_create.php:560
+msgid "Advanced Options"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:596
+#: php5/stnl_create.php:596
+msgid "Include Posts"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:605
+#: php5/stnl_create.php:605
+msgid "MIME Type"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:619
+#: php5/stnl_create.php:619
+msgid "Header Image"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:621
+#: php5/stnl_create.php:621
+msgid ">Upload the Header background image which needs to be pre-sized to a minimum of 660px wide by 140px tall. (accepts JPG, GIF or PNG images)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:646
+#: php5/stnl_create.php:646
+msgid "Sidebar "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:648
+# C:\STNL\st_newsletter/stnl_create.php:659
+#: php5/stnl_create.php:648
+#: php5/stnl_create.php:659
+msgid "Sorry HTML only here for now.  Multiple Rich Text editors just don't like to work together"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_create.php:657
+#: php5/stnl_create.php:657
+msgid "Metabox "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_display_template.php:288
+#: php5/stnl_display_template.php:288
+msgid "If you experience issues with the display of this newsletter, "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_display_template.php:290
+#: php5/stnl_display_template.php:290
+msgid " to view it in your web browser."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_display_template.php:292
+# C:\STNL\st_newsletter/stnl_display_template.php:310
+#: php5/stnl_display_template.php:292
+#: php5/stnl_display_template.php:310
+msgid "click here"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_display_template.php:306
+#: php5/stnl_display_template.php:306
+msgid "If you do not wish to receive this newsletter, "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_display_template.php:308
+#: php5/stnl_display_template.php:308
+msgid " to unsubscribe or edit your settings."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_editors.php:287
+#: php5/stnl_editors.php:287
+msgid "This feature requires iframe support."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:23
+#: php5/stnl_inout.php:23
+msgid "Import Subscriber List"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:25
+#: php5/stnl_inout.php:25
+msgid "This will currently only accept a CSV(comma-seperated values) file in a specific format. You will be able to map the values to the correct fields in the next step. It also assumes that all values are subscribers who have already opted-in.  I recommend splitting your data into seperate lists of 100 to prevent server timeouts or connection errors.  If you are importing additional data besides just the email, you will need to follow the format listed below:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:27
+#: php5/stnl_inout.php:27
+msgid ""
+"\"EMAIL\",\"VERIFIED\",\"EXTRAS\",\"SubscribeIP\",\"SubscribeDATE\",\"CATEGORIES\"\n"
+"\"info@shiftthis.net\",\"1\",\"FirstName[:]Shift[*]LastName[:]This\",\"192.168.0.1\",\"10:31am 29/07/2007\",\"1[|]2\""
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:30
+#: php5/stnl_inout.php:30
+msgid "The VERIFIED field can be either 1 (verified) or 0 (unverified). The EXTRAS field must be formated with your field name with all spaces removed with the format of \"FieldName[:]UserData\" each field needs to be seperated with \"[*]\" as well - see example above (Also note that you must have these fields setup within your Options page as well). The CATEGORIES Field contains the category ID, multiple categories must be seperated with \"[|]\"."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:31
+#: php5/stnl_inout.php:31
+msgid "Your CSV file needs to have each line terminated with a line break and each field terminated with a comma(,).  You should be able to open your CSV file in Notepad and view it without any strange characters showing up.  Check out the example files in the plugins 'csv-samples' folder.  If your CSV file includes headings in the first row, make sure to select the option to ignore the first row in the next step."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:33
+#: php5/stnl_inout.php:33
+msgid "You will need to make sure your"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:33
+#: php5/stnl_inout.php:33
+msgid "Upload Directory"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:33
+#: php5/stnl_inout.php:33
+msgid " is writable."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:41
+#: php5/stnl_inout.php:41
+msgid "Import this file:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:43
+#: php5/stnl_inout.php:43
+msgid "Upload File"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:46
+#: php5/stnl_inout.php:46
+msgid "If you are having problems uploading via this form you will need to name your file \"import.csv\" and FTP this file into the \"wp-content/\" folder and click the button below"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:49
+#: php5/stnl_inout.php:49
+msgid "Import FTP File"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:96
+#: php5/stnl_inout.php:96
+msgid "Match Fields For Import"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:98
+#: php5/stnl_inout.php:98
+msgid "<p>Select the value that matches the Label.</p>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:106
+#: php5/stnl_inout.php:106
+msgid "N/A"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:118
+#: php5/stnl_inout.php:118
+msgid "Import First Row?:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:118
+# C:\STNL\st_newsletter/stnl_options.php:44
+# C:\STNL\st_newsletter/stnl_options.php:355
+# C:\STNL\st_newsletter/stnl_options.php:407
+#: php5/stnl_inout.php:118
+#: php5/stnl_options.php:44
+#: php5/stnl_options.php:355
+#: php5/stnl_options.php:407
+msgid "Yes"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:118
+# C:\STNL\st_newsletter/stnl_options.php:44
+# C:\STNL\st_newsletter/stnl_options.php:355
+# C:\STNL\st_newsletter/stnl_options.php:407
+# C:\STNL\st_newsletter/stnl_options.php:594
+# C:\STNL\st_newsletter/stnl_swifttest.php:68
+#: php5/stnl_inout.php:118
+#: php5/stnl_options.php:44
+#: php5/stnl_options.php:355
+#: php5/stnl_options.php:407
+#: php5/stnl_options.php:594
+#: php5/stnl_swifttest.php:68
+msgid "No"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:120
+# C:\STNL\st_newsletter/stnl_subscribe.php:59
+# C:\STNL\st_newsletter/stnl_subscribe.php:216
+#: php5/stnl_inout.php:120
+#: php5/stnl_subscribe.php:59
+#: php5/stnl_subscribe.php:216
+msgid "Email:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:122
+#: php5/stnl_inout.php:122
+msgid "Extras:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:124
+# C:\STNL\st_newsletter/stnl_subscribe.php:228
+#: php5/stnl_inout.php:124
+#: php5/stnl_subscribe.php:228
+msgid "Categories:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:126
+#: php5/stnl_inout.php:126
+msgid "Subscriber IP:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:128
+#: php5/stnl_inout.php:128
+msgid "Subscribe Date:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:130
+#: php5/stnl_inout.php:130
+msgid "Confirmed:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:132
+#: php5/stnl_inout.php:132
+msgid "Update current data"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:133
+#: php5/stnl_inout.php:133
+msgid "If this option is unchecked all values will be added as a new which may cause duplicates"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:138
+#: php5/stnl_inout.php:138
+msgid ""
+"Please make sure your mapped selections are correct. \n"
+" Once imported, you will have to delete manually if anything is set incorrectly."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:148
+#: php5/stnl_inout.php:148
+msgid "File Upload has failed! Please make sure your Upload Directory is writable."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:156
+#: php5/stnl_inout.php:156
+msgid "WRONG FILETYPE.  MUST BE A COMMA SEPERATED VALUE LIST IN EITHER '.csv' or '.txt' format."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:267
+#: php5/stnl_inout.php:267
+msgid "Your data has been successfully imported."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:269
+#: php5/stnl_inout.php:269
+msgid "Data Imported"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:345
+#: php5/stnl_inout.php:345
+msgid "Download"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:345
+#: php5/stnl_inout.php:345
+msgid "(right-click to save)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:357
+#: php5/stnl_inout.php:357
+msgid "Export Subscriber List"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_inout.php:359
+#: php5/stnl_inout.php:359
+msgid "Export to CSV file (comma-seperated values)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_manage.php:37
+# C:\STNL\st_newsletter/stnl_preview.php:71
+#: php5/stnl_manage.php:37
+#: php5/stnl_preview.php:71
+msgid "You have not created any Newsletters yet."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_manage.php:43
+# C:\STNL\st_newsletter/stnl_preview.php:85
+#: php5/stnl_manage.php:43
+#: php5/stnl_preview.php:85
+msgid "Date"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_manage.php:46
+# C:\STNL\st_newsletter/stnl_preview.php:91
+# C:\STNL\st_newsletter/stnl_subscribers.php:100
+# C:\STNL\st_newsletter/stnl_subscribers1.php:121
+#: php5/stnl_manage.php:46
+#: php5/stnl_preview.php:91
+#: php5/stnl_subscribers.php:100
+#: php5/stnl_subscribers1.php:121
+msgid "Status"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_manage.php:76
+#: php5/stnl_manage.php:76
+msgid "You are about to delete the newsletter"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_manage.php:76
+#: php5/stnl_manage.php:76
+msgid "OK to delete, Cancel to stop."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_manage.php:96
+# C:\STNL\st_newsletter/stnl_preview.php:185
+# C:\STNL\st_newsletter/stnl_show_iframe.php:132
+# C:\STNL\st_newsletter/stnl_subscribers.php:170
+# C:\STNL\st_newsletter/stnl_subscribers1.php:249
+#: php5/stnl_manage.php:96
+#: php5/stnl_preview.php:185
+#: php5/stnl_show_iframe.php:132
+#: php5/stnl_subscribers.php:170
+#: php5/stnl_subscribers1.php:249
+msgid "Previous"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_manage.php:110
+# C:\STNL\st_newsletter/stnl_preview.php:213
+# C:\STNL\st_newsletter/stnl_show_iframe.php:160
+# C:\STNL\st_newsletter/stnl_subscribers.php:184
+# C:\STNL\st_newsletter/stnl_subscribers1.php:277
+#: php5/stnl_manage.php:110
+#: php5/stnl_preview.php:213
+#: php5/stnl_show_iframe.php:160
+#: php5/stnl_subscribers.php:184
+#: php5/stnl_subscribers1.php:277
+msgid "Next"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_manage.php:127
+#: php5/stnl_manage.php:127
+msgid "Edit Newsletter"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysql.php:101
+#: php5/stnl_mysql.php:101
+msgid "WARNING! The MySQL database tables were not created! You cannot store  any newsletters yet."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysql.php:136
+# C:\STNL\st_newsletter/stnl_mysql.php:513
+#: php5/stnl_mysql.php:136
+#: php5/stnl_mysql.php:481
+msgid "WARNING! The MySQL databases were not created! You cannot store emails yet."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysql.php:605
+#: php5/stnl_mysql.php:573
+msgid "Failure to delete data from table"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqloptions.php:24
+#: php5/stnl_mysqloptions.php:24
+msgid "No Newsletters Available"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:46
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:116
+#: php5/stnl_mysqlsubscribe.php:46
+#: php5/stnl_mysqlsubscribe.php:116
+msgid "Please enter an email address."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:49
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:119
+#: php5/stnl_mysqlsubscribe.php:49
+#: php5/stnl_mysqlsubscribe.php:119
+msgid "The email [ <strong>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:49
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:119
+#: php5/stnl_mysqlsubscribe.php:49
+#: php5/stnl_mysqlsubscribe.php:119
+msgid "</strong> ] is not a valid email address."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:53
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:123
+#: php5/stnl_mysqlsubscribe.php:53
+#: php5/stnl_mysqlsubscribe.php:123
+msgid "The "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:53
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:123
+#: php5/stnl_mysqlsubscribe.php:53
+#: php5/stnl_mysqlsubscribe.php:123
+msgid " field is required"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:167
+#: php5/stnl_mysqlsubscribe.php:167
+msgid "The email address, "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqlsubscribe.php:167
+#: php5/stnl_mysqlsubscribe.php:167
+msgid " has been verified.  Thank you for subscribing!"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:9
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:37
+#: php5/stnl_mysqltextoptions.php:9
+#: php5/stnl_mysqltextoptions.php:37
+msgid " Mailing List"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:11
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:39
+#: php5/stnl_mysqltextoptions.php:11
+#: php5/stnl_mysqltextoptions.php:39
+msgid "Confirmation"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:13
+#: php5/stnl_mysqltextoptions.php:13
+msgid "<b>Thank you for your interest in subscribing to the {list_name}!</b><br><br>Someone (hopefully you!) submitted your email address for a subscription to our mailing list.  If you do not wish to receive this email subscription, simply ignore this email and nothing will be sent to you.<br><br>However, if you do wish to be subscribed to the {list_name}, please complete the email verification by following the instructions below:<br><br> To enable this subscription please click or paste the following link into your web browser:<br> {verify_link}<br><br>Thank you!"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:15
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:43
+#: php5/stnl_mysqltextoptions.php:15
+#: php5/stnl_mysqltextoptions.php:43
+msgid "<strong>Thank you for subscribing.  Please check your email now and click the verification link to enable the subscription.</strong>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:17
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:45
+#: php5/stnl_mysqltextoptions.php:17
+#: php5/stnl_mysqltextoptions.php:45
+msgid "<strong>This email is already in our Mailing List, however it has not been verified.  If you would like your verification email re-sent please <a href='{resend_link}'>click here</a></strong>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:19
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:47
+#: php5/stnl_mysqltextoptions.php:19
+#: php5/stnl_mysqltextoptions.php:47
+msgid "<strong>This email is already subscribed and verified.</strong> <br /><small>To access your account details, please enter your email address in the form below.  This will email you the link needed to access your account information. </small><br />{retrieve_account}<br /> <small> If you are not receiving our newsletter, please check your spam settings as the email may have been incorrectly tagged as spam by your email client.</small>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:21
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:49
+#: php5/stnl_mysqltextoptions.php:21
+#: php5/stnl_mysqltextoptions.php:49
+msgid "Here is your link to update your subscription information.<br /><a href='{account_link}'>{account_link}</a>."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_mysqltextoptions.php:41
+#: php5/stnl_mysqltextoptions.php:41
+msgid "<b>Thank your interest in subscribing to the {list_name}!</b><br><br>Someone (hopefully you!) submitted your email address for a subscription to our mailing list.  If you do not wish to receive this email subscription, simply ignore this email and nothing will be sent to you.<br><br>However, if you do wish to be subscribed to the {list_name}, please complete the email verification by following the instructions below:<br><br> To enable this subscription please click or paste the following link into your web browser:<br> {verify_link}<br><br>Thank you!"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:8
+#: php5/stnl_news.php:8
+msgid "WP Newsletter v"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:9
+#: php5/stnl_news.php:9
+msgid "Latest Activity"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:20
+#: php5/stnl_news.php:20
+msgid "Newsletters"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:26
+#: php5/stnl_news.php:26
+msgid "Newsletter Stats"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:28
+# C:\STNL\st_newsletter/stnl_news.php:30
+#: php5/stnl_news.php:28
+#: php5/stnl_news.php:30
+msgid "There are currently "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:28
+#: php5/stnl_news.php:28
+msgid " newsletter"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:30
+#: php5/stnl_news.php:30
+msgid " newsletters"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:34
+# C:\STNL\st_newsletter/stnl_news.php:36
+#: php5/stnl_news.php:34
+#: php5/stnl_news.php:36
+msgid " and "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:34
+#: php5/stnl_news.php:34
+msgid " subscriber"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:36
+#: php5/stnl_news.php:36
+msgid " subscribers"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:40
+# C:\STNL\st_newsletter/stnl_news.php:42
+#: php5/stnl_news.php:40
+#: php5/stnl_news.php:42
+msgid " in "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:40
+#: php5/stnl_news.php:40
+msgid " category"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:42
+#: php5/stnl_news.php:42
+msgid " categories"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:59
+#: php5/stnl_news.php:59
+msgid "Need help? Please see our <a href=\"http://docs.shiftthis.net/\">documentation</a>."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:63
+#: php5/stnl_news.php:63
+msgid "Version Compatibility Warning"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:63
+#: php5/stnl_news.php:63
+msgid "This plugin requires PHP "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:63
+#: php5/stnl_news.php:63
+msgid " and you are running PHP "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:63
+#: php5/stnl_news.php:63
+msgid "Please download the version of this plugin that is compatible with PHP "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:67
+#: php5/stnl_news.php:67
+msgid "View the latest "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_news.php:67
+#: php5/stnl_news.php:67
+msgid "Developer News"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:15
+#: php5/stnl_options.php:15
+msgid "Your Database has been upgraded"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:42
+# C:\STNL\st_newsletter/stnl_options.php:355
+# C:\STNL\st_newsletter/stnl_options.php:407
+#: php5/stnl_options.php:42
+#: php5/stnl_options.php:355
+#: php5/stnl_options.php:407
+msgid "Required?"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:63
+#: php5/stnl_options.php:63
+msgid "Newsletter Options"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:81
+# C:\STNL\st_newsletter/stnl_options.php:616
+#: php5/stnl_options.php:81
+#: php5/stnl_options.php:616
+msgid "Update Options &raquo;"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:91
+#: php5/stnl_options.php:91
+msgid "Minimum User Level for Newsletter Management:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:95
+#: php5/stnl_options.php:95
+msgid "Administrator"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:97
+#: php5/stnl_options.php:97
+msgid "Editor"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:99
+#: php5/stnl_options.php:99
+msgid "Author"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:101
+#: php5/stnl_options.php:101
+msgid "Contributor"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:103
+#: php5/stnl_options.php:103
+msgid "Subscriber"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:113
+#: php5/stnl_options.php:113
+msgid "Default Newsletter Template:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:127
+#: php5/stnl_options.php:127
+msgid "Maximum number of Side Boxes for Newsletter:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:158
+#: php5/stnl_options.php:158
+msgid "Show Meta Box for Newsletter:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:163
+#: php5/stnl_options.php:163
+msgid "Delete Unsubscribers from Database:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:164
+#: php5/stnl_options.php:164
+msgid "If unchecked, subscriber data will remain in database but will not show in subscriber listings or be sent any emails."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:168
+#: php5/stnl_options.php:168
+msgid "Enable Custom Header Image:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:172
+#: php5/stnl_options.php:172
+msgid "Enable Post/Page Includes:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:177
+#: php5/stnl_options.php:177
+msgid "Ability to Include Pages:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:186
+#: php5/stnl_options.php:186
+msgid "Subscribers Per Page Amount:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:194
+#: php5/stnl_options.php:194
+msgid "Maximum Pages to show at one time in the Newsletter archive:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:204
+#: php5/stnl_options.php:204
+msgid "Default Message when no Newsletters are available in the Archive:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:214
+#: php5/stnl_options.php:214
+msgid "Optional Pre-Subject:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:216
+#: php5/stnl_options.php:216
+msgid "(Text to Display Before your Newsletter Title in the Subject Line.)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:224
+#: php5/stnl_options.php:224
+msgid "Flood Protection Batch"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:226
+#: php5/stnl_options.php:226
+msgid "Set the quantity of emails to send in a batch - Gmails Max is 50."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:234
+#: php5/stnl_options.php:234
+msgid "Flood Protection Pause"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:236
+#: php5/stnl_options.php:236
+msgid "Set the time to wait between batches"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:244
+#: php5/stnl_options.php:244
+msgid "Images:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:248
+#: php5/stnl_options.php:248
+msgid "Load from site (recommended)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:250
+#: php5/stnl_options.php:250
+msgid "Embed Local Images into Email (attached to email)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:252
+#: php5/stnl_options.php:252
+msgid "Embed All Images into Email (allow_url_fopen must be enabled in php.ini)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:308
+#: php5/stnl_options.php:308
+msgid "Subscribe Page"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:312
+#: php5/stnl_options.php:312
+msgid "WordPress Home"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:314
+#: php5/stnl_options.php:314
+msgid "Site Home"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:323
+#: php5/stnl_options.php:323
+msgid "This is the page containing <strong>st_mailinglist_subscribe();</strong> so we know where to send subscribers who want to change their options."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:328
+#: php5/stnl_options.php:328
+msgid "Subscribe Form URI Override"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:331
+#: php5/stnl_options.php:331
+msgid "This will override your subscribe forms base URI if you are having problems with the subscribe form. Value must begin with http:// Leave blank for default value."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:339
+#: php5/stnl_options.php:339
+msgid "Show Categories:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:341
+#: php5/stnl_options.php:341
+msgid "Show Category Selection on Subscribe Page"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:351
+#: php5/stnl_options.php:351
+msgid "Subscribe Fields:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:429
+#: php5/stnl_options.php:429
+msgid "Add New Field"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:443
+#: php5/stnl_options.php:443
+msgid "Required Text"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:445
+#: php5/stnl_options.php:445
+msgid "HTML text to appear next to any required fields"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:457
+#: php5/stnl_options.php:457
+msgid "Visual Editor:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:470
+#: php5/stnl_options.php:470
+msgid "Disable WordPress Filters:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:472
+#: php5/stnl_options.php:472
+msgid "This will disable Wordpress's \"the_content\" filter which adds formatting tags to your Newsletter content."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:478
+#: php5/stnl_options.php:478
+msgid "Slash Fix:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:480
+#: php5/stnl_options.php:480
+msgid "Required if you are running this site off of a Windows host locally and recieving a \"Fatal error: Cannot redeclare...\" error"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:486
+#: php5/stnl_options.php:486
+msgid "Error Log:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:488
+#: php5/stnl_options.php:488
+msgid "This will display an error log upon sending for troubleshooting sending issues."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:488
+#: php5/stnl_options.php:488
+msgid "Set a limit for the amount of entries included in the log. 0 is unlimited."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:495
+#: php5/stnl_options.php:495
+msgid "Send From Email:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:502
+#: php5/stnl_options.php:502
+msgid "Send From Name:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:510
+#: php5/stnl_options.php:510
+msgid "Send To Name:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:527
+#: php5/stnl_options.php:527
+msgid "Bounce Address"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:529
+#: php5/stnl_options.php:529
+msgid "If an email bounces a notice will be sent to this address.  You may want to set-up a seperate account for bounce detection."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:537
+#: php5/stnl_options.php:537
+msgid "Send Using:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:541
+#: php5/stnl_options.php:541
+msgid "(Best)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:543
+#: php5/stnl_options.php:543
+msgid "(Great)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:544
+#: php5/stnl_options.php:544
+msgid "(Good)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:548
+#: php5/stnl_options.php:548
+msgid "(If nothing else works)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:556
+# C:\STNL\st_newsletter/stnl_swifttest.php:49
+#: php5/stnl_options.php:556
+#: php5/stnl_swifttest.php:49
+msgid "Swift SMTP Settings:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:557
+#: php5/stnl_options.php:557
+msgid "This information is only used if you have selected option <em>3. Swift SMTP</em> from the \"Send Using:\" option above."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:562
+# C:\STNL\st_newsletter/stnl_swifttest.php:52
+#: php5/stnl_options.php:562
+#: php5/stnl_swifttest.php:52
+msgid "Server:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:572
+# C:\STNL\st_newsletter/stnl_swifttest.php:57
+#: php5/stnl_options.php:572
+#: php5/stnl_swifttest.php:57
+msgid "Username"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:582
+# C:\STNL\st_newsletter/stnl_swifttest.php:62
+#: php5/stnl_options.php:582
+#: php5/stnl_swifttest.php:62
+msgid "Password"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:592
+# C:\STNL\st_newsletter/stnl_swifttest.php:67
+#: php5/stnl_options.php:592
+#: php5/stnl_swifttest.php:67
+msgid "Should we use TLS or SSL?:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:602
+# C:\STNL\st_newsletter/stnl_swifttest.php:72
+#: php5/stnl_options.php:602
+#: php5/stnl_swifttest.php:72
+msgid "Port:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:634
+#: php5/stnl_options.php:634
+msgid "Documentation"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_options.php:636
+#: php5/stnl_options.php:636
+msgid "See the <a href=\"http://docs.shiftthis.net/wordpress_newsletter_plugin\">Full Documentation</a> for complete instructions or visit the <a href=\"http://support.shiftthis.net/\">Support Forums</a> for further help (You will need to login to view the Owners Support Forum)."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:25
+#: php5/stnl_preview.php:25
+msgid "Select Newsletter"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:263
+#: php5/stnl_preview.php:263
+msgid "Preview/Send Newsletter"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:275
+#: php5/stnl_preview.php:275
+msgid "Newsletter Preview"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:297
+#: php5/stnl_preview.php:297
+msgid "Send to Subscribers"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:299
+#: php5/stnl_preview.php:299
+msgid "This will send your newsletter to its current subscribers.  This is based upon the newsletter category matching the subscribers category.  If you would like to override this default setting, select an alternative category below or choose \"send to all\"."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:304
+#: php5/stnl_preview.php:304
+msgid "All Categories"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:305
+#: php5/stnl_preview.php:305
+msgid "All WordPress Users"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:308
+#: php5/stnl_preview.php:308
+msgid "Include all WP Users."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:310
+# C:\STNL\st_newsletter/stnl_preview.php:326
+#: php5/stnl_preview.php:310
+#: php5/stnl_preview.php:326
+msgid "SEND"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:318
+#: php5/stnl_preview.php:318
+msgid "Send to Single Email"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:320
+#: php5/stnl_preview.php:320
+msgid "This will send your newsletter to a single email address in your subscriber base. If you would like to send it to yourself you will need to"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:320
+#: php5/stnl_preview.php:320
+msgid "subscribe your address</a> to the mailing list."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_preview.php:324
+#: php5/stnl_preview.php:324
+msgid "Select Email:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_sending.php:66
+#: php5/stnl_sending.php:78
+msgid "Whoops! It seems there are no Subscribers to send to."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_sending.php:92
+#: php5/stnl_sending.php:104
+msgid "Show/Hide Swift Log"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_sending.php:92
+#: php5/stnl_sending.php:104
+msgid "Sending in Progress:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_sending.php:116
+#: php5/stnl_sending.php:128
+msgid "Sending Complete!"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_sharedfunctions.php:196
+#: php5/stnl_sharedfunctions.php:196
+msgid "Responders"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_show_iframe.php:50
+#: php5/stnl_show_iframe.php:50
+msgid "Newsletter Archive"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_show_iframe.php:88
+# C:\STNL\st_newsletter/stnl_show_iframe.php:96
+#: php5/stnl_show_iframe.php:88
+#: php5/stnl_show_iframe.php:96
+msgid "(Sent on "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:17
+#: php5/stnl_subscribe.php:17
+msgid "Please enter an email address.<br />"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:18
+#: php5/stnl_subscribe.php:18
+msgid "Please select a category.<br />"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:31
+#: php5/stnl_subscribe.php:31
+msgid "Please enter your "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:59
+#: php5/stnl_subscribe.php:59
+msgid "Send Account Link"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:77
+#: php5/stnl_subscribe.php:77
+msgid "Verification Email has been re-sent."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:80
+#: php5/stnl_subscribe.php:80
+msgid "There was an error sending your verification email to "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:80
+#: php5/stnl_subscribe.php:80
+msgid ". Please contact us for further help in this matter."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:97
+#: php5/stnl_subscribe.php:97
+msgid "There was an error unsubscribing your email address.  Please contact the site owner for further help in this matter"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:99
+# C:\STNL\st_newsletter/stnl_subscribe.php:120
+# C:\STNL\st_newsletter/stnl_subscribe.php:132
+#: php5/stnl_subscribe.php:99
+#: php5/stnl_subscribe.php:120
+#: php5/stnl_subscribe.php:132
+msgid "Edit Subscription"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:100
+#: php5/stnl_subscribe.php:100
+msgid "<strong>You have been unsubscribed.</strong>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:121
+#: php5/stnl_subscribe.php:121
+msgid "<strong>Account Updated</strong>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:137
+#: php5/stnl_subscribe.php:137
+msgid "<strong>This account is no longer subscribed.</strong> <br /><small>What a shame! Go ahead and re-subscribe, we won't mind!</small>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:233
+#: php5/stnl_subscribe.php:233
+msgid "Unsubscribe"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribe.php:234
+#: php5/stnl_subscribe.php:234
+msgid "Update"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:35
+#: php5/stnl_subscribers.php:35
+msgid "Find A Subscriber"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:40
+# C:\STNL\st_newsletter/stnl_subscribers.php:99
+# C:\STNL\st_newsletter/stnl_subscribers.php:252
+# C:\STNL\st_newsletter/stnl_subscribers1.php:119
+# C:\STNL\st_newsletter/stnl_subscribers1.php:409
+#: php5/stnl_subscribers.php:40
+#: php5/stnl_subscribers.php:99
+#: php5/stnl_subscribers.php:252
+#: php5/stnl_subscribers1.php:119
+#: php5/stnl_subscribers1.php:409
+msgid "Email"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:40
+#: php5/stnl_subscribers.php:40
+msgid "Search Email"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:79
+#: php5/stnl_subscribers.php:79
+msgid "No Subscribers corresponding to your search or no subscribers yet."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:84
+#: php5/stnl_subscribers.php:84
+msgid "Are you absolutely sure that you want to delete these subscribers? Have you backed up your subscribers just in case?"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:92
+# C:\STNL\st_newsletter/stnl_subscribers.php:142
+# C:\STNL\st_newsletter/stnl_subscribers1.php:105
+# C:\STNL\st_newsletter/stnl_subscribers1.php:207
+#: php5/stnl_subscribers.php:92
+#: php5/stnl_subscribers.php:142
+#: php5/stnl_subscribers1.php:105
+#: php5/stnl_subscribers1.php:207
+msgid "Check/Uncheck All"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:104
+# C:\STNL\st_newsletter/stnl_subscribers1.php:129
+#: php5/stnl_subscribers.php:104
+#: php5/stnl_subscribers1.php:129
+msgid "Subscribe IP"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:105
+# C:\STNL\st_newsletter/stnl_subscribers1.php:131
+#: php5/stnl_subscribers.php:105
+#: php5/stnl_subscribers1.php:131
+msgid "Subscribe Date"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:117
+# C:\STNL\st_newsletter/stnl_subscribers1.php:155
+#: php5/stnl_subscribers.php:117
+#: php5/stnl_subscribers1.php:155
+msgid "Confirmed"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:117
+# C:\STNL\st_newsletter/stnl_subscribers1.php:155
+#: php5/stnl_subscribers.php:117
+#: php5/stnl_subscribers1.php:155
+msgid "Unconfirmed"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:136
+# C:\STNL\st_newsletter/stnl_subscribers1.php:193
+#: php5/stnl_subscribers.php:136
+#: php5/stnl_subscribers1.php:193
+msgid "You are about to delete this email"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:136
+# C:\STNL\st_newsletter/stnl_subscribers1.php:193
+#: php5/stnl_subscribers.php:136
+#: php5/stnl_subscribers1.php:193
+msgid "\\'OK\\' to delete, \\'Cancel\\' to stop."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:145
+# C:\STNL\st_newsletter/stnl_subscribers1.php:211
+#: php5/stnl_subscribers.php:145
+#: php5/stnl_subscribers1.php:211
+msgid "Delete All Checked"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:146
+# C:\STNL\st_newsletter/stnl_subscribers1.php:211
+#: php5/stnl_subscribers.php:146
+#: php5/stnl_subscribers1.php:211
+msgid "Delete All Subscribers"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:147
+#: php5/stnl_subscribers.php:147
+msgid "Delete All Duplicates"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:194
+# C:\STNL\st_newsletter/stnl_subscribers1.php:291
+#: php5/stnl_subscribers.php:194
+#: php5/stnl_subscribers1.php:291
+msgid "Delete A Subscriber"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:202
+# C:\STNL\st_newsletter/stnl_subscribers1.php:307
+#: php5/stnl_subscribers.php:202
+#: php5/stnl_subscribers1.php:307
+msgid "<p><strong>Failed to delete subscriber. This email is not in the Mailing List. Please make sure the email address is correct.</strong></p>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:204
+# C:\STNL\st_newsletter/stnl_subscribers1.php:311
+#: php5/stnl_subscribers.php:204
+#: php5/stnl_subscribers1.php:311
+msgid "has been successfully removed from the Mailing List!"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:212
+# C:\STNL\st_newsletter/stnl_subscribers1.php:327
+#: php5/stnl_subscribers.php:212
+#: php5/stnl_subscribers1.php:327
+msgid "Delete this E-mail Address:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:213
+#: php5/stnl_subscribers.php:213
+msgid ""
+"You are about to delete this subscriber \\n"
+"  \\'OK\\' to delete, \\'Cancel\\' to stop."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:224
+# C:\STNL\st_newsletter/stnl_subscribers1.php:351
+#: php5/stnl_subscribers.php:224
+#: php5/stnl_subscribers1.php:351
+msgid "Add New Subscriber"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:230
+# C:\STNL\st_newsletter/stnl_subscribers1.php:363
+#: php5/stnl_subscribers.php:230
+#: php5/stnl_subscribers1.php:363
+msgid "Edit Subscriber"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:236
+# C:\STNL\st_newsletter/stnl_subscribers1.php:375
+#: php5/stnl_subscribers.php:236
+#: php5/stnl_subscribers1.php:375
+msgid "Subscriber Updated"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:236
+# C:\STNL\st_newsletter/stnl_subscribers.php:239
+# C:\STNL\st_newsletter/stnl_subscribers1.php:375
+# C:\STNL\st_newsletter/stnl_subscribers1.php:381
+#: php5/stnl_subscribers.php:236
+#: php5/stnl_subscribers.php:239
+#: php5/stnl_subscribers1.php:375
+#: php5/stnl_subscribers1.php:381
+msgid "Refresh"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:239
+# C:\STNL\st_newsletter/stnl_subscribers1.php:381
+#: php5/stnl_subscribers.php:239
+#: php5/stnl_subscribers1.php:381
+msgid "Subscriber Saved"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers.php:267
+# C:\STNL\st_newsletter/stnl_subscribers1.php:438
+#: php5/stnl_subscribers.php:267
+#: php5/stnl_subscribers1.php:438
+msgid "Save Email"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers1.php:37
+#: php5/stnl_subscribers1.php:37
+msgid "Current Subscribers"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers1.php:88
+#: php5/stnl_subscribers1.php:88
+msgid "No Subscribers yet"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers1.php:94
+#: php5/stnl_subscribers1.php:94
+msgid "Are you absolutely sure that you want to delete these subscribers?"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscribers1.php:329
+#: php5/stnl_subscribers1.php:329
+msgid ""
+"You are about to delete this subscriber \\n"
+"  'OK' to delete, 'Cancel' to stop."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscriber_functions.php:199
+#: php5/stnl_subscriber_functions.php:199
+msgid "No Subscribers yet."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscriber_functions.php:471
+#: php5/stnl_subscriber_functions.php:492
+msgid "Subscription Management"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subscriber_functions.php:481
+#: php5/stnl_subscriber_functions.php:502
+msgid "Your subscription management link has been sent to your email address."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:63
+#: php5/stnl_subtext.php:63
+msgid ""
+"<li><strong>{presubject}</strong> - The Pre-Subject you set in the Newsletter Options Page</li>\n"
+"\n"
+"\t\t\t\t\t\t<li><strong>{list_name}</strong> - The Mailing List Name you set below</li>\n"
+"\n"
+"\t\t\t\t\t\t<li><strong>{verify_link}</strong> - Prints the verification link needed to enable the subscription.  This needs to be included somewhere in the Opt-In Message or you won't get many subscribers!</li>\n"
+"\n"
+"\t\t\t\t\t\t<li><strong>{resend_link}</strong> - Link that will resend verification email.  This can be used only in Duplicate Address (unverified)</li>\n"
+"\n"
+"\t\t\t\t\t\t<li><strong>{retrieve_account}</strong> - Link that will send account management email.  This can be used only in Duplicate Address (verified)</li>\n"
+"\n"
+"\t\t\t\t\t\t<li><strong>{account_link}</strong> - Link to the subscription account management page.  This can be used only in Retrieve Account Link Message</li>"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:80
+#: php5/stnl_subtext.php:80
+msgid "Edit Subscription Text"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:98
+#: php5/stnl_subtext.php:98
+msgid "Mailing List Name:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:108
+#: php5/stnl_subtext.php:108
+msgid "Opt-In Subject:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:118
+#: php5/stnl_subtext.php:118
+msgid "Opt-In Message:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:128
+#: php5/stnl_subtext.php:128
+msgid "Success Message:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:138
+#: php5/stnl_subtext.php:138
+msgid "Duplicate Address (unverified):"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:148
+#: php5/stnl_subtext.php:148
+msgid "Duplicate Address (verified):"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:156
+#: php5/stnl_subtext.php:156
+msgid "Retrieve Account Link Message:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:168
+#: php5/stnl_subtext.php:168
+msgid "Update Subscription Text &raquo;"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:186
+#: php5/stnl_subtext.php:186
+msgid "Instructions"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_subtext.php:188
+#: php5/stnl_subtext.php:188
+msgid "See <a href=\"http://docs.shiftthis.net/wordpress_newsletter_plugin\">Full Documentation</a> for complete instructions or visit the <a href=\"http://support.shiftthis.net/\">Support Forums</a> for further help (You will need to login to view the Owners Support Forum)."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:6
+#: php5/stnl_swifttest.php:6
+msgid "About Swift Mailer"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:7
+#: php5/stnl_swifttest.php:7
+msgid "This plugin is currently using <a href='http://www.swiftmailer.org/'>Swift Mailer </a> v3.3.1.  Swift is a fully OOP Library for sending e-mails from PHP websites and applications. It does not rely on PHP's native mail() function which is known for using high server resources when sending multiple emails. Instead, Swift communicates directly with an SMTP server or a MTA binary to send mail quickly and efficiently."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:8
+#: php5/stnl_swifttest.php:8
+msgid "Before releasing your Newsletter upon the world, it's recommended to make sure that your Swift setup is working properly.  Below you will find a number of simple test emails to run for your website.  Try using the <strong>Swift Sendmail</strong> option first as it is the quickest and easiest way to send email.  If your server does not support the Sendmail Option, use the SMTP option."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:9
+#: php5/stnl_swifttest.php:9
+msgid "Swift Testing Options"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:10
+#: php5/stnl_swifttest.php:10
+msgid "You will need to make wp-content/plugins/st_newsletter/Swift/tests/tmp/ writable to the web user (usually \"noobody\" or \"apache\") (chmod 0777 will do this)."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:24
+#: php5/stnl_swifttest.php:24
+msgid "From Email:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:28
+#: php5/stnl_swifttest.php:28
+msgid "From Name:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:32
+#: php5/stnl_swifttest.php:32
+msgid "To Email:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:36
+#: php5/stnl_swifttest.php:36
+msgid "To Name:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:40
+#: php5/stnl_swifttest.php:40
+msgid "Connection Type:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:42
+#: php5/stnl_swifttest.php:42
+msgid "(recommended)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:43
+#: php5/stnl_swifttest.php:43
+msgid "(slower)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:45
+#: php5/stnl_swifttest.php:45
+msgid "(not recommended)"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:77
+#: php5/stnl_swifttest.php:77
+msgid "Additional Options:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:80
+#: php5/stnl_swifttest.php:80
+msgid "Sendmail Path:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:84
+#: php5/stnl_swifttest.php:84
+msgid "SimpleTest Path:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:86
+#: php5/stnl_swifttest.php:86
+msgid "Requires you to download <a href='http://sourceforge.net/projects/simpletest'>SimpleTest</a> and upload onto you server. Path is based from: "
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:91
+#: php5/stnl_swifttest.php:91
+msgid "Update Testing Options &raquo;"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:94
+#: php5/stnl_swifttest.php:94
+msgid "Smoke Tests"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:95
+#: php5/stnl_swifttest.php:95
+msgid "A message will be sent for each test. If the message sent successfully a green bar will appear and a set of instructions. If the message did not send successfully a red bar will appear along with the set of instructions and an error message."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:96
+#: php5/stnl_swifttest.php:96
+msgid "Each smoke test contains an image to use as a guide to following the instructions. Be aware that you may see subtle differences as various mail clients will render emails slightly differently. This is perfectly normal."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:97
+#: php5/stnl_swifttest.php:97
+msgid "Please note that these tests will open in a new window."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:100
+#: php5/stnl_swifttest.php:100
+msgid "Basic Send Test"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:101
+#: php5/stnl_swifttest.php:101
+msgid "Multipart Test"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:102
+#: php5/stnl_swifttest.php:102
+msgid "Attachment Test"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:103
+#: php5/stnl_swifttest.php:103
+msgid "Header Encoding Test"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:104
+#: php5/stnl_swifttest.php:104
+msgid "Embedded Image Test"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:107
+#: php5/stnl_swifttest.php:107
+msgid "Unit Tests"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:108
+#: php5/stnl_swifttest.php:108
+msgid "Unit Tests go into much finer detail. They analyze the internals of the library from many different angles and make lots of expectations about what is supposed to happen. Several thousand expectations are made on this library and we want every single one of them to be satisfied."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:110
+#: php5/stnl_swifttest.php:110
+msgid "Run Unit Tests"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:113
+#: php5/stnl_swifttest.php:113
+msgid "Benchmarks"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:114
+#: php5/stnl_swifttest.php:114
+msgid "The Benchmarks simply measure memory usage and timescales to perform operations. They use a PHP extension called <a href=\"http://www.xdebug.org/\">XDebug2</a>."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:115
+#: php5/stnl_swifttest.php:115
+msgid "To run the benchmark tests, you will need to have XDebug2 installed on the server with Memory Limit support compiled into <acronym title=\"Hypertext Preprocessor\">PHP</acronym>.  You can get XDebug2 by running"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:116
+#: php5/stnl_swifttest.php:116
+msgid "#- $   pecl install xdebug-2.0.0RC3  #or whatever is the latest at the time"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:119
+#: php5/stnl_swifttest.php:119
+msgid "Attachment Memory Usage"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:120
+#: php5/stnl_swifttest.php:120
+msgid "Sending Memory Usage"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:121
+#: php5/stnl_swifttest.php:121
+msgid "Sending Timescale"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_swifttest.php:123
+#: php5/stnl_swifttest.php:123
+msgid "Please refer to the <a href=\"http://www.swiftmailer.org/wikidocs/v3/testing\">Swift Documentation</a> for any further help with running any of these tests."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_upgrade.php:20
+#: php5/stnl_upgrade.php:20
+msgid "This version of the ShiftThis Newsletter requires a database update."
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_upgrade.php:21
+#: php5/stnl_upgrade.php:21
+msgid "Update Now"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_widget.php:43
+#: php5/stnl_widget.php:43
+msgid "Subscribe to Newsletter"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_widget.php:43
+#: php5/stnl_widget.php:43
+msgid "Subscribe"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_widget.php:58
+#: php5/stnl_widget.php:58
+msgid "Title:"
+msgstr ""
+
+# C:\STNL\st_newsletter/stnl_widget.php:59
+#: php5/stnl_widget.php:59
+msgid "Button Text:"
+msgstr ""
+
