@@ -11,7 +11,7 @@ $authcode = $_GET["authcode"];
 <?php require_once("meta.php"); ?>
 
 <link href="//api.hubsoft.ws/demo/css/checkout.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/css/styles_2013.css" rel="stylesheet" type="text/css"/>
+<link href="/resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript" src="/resources/js/vendor/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-more.js"></script>

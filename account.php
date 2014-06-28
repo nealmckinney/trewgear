@@ -7,7 +7,7 @@
 
 <link href="//api.hubsoft.ws/demo/css/checkout.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="resources/css/bootstrap.css">
-<link href="resources/css/styles_2013.css" rel="stylesheet" type="text/css"/>
+<link href="resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
 
 <!-- <link rel="stylesheet" href="resources/css/bootstrap.min.css"> -->
 <!-- <link rel="stylesheet" href="resources/css/bootstrap-responsive.min.css"> -->

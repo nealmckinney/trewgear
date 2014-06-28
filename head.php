@@ -6,7 +6,7 @@
 <meta property="og:image" content="http://trewgear.com/resources/images/nav/logo_2013.png"/>
 <?php require_once("meta.php"); ?>
 
-<link href="resources/css/styles_2013.css" rel="stylesheet" type="text/css"/>
+<link href="resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resources/js/vendor/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="resources/js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="resources/js/jquery-more.js"></script>

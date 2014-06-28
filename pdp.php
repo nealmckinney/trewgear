@@ -174,7 +174,7 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 ?>
 
 
-<link href="/resources/css/styles_2013.css" rel="stylesheet" type="text/css"/>
+<link href="/resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
 <link href="/resources/css/pdp_2013.css" rel="stylesheet" type="text/css"/>
 <link href="/resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
 <link href="/resources/js/shadowbox-3.0.3/shadowbox.css" rel="stylesheet" type="text/css"/>

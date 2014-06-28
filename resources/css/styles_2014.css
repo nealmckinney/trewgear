@@ -1,34 +1,4 @@
-/* @license
- * MyFonts Webfont Build ID 2341465, 2012-08-09T13:23:30-0400
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: Expansion N13 by URW++
- * URL: http://www.myfonts.com/fonts/urw/expansion/n13/
- * Licensed pageviews: 10,000
- * 
- * Webfont: Expansion N11 by URW++
- * URL: http://www.myfonts.com/fonts/urw/expansion/n11/
- * Licensed pageviews: unspecified
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2341465
- * Webfonts copyright: Copyright 2010 URW++ Design &amp; Development Hamburg
- * 
- * © 2012 Bitstream Inc
-*/
 
-
-
-  
- @font-face {font-family: 'ExpansionN13D';src: url('../webfonts/23BA59_0_0.eot');src: url('../webfonts/23BA59_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/23BA59_0_0.woff') format('woff'),url('../webfonts/23BA59_0_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'ExpansionN11D';src: url('../webfonts/23BA59_1_0.eot');src: url('../webfonts/23BA59_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/23BA59_1_0.woff') format('woff'),url('../webfonts/23BA59_1_0.ttf') format('truetype');}
 
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
@@ -62,6 +32,7 @@
 a, img {
 	outline: none;
 	border:0;
+	text-decoration:none;
 }
 
 p {
@@ -70,7 +41,7 @@ p {
 }
 
 h1 {
-	font-family: 'ExpansionN13D', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size:60px;
 	line-height:80px;
 	color:#fff;
@@ -80,7 +51,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'ExpansionN13D', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size:50px;
 	line-height:65px;
 	color:#000;
@@ -90,7 +61,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'ExpansionN13D', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size:36px;
 	line-height:40px;
 	color:#000;
@@ -100,7 +71,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'ExpansionN13D', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size:14px;
 	line-height:20px;
 	color:#000;
@@ -109,7 +80,7 @@ h4 {
 }
 
 h5 {
-	font-family: 'ExpansionN11D', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size:21px;
 	line-height:22px;
 	color:#000;
@@ -138,6 +109,40 @@ body {
 	        transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
 	   -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
 	-webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.vertical-center {
+	width:100%;
+	height:100%;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.button {
+	display:inline-block;
+	background:#000;
+	color:#f7f2ee;
+	border:#9b8877 1px solid;
+	font-size:12px;
+	font-family:"Proxima N W01 Bold",Sans-Serif;
+	text-transform:uppercase;
+	padding:0 14px;
+	height:33px;
+	line-height:33px;
+}
+
+.button.radius {
+	height:30px;
+	line-height:33px;
+	padding:0 22px;
+	border:none;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	   -moz-border-radius: 5px 5px 5px 5px;
+	        border-radius: 5px 5px 5px 5px;
+}
+
+.button:hover {
+	background:#666;
 }
 
 #contentWrap {
@@ -189,7 +194,6 @@ body {
 
 .header1 {
 	color: #000;
-	font-family:"ExpansionN11D";
 	font-size:28px;
 	line-height:32px;
 }
@@ -201,14 +205,12 @@ body {
 
 .header2 {
 	color: #000;
-	font-family:"ExpansionN13D";
 	font-size:32px;
 	line-height:36px;
 }
 
 .sub_header2 {
 	color: #ff0000;
-	font-family:"ExpansionN11D";
 	font-size:22px;
 	line-height:28px;
 }
@@ -248,59 +250,14 @@ body {
 
 #marqueeWrap {
 	position:relative;
-	height:1120px;
-	min-width:980px;
-	
+	height:860px;
+	background:#CCC;
 }
 
-.marqueeItem {
-	display:none;
-	height:1100px;
-	width:100%;
-	min-width:980px;
-	top:0;
-	left:0;
-	position:absolute;
-	z-index:0;
-	background-repeat:no-repeat;
-	background-position:top center;
+#marqueeWrap .vertical-center {
+	height:860px;
 }
 
-.marqueeLink {
-	display:inline-block;
-	margin:20px 3px;
-	width:38px;
-	height:10px;
-	cursor:pointer;
-	background:url(../images/home/marqueeBtn.png);
-}
-
-#marqueeNav {
-	text-align:center;
-}
-
-.marqueeLink:hover, .marqueeLink.selected {
-	background-position:0px -10px;
-	-webkit-box-shadow: 0px 0px 20px rgba(255,37,12,0.9);
-	   -moz-box-shadow: 0px 0px 20px rgba(255,37,12,0.9);
-	        box-shadow: 0px 0px 20px rgba(255,37,12,0.9);
-}
-
-.marquee {
-	position:relative;
-	width:980px;
-	margin:0 auto;
-	z-index:1;
-}
-
-.marqueeCta {
-	position:absolute;
-	width:600px;
-	height:300px;
-	top:200px;
-	left:250px;
-/*	background:#ff0000;*/
-}
 
 .loading {
 	width:0px;
@@ -365,7 +322,6 @@ body {
 
 .tout-text p {
 	color:#7f7f7f;
-	font-family:"ExpansionN11D";
 	font-size:22px;
 	text-transform:uppercase;
 }
@@ -621,6 +577,14 @@ body {
 
 /* Main Nav -------------------------------------------------------------------------- */
 
+.note.shipping-notice {
+	color:#fff;
+	font-size:14px;
+	line-height:48px;
+	text-align:right;
+	text-transform:uppercase;
+}
+
 #shell {
 /*	height:800px;*/
 }
@@ -638,14 +602,19 @@ body {
 	position:absolute;
 	left:-48px;
 	top:18px;
-	width:113px;
-	height:113px;
+	width:75px;
+	height:75px;
 	background: url(../images/nav/logo_2013.png) top center no-repeat;
+}
+
+#trew-nav-top {
+	background:#000;
+	height:48px;
 }
 
 #trew_nav_wrap {
 	float:left;
-	margin-top:70px;
+	margin-top:40px;
 	margin-left:80px;
 }
 
@@ -657,16 +626,9 @@ body {
 	position:relative;
 	line-height:24px;
 	font-size:12px;
-/*	font-family: 'ExpansionN13D', Helvetica, Arial, sans-serif;*/
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-
-
-.fontface #trew_nav, .fontface #trew_nav ul {
-/*	font-family: 'ExpansionN13D';*/
-	
-}
 
 #trew_nav * {
 	-webkit-transform: translateZ(0);
@@ -678,121 +640,27 @@ body {
 	text-decoration:none;
 }
 
-#trew_nav li{
+#trew_nav li {
 	float:left;
 	position:relative;
 }
 
-#trew_nav ul {
-	position:absolute;
-	display:none;
-	width:116px;
-	height:247px;
-	top:40px;
-	background:url(../images/home/2013/slideshow-bg.jpg) top left repeat-x;
-	-webkit-box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.3);
-	   -moz-box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.3);
-	        box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.3);
-}
-
-#trew_nav .tier1, #trew_nav .tier2 {
-/*	margin-top:10px;*/
-	padding-top:20px;
-}
-
-#trew_nav .tier1.secondary {
-	top:-20px;
-}
-
-#trew_nav .tier2 {
-	width:149px;
-	height:247px;
-	background:url(../images/home/2013/slideshow-bg.jpg) top left no-repeat;
-	top:0px;
-}
-
-#trew_nav li ul a{
-	width:139px;
-	float:left;
-}
-
-#trew_nav ul ul{
-	top:0px;
-	left:149px;
-}	
-
-#trew_nav li ul ul {
-	width:149px;
-	height:247px;
-}
-
-#trew_nav .tier2 li, #trew_nav .tier2 a {
-	width:139px;
-}
-
-#trew_nav li:hover ul ul, #trew_nav li:hover ul ul ul, #trew_nav li:hover ul ul ul ul{
-	display:none;
-}
-#trew_nav li:hover ul, #trew_nav li li:hover ul, #trew_nav li li li:hover ul, #trew_nav li li li li:hover ul{
-	display:block;
-}
-
-#trew_nav .topButton {
-	background:url(../images/nav/divider.png) right center no-repeat;
-}
-
-#trew_nav .topButton.last {
-	background:none;
-}
-
-#trew_nav .topButton a {
+#trew_nav  a {
 	color:#000;
 	line-height:40px;
-/*	font-weight:bold;*/
 	padding-right:30px;
 	padding-left:10px;
-/*	opacity:.8;
-	filter: alpha(opacity=80);*/
-	font-size:32px;
-	font-family:"ExpansionN11D";
+	font-size:24px;
+	font-family: Helvetica, Arial, sans-serif;
 	text-transform:uppercase;
-/*	font-weight:normal;*/
-/*	font-family: "HelveticaNeue-BlackCond", "Helvetica Black Cond", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-/*	font-weight:bold;*/
 }
 
 
-#trew_nav .topButton a:hover {
+#trew_nav a:hover {
 	color:#666;
 }
 
-#trew_nav .subButton a {
-	color:#000;
-	line-height:24px;
-	font-size:12px;
-	opacity:1;
-	padding-left:10px;
-	filter: alpha(opacity=100);
-}
 
-.fontface #trew_nav .subButton a {
-	font-family:"ExpansionN11D";
-	font-size:18px;
-	font-weight:normal;
-	padding-right:0;
-}
-
-/*#trew_nav .subButton.top {
-	margin-top:10px;
-}*/
-
-#trew_nav .subButton a:hover {
-	background:#fbfbfb;
-}
-
-/*#trew_nav .product_cta a:hover {
-	background:none;
-}*/
 
 .trew_nav_shadow {
 	position:absolute;
@@ -811,10 +679,8 @@ body {
 
 
 .trew_nav_social {
-	position:absolute;
-	top:18px;
-	right:0;
-	z-index:10;
+	float:left;
+	margin-top:10px;
 }
 
 #trew_nav .product_cta {
@@ -883,7 +749,6 @@ ul.pullright.nav.right-nav li a {
 /*	margin-left:20px;*/
 	color:#969696;
 	font-size:17px;
-	font-family:"ExpansionN11D" !important;
 	font-weight:normal !important;
 	text-transform:uppercase;
 }
@@ -1028,7 +893,6 @@ input, input:focus {
 }
 
 #signup-label, #mc_embed_signup label {
-	font-family:"ExpansionN11D" !important;
 	font-weight:normal !important;
 	font-size:21px !important;
 	margin:9px 10px 0 0 !important;
@@ -1208,7 +1072,7 @@ input, input:focus {
 	width:185px;
 	height:38px;
 	line-height:38px;
-	font-family: 'ExpansionN13D', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size:24px;
 	color:#fff;
 }
@@ -1235,7 +1099,6 @@ input, input:focus {
 }
 
 #cart th {
-	font-family:"ExpansionN11D";
 	font-weight:normal;
 	font-size:21px;
 	background:#000;

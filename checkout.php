@@ -7,7 +7,7 @@
 
 
 <link href="resources/css/checkout.css" rel="stylesheet" type="text/css"/>
-<link href="resources/css/styles_2013.css" rel="stylesheet" type="text/css"/>
+<link href="resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
 <link href="resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript" src="resources/js/vendor/jquery-1.9.1.min.js"></script>
