@@ -4,7 +4,7 @@
 <meta name = "Title" content = "TREW | stylish and technical ski/snowboard outerwear"/>
 <meta property="og:image" content="http://trewgear.com/resources/images/nav/logo_2013.png"/>
 <?php require_once("meta.php"); ?>
-<!-- <link href="resources/css/normalize.css" rel="stylesheet" type="text/css"/> -->
+
 <link href="resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
 <link href="/resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resources/js/vendor/jquery-1.9.1.min.js"></script>
@@ -17,15 +17,9 @@
 <script type="text/javascript" src="resources/js/core/events/EventDispatcher.js"></script>
 <script type="text/javascript" src="resources/js/core/ui/ButtonGroup.js"></script>
 
-<!-- <script type="text/javascript" src="resources/js/json2.js"></script>
-<script src="//api.hubsoft.ws/js/cartgui.js"></script>
-<script src="//api.hubsoft.ws/js/api.js"></script>
-<script src="//api.hubsoft.ws/js/plugins/ejs.js"></script> -->
 <script src="//api.hubsoft.ws/@js"></script>
-
 <script type="text/javascript" src="resources/js/main.js"></script>
 <script type="text/javascript" src="resources/js/spin.min.js"></script>
-<script type="text/javascript" src="resources/js/PhotoScroll.js?updated=9_28_2013"></script>
 
 
 <script type="text/javascript">
@@ -55,12 +49,31 @@ window.onload = function(){
 		require_once("navigation.php");
 		?>
 		
-		<div id="marqueeWrap">
+		<div id="marqueeWrap" style="background:#a8c6e8;">
 			<div class="marquee content">
 				<div class="vertical-center">
 					<h2 class="title">2015 Product<br/>Preview</h2>
 					<a class="button radius animated" href="#">Shop Now</a>
 				</div>
+			</div>
+		</div>
+		<div class="we-are-trew">
+			<div class="content">
+				<h3 class="center">We Are TREW</h3>
+			</div>
+		</div>
+		
+		<div class="circle-touts">
+			<div class="content">
+				
+			</div>
+		</div>
+		
+		<div class="product-scroller"></div>
+		
+		<div class="trew-social">
+			<div class="content">
+				<h3>TREW Social</h3>
 			</div>
 		</div>
 
@@ -73,24 +86,5 @@ window.onload = function(){
 </body>
 </html>
 
-<script type="text/javascript" src="resources/js/jquery.tweet.js"></script>
-
-<script>
-
-
-function replaceURLWithHTMLLinks(text) {
-    var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
-    return text.replace(exp,"<a href='$1' target='_blank'>$1</a>"); 
-}
-
-$.getJSON('/twitter-proxy.php?url='+encodeURIComponent('statuses/user_timeline.json?screen_name=trew_gear&count=1'), function(d) {
-	var data = JSON.stringify(d);
-	// console.log("data: "+data);
-	var info = $.parseJSON(data);
-	//console.log("info.text: "+info[0].text);
-	$('#feed-twitter').html(replaceURLWithHTMLLinks(info[0].text));
-});
-
-</script>
 
 

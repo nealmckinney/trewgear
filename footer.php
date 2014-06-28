@@ -21,7 +21,7 @@ if ($pos == true) {
 </style>
 
 <div id="footer">
-	<div id="footerContent">
+	<div class="content">
 		<div id="footerLogo"></div>
 		<div class="column wide">
 			<h5>Trew Gear LLC</h5>
@@ -39,14 +39,14 @@ if ($pos == true) {
 			<div class="socialIcon"><a href="http://onepercentfortheplanet.org" target="_blank"><img src="/resources/images/footer/onepercent.gif" border=0></a></div>
 		</div>
 		<div class="column">
-			<h5><a href="/productwall/Jackets">Jackets</a></h5>
-			<h5><a href="/productwall/Pants">Pants</a></h5>
-			<h5><a href="/productwall/Apparel">Accessories</a></h5>
-			<h5><a href="/warranty">Warranty</a></h5>
-			<h5><a href="/mission">About Us</a></h5>
-			<h5><a href="/blog">Blog</a></h5>
-			<h5><a href="/dealers">Dealers</a></h5>
-			<h5><a href="/affiliateprogram">Affiliate Program</a></h5>
+			<a href="/productwall/Jackets">Jackets</a>
+			<a href="/productwall/Pants">Pants</a>
+			<a href="/productwall/Apparel">Accessories</a>
+			<a href="/warranty">Warranty</a>
+			<a href="/mission">About Us</a>
+			<a href="/blog">Blog</a>
+			<a href="/dealers">Dealers</a>
+			<a href="/affiliateprogram">Affiliate Program</a>
 		</div>
 	</div>
 	<div id="footerBase">

@@ -27,6 +27,26 @@ $(document).ready(function() {
 	//emeraldcode.removeCoupon();
 	emeraldcode.handleLoginState();
 	emeraldcode.cart.triggerUpdateUI();
+	
+	// Nav toggle:
+	$(".btn-navbar").on("click", function() {
+		var navCollapse = $(".nav-collapse");
+		if (navCollapse.hasClass("open")) {
+			navCollapse.removeClass("open");
+			navCollapse.removeClass("auto");
+			navCollapse.css("height", 0);
+		} else {
+			navCollapse.addClass("open");
+			var height = $("#trew_nav").height();
+			console.log("height: "+height);
+			navCollapse.css("height", height);
+			setTimeout(function() {
+				navCollapse.addClass("auto");
+			}, 500);
+		}
+	});
+	
+	
 });
 
 
