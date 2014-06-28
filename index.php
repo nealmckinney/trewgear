@@ -7,12 +7,12 @@
 
 <link href="resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
 <link href="/resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resources/js/vendor/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="resources/js/vendor/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="resources/js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="resources/js/jquery-more.js"></script>
 <script type="text/javascript" src="resources/js/jquery.touchSwipe.min.js"></script>
 
-<script type="text/javascript" src="resources/js/modernizr-2.5.3.min.js"></script>
+<script type="text/javascript" src="resources/js/vendor/modernizr-2.6.2.min.js"></script>
 
 <script type="text/javascript" src="resources/js/core/events/EventDispatcher.js"></script>
 <script type="text/javascript" src="resources/js/core/ui/ButtonGroup.js"></script>

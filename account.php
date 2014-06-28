@@ -13,9 +13,9 @@
 <!-- <link rel="stylesheet" href="resources/css/bootstrap-responsive.min.css"> -->
 <!-- <link rel="stylesheet" href="resources/css/bootstrap-theme.css"> -->
 
-<script type="text/javascript" src="resources/js/vendor/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="resources/js/vendor/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="resources/js/jquery-more.js"></script>
-<script type="text/javascript" src="resources/js/modernizr-2.5.3.min.js"></script>
+<script type="text/javascript" src="resources/js/vendor/modernizr-2.6.2.min.js"></script>
 
 
 </head>

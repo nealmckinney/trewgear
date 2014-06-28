@@ -17,7 +17,7 @@
 
 <script type="text/javascript" src="resources/js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="resources/js/jquery-more.js"></script>
-<script type="text/javascript" src="resources/js/modernizr-2.5.3.min.js"></script>
+<script type="text/javascript" src="resources/js/vendor/modernizr-2.6.2.min.js"></script>
 
 <script type="text/javascript" src="resources/js/core/events/EventDispatcher.js"></script>
 <script type="text/javascript" src="resources/js/ui/SelectSkin.js"></script>

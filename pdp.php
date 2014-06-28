@@ -179,10 +179,10 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 <link href="/resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
 <link href="/resources/js/shadowbox-3.0.3/shadowbox.css" rel="stylesheet" type="text/css"/>
 
-<script type="text/javascript" src="/resources/js/vendor/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/resources/js/vendor/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-more.js"></script>
 <script type="text/javascript" src="/resources/js/vendor/jquery.cookie.js"></script>
-<script type="text/javascript" src="/resources/js/modernizr-2.5.3.min.js"></script>
+<script type="text/javascript" src="/resources/js/vendor/modernizr-2.6.2.min.js"></script>
 <script type="text/javascript" src="/resources/js/shadowbox-3.0.3/shadowbox.js"></script>
 <script type="text/javascript" src="/resources/js/spin.min.js"></script>
 
