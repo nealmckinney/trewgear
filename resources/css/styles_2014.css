@@ -160,7 +160,24 @@ h6 { font-size:18px; }
 }
 
 .circle-touts {
-	height:400px;
+	padding:65px 0;
+	overflow:hidden;
+}
+
+.circle-tout {
+	display:block;
+	float:left;
+	text-align:center;
+	margin-right:15px;
+}
+
+.circle-tout.last {
+	margin-right:0;
+}
+
+.circle-tout img {
+	margin-bottom:30px;
+	display:block;
 }
 
 .product-scroller {

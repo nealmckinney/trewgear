@@ -47,7 +47,18 @@ window.onload = function(){
 	
 	<div class="circle-touts">
 		<div class="content">
-			
+			<a href="#" class="circle-tout">
+				<img class="circle" src="/resources/images/home/tout-mens.jpg"/>
+				<span class="cta">Shop Mens <span class="arrow"></span></span>
+			</a>
+			<a href="#" class="circle-tout">
+				<img class="circle" src="/resources/images/home/tout-mens.jpg"/>
+				<span class="cta">Shop Mens <span class="arrow"></span></span>
+			</a>
+			<a href="#" class="circle-tout last">
+				<img class="circle" src="/resources/images/home/tout-mens.jpg"/>
+				<span class="cta">Shop Mens <span class="arrow"></span></span>
+			</a>
 		</div>
 	</div>
 	
