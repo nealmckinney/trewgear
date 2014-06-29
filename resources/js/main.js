@@ -24,7 +24,6 @@ emeraldcode.handleLoginState = function () {
 
 $(document).ready(function() {
 	emeraldcode.clientid = 'trewgear';
-	//emeraldcode.removeCoupon();
 	emeraldcode.handleLoginState();
 	emeraldcode.cart.triggerUpdateUI();
 	
@@ -34,12 +33,11 @@ $(document).ready(function() {
 		if (navCollapse.hasClass("open")) {
 			navCollapse.removeClass("open");
 			navCollapse.removeClass("auto");
-			navCollapse.css("height", 0);
+			navCollapse.animate({"height":0}, 300, "easeOutExpo");
 		} else {
 			navCollapse.addClass("open");
-			var height = $("#trew_nav").height();
-			console.log("height: "+height);
-			navCollapse.css("height", height);
+			var height = $("#trew-nav").height();
+			navCollapse.animate({"height":height}, 500, "easeOutExpo");
 			setTimeout(function() {
 				navCollapse.addClass("auto");
 			}, 500);
@@ -61,28 +59,26 @@ jQuery(function () {
     });
 });
 
-function getMarqueeSize() {
-	var size;
-	var windowWidth = $(window).width();
-	console.log("getMarqueeSize: "+windowWidth);
-	if (windowWidth < 321) {
-		size = {width:320, height:178};
-	} else if (windowWidth < 481) {
-		//size = {width:320, height:178};
-		size = {width:480, height:267};
-	} else if (windowWidth < 641 && windowWidth > 480) {
-		size = {width:600, height:334};
-	} else if (windowWidth < 750 && windowWidth > 641) {
-		size = {width:640, height:356};
-	} else if (windowWidth < 979 && windowWidth > 750) {
-		size = {width:768, height:428};
-		//size = {width:640, height:356};
-	} else {
-		// default:
-		size = {width:970, height:530};
-	}
-	
-	return size;
+function addLoader(target, color) {
+	var theColor = (color) ? color : "#CC6600";
+	//<div class='dimmer'></div>
+	var loader = $("<div class='loading'></div>");
+	var opts = {
+	  lines: 13, // The number of lines to draw
+	  length: 7, // The length of each line
+	  width: 4, // The line thickness
+	  radius: 10, // The radius of the inner circle
+	  color: theColor, // #rgb or #rrggbb
+	  speed: 3, // Rounds per second
+	  trail: 60, // Afterglow percentage
+	  shadow: false, // Whether to render a shadow
+	  top: 'auto',
+	  left: 'auto'
+	};
+	//this.spinner = new Spinner(opts).spin($(loader));
+	target.append(loader);
+	loader.spin(opts);
+	loader.fadeIn(500);
 }
 
 function getParameterByName(url, name) {

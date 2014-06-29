@@ -32,14 +32,14 @@ if ($pos == true) {
 <div id="trew-nav-main">
 	
 	<div class="btn btn-navbar">
-        <div class="icon-bar animated"></div>
-        <div class="icon-bar animated"></div>
-        <div class="icon-bar animated"></div>
+        <div class="icon-bar"></div>
+        <div class="icon-bar"></div>
+        <div class="icon-bar"></div>
     </div>
 	
 	<a id="trew-nav-logo" href="/"></a>
 	<div id="trew-nav-wrap">
-		<div class="nav-collapse animated">
+		<div class="nav-collapse">
 			<ul id="trew-nav">
 			    <li><a class="animated" href="/productwall/mens">MEN</a></li>
 				<li><a class="animated" href="/productwall/womens">WOMEN</a></li>

@@ -23,9 +23,9 @@ if ($pos == true) {
 <div id="footer">
 	<div class="content">
 		<div id="footerLogo"></div>
-		<div class="column wide">
-			<h5>Trew Gear LLC</h5>
-			<p>Mailing Address:<br>
+		<div class="column column1">
+			<p><b>Trew Gear LLC</b><br/>
+			Mailing Address:<br>
 			1767 12th St. #169 Hood River, OR 97031<br>
 			*call 541-241-MTNS for our office location<br>
 			t. 541-241-6867</p>
@@ -39,23 +39,44 @@ if ($pos == true) {
 			<div class="socialIcon"><a href="http://onepercentfortheplanet.org" target="_blank"><img src="/resources/images/footer/onepercent.gif" border=0></a></div>
 		</div>
 		<div class="column">
-			<a href="/productwall/Jackets">Jackets</a>
-			<a href="/productwall/Pants">Pants</a>
-			<a href="/productwall/Apparel">Accessories</a>
-			<a href="/warranty">Warranty</a>
-			<a href="/mission">About Us</a>
-			<a href="/blog">Blog</a>
-			<a href="/dealers">Dealers</a>
-			<a href="/affiliateprogram">Affiliate Program</a>
+			<ul class="footer-nav">
+				<li><a href="/productwall/mens">Men</a></li>
+				<li><a href="/productwall/womens">Women</a></li>
+				<li><a href="/productwall/Apparel">Accessories</a></li>
+				<li><a href="/mission">About Us</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/warranty">Warranty</a></li>
+				<li><a href="/dealers">Dealers</a></li>
+				<li><a href="/affiliateprogram">Affiliate Program</a></li>
+			</ul>
 		</div>
-	</div>
-	<div id="footerBase">
-		<div class="content">
-			<span>©2013 Copyright, Trew Gear LLC.</span>
+		<div class="column">
+			<ul class="footer-nav">
+				<li><a href="/dealers">Dealers</a></li>
+				<li><a href="/team">Team</a></li>
+				<li><a href="/warranty">Warranty & Returns</a></li>
+				<li><a href="/affiliateprogram">Affiliate Program</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div id="footerBase">
+			<span>©2014 Copyright, Trew Gear LLC.</span>
 			<span><a href="/pro">Pro Program</a></span>
 		</div>
 	</div>
 </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="resources/js/jquery.easing.1.3.js"></script>
+<script src="resources/js/jquery.touchSwipe.min.js"></script>
+
+<script src="resources/js/core/events/EventDispatcher.js"></script>
+<script src="resources/js/core/ui/ButtonGroup.js"></script>
+
+<script src="//api.hubsoft.ws/@js"></script>
+<script src="resources/js/main.js"></script>
+<script src="resources/js/spin.min.js"></script>
 
 
 <script type="text/javascript">

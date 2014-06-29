@@ -231,6 +231,33 @@ h6 { font-size:18px; }
 	padding:80px 0 20px 0;
 }
 
+#footer .column {
+	float:left;
+	width:190px;
+}
+
+#footer .column.column1 {
+	width:375px;
+}
+
+#footerLogo {
+	float:left;
+	width:78px;
+	height:143px;
+	background:url(../images/footer/footerLogo.png);
+	margin-right:17px;
+}
+
+#footerBase {
+	margin:10px 0 0 95px;
+}
+
+.footer-nav ul, .footer-nav li {
+	display:block;
+	margin:0;
+	padding:0;
+}
+
 .social {
 	display:block;
 	float:left;
