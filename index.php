@@ -27,17 +27,21 @@ window.onload = function(){
 		
 	<?php require_once("navigation.php"); ?>
 	
-	<div id="marqueeWrap" style="background:#a8c6e8;">
+	<div id="marqueeWrap">
 		<div class="marquee content">
 			<div class="vertical-center">
 				<h2 class="title">2015 Product<br/>Preview</h2>
 				<a class="button radius animated" href="#">Shop Now</a>
 			</div>
 		</div>
+		<div class="marquee-background" style="background-image:url(/resources/images/home/marquee-2015-products.jpg);"></div>
 	</div>
 	<div class="we-are-trew">
-		<div class="content">
-			<h3 class="center">We Are TREW</h3>
+		<div class="content center">
+			<h4 class="title">WE ARE TREW</h4>
+			<hr/>
+			<p class="intro">Trew is based in Hood River, Oregon among the Cascade Mountains. We strive to produce outerwear that remains relevant and connected to the core of mountain riding.</p>
+			<a class="cta" href="#">Watch Our Brand Video <span class="arrow"></span></a>
 		</div>
 	</div>
 	

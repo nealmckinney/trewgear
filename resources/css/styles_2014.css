@@ -18,6 +18,10 @@ body, p, a {
 	color:#252525;
 }
 
+p.intro {
+	font-size:21px;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight:normal;
@@ -85,6 +89,23 @@ h6 { font-size:18px; }
 	background:#00aeef;
 }
 
+.cta {
+	font-size:21px;
+	height:30px;
+	line-height:30px;
+	display:inline-block;
+}
+
+.cta .arrow {
+	width:30px;
+	height:30px;
+	display:inline-block;
+	padding-left:8px;
+	background:url(../images/ui/cta-arrow.png) center center no-repeat;
+	position:relative;
+	top:8px;
+}
+
 .content {
 	position:relative;
 	width:1110px;
@@ -118,9 +139,24 @@ h6 { font-size:18px; }
 }
 
 .we-are-trew {
-	background:#CCC;
+	background:url(../images/home/bg-we-are-trew.jpg) top center no-repeat;
+	background-size:cover;
 	height:260px;
 	padding-top:80px;
+}
+
+.we-are-trew .title { margin-bottom:10px; }
+.we-are-trew p {
+	color:#6f7372;
+	margin-bottom:40px;
+}
+
+.we-are-trew hr {
+	background:#00aeef;
+	height:3px;
+	width:120px;
+	border:none;
+	margin:0 auto 10px auto;
 }
 
 .circle-touts {
@@ -182,7 +218,7 @@ h6 { font-size:18px; }
 	top:12px;
 	width:75px;
 	height:75px;
-	background: url(../images/nav/logo_2013.png) top center no-repeat;
+	background: url(../images/nav/logo_2014.png) top center no-repeat;
 }
 
 #trew-nav-top {
