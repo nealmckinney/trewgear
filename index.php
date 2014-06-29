@@ -62,11 +62,32 @@ window.onload = function(){
 		</div>
 	</div>
 	
-	<div class="product-scroller"></div>
+	<div class="product-scroller">
+		<div class="content overflow-hidden">
+			<div class="left">
+				<img src="/resources/images/fpo/cosmic-blue.png"/>
+			</div>
+			<div class="right center">
+				<h4>COSMIC</h4>
+				<p class="intro">LIGHTWEIGHT. HEAVY DUTY.</p>
+				<p>Our original backcountry hard shell, even more functional for 14/15. Hand pockets move to the hips for easy access under a pack, and gain a durable laminated flap for zipper protection. The fit remains trim, athletic, and comfortable, while subtle branding and straightforward design reinforce the classic alpine aesthetic.</p>
+				<a class="button radius animated" href="#">Buy Now</a>
+				
+				<div class="rotation-nav">
+					<div class="multi-nav-item selected"><div class="indicator animated"></div></div>
+					<div class="multi-nav-item"><div class="indicator animated"></div></div>
+					<div class="multi-nav-item"><div class="indicator animated"></div></div>
+					<div class="multi-nav-item"><div class="indicator animated"></div></div>
+					<div class="multi-nav-item"><div class="indicator animated"></div></div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
 	
 	<div class="trew-social">
 		<div class="content">
-			<h3>TREW Social</h3>
+			<h3>Trew Social</h3>
 		</div>
 	</div>
 	
