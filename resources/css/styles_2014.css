@@ -101,6 +101,22 @@ h6 { font-size:18px; }
 	height:860px;
 }
 
+.marquee-background {
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	width:100%;
+	height:100%;
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.marquee {
+	position:relative;
+	z-index:1;
+}
+
 .we-are-trew {
 	background:#CCC;
 	height:260px;

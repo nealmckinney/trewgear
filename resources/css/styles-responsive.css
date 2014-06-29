@@ -54,8 +54,8 @@
 /*		display:none;*/
 	}
 	
-	#fpo-marquee {
-		height:475px;
+	#marqueeWrap, #marqueeWrap .vertical-center {
+		height:400px;
 	}
 	
 	.btn-navbar {
