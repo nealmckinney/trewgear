@@ -145,6 +145,10 @@ h6 { font-size:18px; }
 	z-index:1;
 }
 
+.marquee .title {
+	font-size:80px;
+}
+
 .we-are-trew {
 	background:url(../images/home/bg-we-are-trew.jpg) top center no-repeat;
 	background-size:cover;
@@ -310,7 +314,8 @@ h6 { font-size:18px; }
 	line-height:40px;
 	padding-right:30px;
 	padding-left:10px;
-	font-size:24px;
+	font-size:16px;
+	font-weight:700;
 	text-transform:uppercase;
 }
 
