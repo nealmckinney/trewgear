@@ -88,6 +88,7 @@ window.onload = function(){
 	<div class="trew-social">
 		<div class="content">
 			<h3>Trew Social</h3>
+			<div id="twitter-feed"></div>
 		</div>
 	</div>
 	
@@ -95,6 +96,15 @@ window.onload = function(){
 	
 </body>
 </html>
+
+<script src="/resources/js/tweetie.min.js"></script>
+
+<script>
+	$('#twitter-feed').twittie({
+		username:"trew_gear",
+		count:1
+	});
+</script>
 
 
 
