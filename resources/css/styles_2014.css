@@ -13,7 +13,9 @@ a, img {
 p a:hover { color:#00adee; }
 
 body, p, a {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size:14px;
 	color:#252525;
 }
@@ -28,8 +30,9 @@ p.intro {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight:normal;
+	font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-style: normal;
 	line-height:100%;
 	margin:0 0 20px 0;
 }
@@ -73,7 +76,6 @@ h6 { font-size:18px; }
 	color:#f7f2ee;
 	border:#9b8877 1px solid;
 	font-size:12px;
-	font-family:"Proxima N W01 Bold",Sans-Serif;
 	text-transform:uppercase;
 	padding:0 14px;
 	height:33px;
@@ -290,7 +292,6 @@ h6 { font-size:18px; }
 	position:relative;
 	line-height:24px;
 	font-size:12px;
-	font-family: Helvetica, Arial, sans-serif;
 }
 
 #trew-nav a {
@@ -310,7 +311,6 @@ h6 { font-size:18px; }
 	padding-right:30px;
 	padding-left:10px;
 	font-size:24px;
-	font-family: Helvetica, Arial, sans-serif;
 	text-transform:uppercase;
 }
 
