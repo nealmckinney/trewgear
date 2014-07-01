@@ -102,7 +102,7 @@ window.onload = function(){
 <script>
 	$('#twitter-feed').twittie({
 		username:"trew_gear",
-		count:1
+		count:5
 	});
 </script>
 
