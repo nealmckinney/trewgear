@@ -14,29 +14,13 @@ if ($pos == true) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php require_once("functions.php"); ?>
 <?php require_once("meta.php"); ?>
 
-<link href="/resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/css/pdp_2013.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/css/productwall_2013.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $rootpath?>resources/css/pdp_2013.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $rootpath?>resources/css/productwall_2013.css" rel="stylesheet" type="text/css"/>
 
-<script type="text/javascript" src="/resources/js/vendor/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="/resources/js/jquery-more.js"></script>
-<script type="text/javascript" src="/resources/js/vendor/jquery.cookie.js"></script>
-<script type="text/javascript" src="/resources/js/vendor/modernizr-2.6.2.min.js"></script>
 
-<script type="text/javascript" src="/resources/js/core/events/EventDispatcher.js"></script>
-<script type="text/javascript" src="/resources/js/core/ui/ButtonGroup.js"></script>
-<script type="text/javascript" src="/resources/js/product/Wall.js"></script>
-
-<!-- <script type="text/javascript" src="/resources/js/json2.js"></script>
-<script src="//api.hubsoft.ws/js/cartgui.js"></script>
-<script src="//api.hubsoft.ws/js/api.js"></script>
-<script src="//api.hubsoft.ws/js/plugins/ejs.js"></script> -->
-<script src="//api.hubsoft.ws/@js"></script>
-
-<script type="text/javascript" src="/resources/js/main.js"></script>
 
 <?php
 $categoryID = "Jackets";
@@ -79,8 +63,10 @@ if ($categoryID == "Pants") $urlID = "Men's%20Pants,Women's%20Pants";
 if ($categoryID == "mens-apparel") $urlID = "Men's%20Apparel%20and%20Accesories";
 if ($categoryID == "womens-apparel") $urlID = "Women's%20Accessories%20and%20Apparel";
 
-if ($categoryID == "Mens") $urlID = "Men's%20Jackets,Men's%20Pants,Men's%20Apparel%20and%20Accesories";
-if ($categoryID == "Womens") $urlID = "Women's%20Jackets,Women's%20Pants,Women's%20Accessories%20and%20Apparel";
+//if ($categoryID == "Mens") $urlID = "Men's%20Jackets,Men's%20Pants,Men's%20Apparel%20and%20Accesories";
+if ($categoryID == "Mens") $urlID = "Men's%20Jackets,Men's%20Pants";
+//if ($categoryID == "Womens") $urlID = "Women's%20Jackets,Women's%20Pants,Women's%20Accessories%20and%20Apparel";
+if ($categoryID == "Womens") $urlID = "Women's%20Jackets,Women's%20Pants";
 if ($categoryID == "Apparel") $urlID = "Men's%20Apparel%20and%20Accesories,Women's%20Accessories%20and%20Apparel";
 
 if ($categoryID == "mens-jackets") $urlID = "Men's%20Jackets";
@@ -95,9 +81,16 @@ $json = "http://trewgear.hubsoft.ws/api/v1/products?classifications={$urlID}";
 //$json = $json . '&promotion=GFFAZKQV';
 //echo $json;
 //$jsonfile = file_get_contents($json);
-$ch =  curl_init($json);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-$result = curl_exec($ch);
+
+
+//$ch =  curl_init($json);
+//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//$result = curl_exec($ch);
+
+$result = get_content("cache/{$cID}-product-wall.txt", $json, 3);
+
+//print_r($result);
+
 $info = json_decode($result);
 $products = $info->products;
 
@@ -120,6 +113,11 @@ $products = $info->products;
 		$len = count($products);
 		for ($i=0; $i < $len; $i++) {
 			$item = $products[$i];
+			
+			// if ($i == 0) {
+			// 	print_r($item);
+			// 	die();
+			// }
 			
 			$productNumber = $item->productNumber;
 			
@@ -155,7 +153,7 @@ $products = $info->products;
 	<script>
 		function init() {
 			var wallItems = <?php echo $wallItems; ?>;
-			new Wall(wallItems);
+			// new Wall(wallItems);
 		}
 	</script>
 	
