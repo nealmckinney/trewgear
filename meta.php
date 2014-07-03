@@ -1,3 +1,17 @@
+<?php
+# Using HTTP_HOST
+
+$domain = $_SERVER['HTTP_HOST'];
+$rootpath = "http://{$domain}/";
+$url = $_SERVER['REQUEST_URI'];
+$pos = strrpos($url, "stage");
+if ($pos == true) {
+	$rootpath = $rootpath."stage/trewgear/";
+}
+
+?>
+
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1" id="viewport-meta">
@@ -12,6 +26,7 @@
 
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7607112/719304/css/fonts.css" />
 
-<link href="resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
-<script src="resources/js/vendor/modernizr-2.6.2.min.js"></script>
+<link href="<?php echo $rootpath?>resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $rootpath?>resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $rootpath?>resources/js/shadowbox-3.0.3/shadowbox.css" rel="stylesheet" type="text/css"/>
+<script src="<?php echo $rootpath?>resources/js/vendor/modernizr-2.6.2.min.js"></script>

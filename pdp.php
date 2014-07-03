@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+	
+<?php require_once("functions.php"); ?>
 
 <?php
 
@@ -143,11 +145,12 @@ if (isset($_COOKIE["promotion"])) {
 //$json = $json . '&promotion=GFFAZKQV';
 //echo $json;
 
-//echo $_COOKIE["promotion"];
-//$jsonfile = file_get_contents($json);
-$ch =  curl_init($json);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-$result = curl_exec($ch);
+//$ch =  curl_init($json);
+//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//$result = curl_exec($ch);
+
+$result = get_content("cache/{$productUID}-product-detail.txt", $json, 3);
+
 $info = json_decode($result);
 
 
@@ -174,34 +177,9 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 ?>
 
 
-<link href="/resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/css/pdp_2013.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/js/shadowbox-3.0.3/shadowbox.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $rootpath?>resources/css/pdp_2013.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $rootpath?>resources/css/productwall_2013.css" rel="stylesheet" type="text/css"/>
 
-<script type="text/javascript" src="/resources/js/vendor/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="/resources/js/jquery-more.js"></script>
-<script type="text/javascript" src="/resources/js/vendor/jquery.cookie.js"></script>
-<script type="text/javascript" src="/resources/js/vendor/modernizr-2.6.2.min.js"></script>
-<script type="text/javascript" src="/resources/js/shadowbox-3.0.3/shadowbox.js"></script>
-<script type="text/javascript" src="/resources/js/spin.min.js"></script>
-
-<script type="text/javascript" src="/resources/js/core/events/EventDispatcher.js"></script>
-<script type="text/javascript" src="/resources/js/core/ui/ButtonGroup.js"></script>
-<script type="text/javascript" src="/resources/js/product/Pdp.js"></script>
-<script type="text/javascript" src="/resources/js/product/Wall.js"></script>
-<script type="text/javascript" src="/resources/js/ui/SelectSkin.js"></script>
-
-<script src="//api.hubsoft.ws/@js"></script>
-
-<script type="text/javascript" src="/resources/js/main.js"></script>
-
-<script type="text/javascript">
-Shadowbox.init({
-    handleOversize: "drag",
-    modal: true
-});
-</script>
 
 </head>
 <body>
@@ -396,6 +374,9 @@ Shadowbox.init({
 	require_once("footer.php");
 	?>
 	
+	<script src="<?php echo $rootpath?>resources/js/product/Pdp.js"></script>
+	<script src="<?php echo $rootpath?>resources/js/product/Wall.js"></script>
+	
 	<script>
 	
 	function onSizeSelectChange() {
@@ -489,31 +470,7 @@ Shadowbox.init({
 		};
 		if (count < 2) $("#image-nav").hide();
 	}
-	
-	function addLoader(target) {
-		removeLoader(target);
-		var loader = $("<div class='loading'></div>");
-		var opts = {
-		  lines: 13, // The number of lines to draw
-		  length: 7, // The length of each line
-		  width: 4, // The line thickness
-		  radius: 10, // The radius of the inner circle
-		  color: '#FF0000', // #rgb or #rrggbb
-		  speed: 3, // Rounds per second
-		  trail: 60, // Afterglow percentage
-		  shadow: false, // Whether to render a shadow
-		  top: 'auto',
-		  left: 'auto'
-		};
-		//this.spinner = new Spinner(opts).spin($(loader));
-		target.append(loader);
-		loader.spin(opts);
-		loader.fadeIn(500);
-	}
-	
-	function removeLoader(target) {
-		target.find(".loading").remove();
-	}
+
 	
 	function onResize() {
 		var width = $(window).width();

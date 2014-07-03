@@ -60,6 +60,7 @@ jQuery(function () {
 });
 
 function addLoader(target, color) {
+	removeLoader(target);
 	var theColor = (color) ? color : "#CC6600";
 	//<div class='dimmer'></div>
 	var loader = $("<div class='loading'></div>");
@@ -79,6 +80,10 @@ function addLoader(target, color) {
 	target.append(loader);
 	loader.spin(opts);
 	loader.fadeIn(500);
+}
+
+function removeLoader(target) {
+	target.find(".loading").remove();
 }
 
 function getParameterByName(url, name) {

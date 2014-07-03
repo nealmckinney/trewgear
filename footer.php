@@ -68,18 +68,27 @@ if ($pos == true) {
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="resources/js/jquery.easing.1.3.js"></script>
-<script src="resources/js/jquery.touchSwipe.min.js"></script>
+<script src="<?php echo $rootpath?>resources/js/jquery.easing.1.3.js"></script>
+<script src="<?php echo $rootpath?>resources/js/jquery.touchSwipe.min.js"></script>
+<script src="<?php echo $rootpath?>resources/js/vendor/jquery.cookie.js"></script>
+<script src="<?php echo $rootpath?>resources/js/shadowbox-3.0.3/shadowbox.js"></script>
 
-<script src="resources/js/core/events/EventDispatcher.js"></script>
-<script src="resources/js/core/ui/ButtonGroup.js"></script>
+<script src="<?php echo $rootpath?>resources/js/core/events/EventDispatcher.js"></script>
+<script src="<?php echo $rootpath?>resources/js/core/ui/ButtonGroup.js"></script>
 
 <script src="//api.hubsoft.ws/@js"></script>
-<script src="resources/js/main.js"></script>
-<script src="resources/js/spin.min.js"></script>
+<script src="<?php echo $rootpath?>resources/js/plugins.js"></script>
+<script src="<?php echo $rootpath?>resources/js/spin.min.js"></script>
+<script src="<?php echo $rootpath?>resources/js/ui/SelectSkin.js"></script>
+<script src="<?php echo $rootpath?>resources/js/main.js"></script>
 
 
 <script type="text/javascript">
+
+	Shadowbox.init({
+	    handleOversize: "drag",
+	    modal: true
+	});
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-8829428-1']);
