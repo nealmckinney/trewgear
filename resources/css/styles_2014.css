@@ -256,6 +256,8 @@ h6 { font-size:18px; }
 	text-transform:uppercase;
 }
 
+
+
 #shell {
 /*	height:800px;*/
 }
@@ -369,30 +371,36 @@ h6 { font-size:18px; }
 .social {
 	display:block;
 	float:left;
-	width:25px;
-	height:25px;
-	margin-left:1px;
+	width:20px;
+	height:20px;
+	margin:5px 3px 0px 0px;
 }
 
 .social.facebook {
-	background:url(../images/nav/social-facebook.png);
+	background:url(../images/nav/temp-social/facebook.png) no-repeat;
+	
+
+}
+
+.social.instagram {
+	background:url(../images/nav/temp-social/instagram.png) no-repeat;
+	
+
 }
 
 .social.twitter {
-	background:url(../images/nav/social-twitter.png);
+	background:url(../images/nav/temp-social/twitter.png) no-repeat;
+
 }
 
-.social.pinterest {
-	background:url(../images/nav/social-pinterest.png);
+.social.vimeo {
+	background:url(../images/nav/temp-social/vimeo.png) no-repeat;
+
 }
 
-.social.flickr {
-	background:url(../images/nav/social-flickr.png);
-}
-
-.social:hover {
+/*.social:hover {
 	background-position:0px -25px;
-}
+}*/
 
 input, input:focus {
 	border:#999 1px solid;

@@ -23,7 +23,10 @@ if ($pos == true) {
 		<div class="content">
 			<div class="trew-nav-social">
 				<a href="http://www.facebook.com/TREWGear" class="social facebook"></a>
+				<a href="http://instagram.com/trew_gear" class="social instagram"></a>
 				<a href="http://twitter.com/trew_gear" class="social twitter"></a>
+				<a href="https://vimeo.com/trewgear" class="social vimeo"></a>
+
 				<!-- <a href="http://www.flickr.com/photos/33132443@N04" class="social flickr"></a> -->
 			</div>
 			<p class="note shipping-notice">FREE GROUND SHIPPING FOR US CUSTOMERS ON ORDERS OVER $100</p>
