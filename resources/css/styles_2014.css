@@ -376,24 +376,27 @@ h6 { font-size:18px; }
 
 .social.facebook {
 	background:url(../images/nav/temp-social/facebook.png) no-repeat;
-	
-
 }
-
-.social.instagram {
-	background:url(../images/nav/temp-social/instagram.png) no-repeat;
-	
-
-}
-
 .social.twitter {
 	background:url(../images/nav/temp-social/twitter.png) no-repeat;
-
 }
+.social.youtube {
+	background:url(../images/nav/temp-social/youtube.png) no-repeat;
+}
+.social.pinterest {
+	background:url(../images/nav/temp-social/pinterest.png) no-repeat;
+}
+.social.instagram {
+	background:url(../images/nav/temp-social/instagram.png) no-repeat;
+}
+.social.googleplus {
+	background:url(../images/nav/temp-social/googleplus.png) no-repeat;
+}
+
+
 
 .social.vimeo {
 	background:url(../images/nav/temp-social/vimeo.png) no-repeat;
-
 }
 
 /*.social:hover {
