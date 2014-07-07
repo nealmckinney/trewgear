@@ -4,8 +4,3 @@
 		<?php endif; ?>
 	</ul>
 </div>
-
-<script>
-	$('#cat').wrap('<div id="catSelect" class="select-skin categories" />');
-	var catSelect = new SelectSkin($("#catSelect"));
-</script>
