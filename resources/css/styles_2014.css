@@ -328,12 +328,6 @@ h6 { font-size:18px; }
 	color:#666;
 }
 
-
-.trew-nav-social {
-	float:left;
-	margin-top:10px;
-}
-
 #footer {
 	background:#ebebeb;
 	padding:80px 0 20px 0;
@@ -366,7 +360,16 @@ h6 { font-size:18px; }
 	padding:0;
 }
 
-.social {
+#newsletter {
+	background: url(../images/footer/newsletter.png);
+}
+
+/*Nav Social-----------------------------------------------------*/
+.trew-nav-social {
+	float:left;
+	margin-top:10px;
+}
+.nav.social {
 	display:block;
 	float:left;
 	width:20px;
@@ -374,28 +377,52 @@ h6 { font-size:18px; }
 	margin:5px 3px 0px 0px;
 }
 
-.social.facebook {
-	background:url(../images/nav/temp-social/facebook.png) no-repeat;
+.nav.social.facebook {
+	background:url(../images/nav/nav-social/facebook.png) no-repeat;
 }
-.social.twitter {
-	background:url(../images/nav/temp-social/twitter.png) no-repeat;
+.nav.social.twitter {
+	background:url(../images/nav/Nav-social/twitter.png) no-repeat;
 }
-.social.youtube {
-	background:url(../images/nav/temp-social/youtube.png) no-repeat;
+.nav.social.youtube {
+	background:url(../images/nav/nav-social/youtube.png) no-repeat;
 }
-.social.pinterest {
-	background:url(../images/nav/temp-social/pinterest.png) no-repeat;
+.nav.social.pinterest {
+	background:url(../images/nav/nav-social/pinterest.png) no-repeat;
 }
-.social.instagram {
-	background:url(../images/nav/temp-social/instagram.png) no-repeat;
+.nav.social.instagram {
+	background:url(../images/nav/nav-social/instagram.png) no-repeat;
 }
-.social.googleplus {
-	background:url(../images/nav/temp-social/googleplus.png) no-repeat;
+.nav.social.googleplus {
+	background:url(../images/nav/nav-social/googleplus.png) no-repeat;
 }
 
-
-
-.social.vimeo {
+/*Footer Social-----------------------------------------------------*/
+.footer.social {
+	display:block;
+	float:left;
+	width:20px;
+	height:25px;
+	margin:3px 3px 3px 0px;
+}
+.footer.social.facebook {
+	background:url(../images/footer/footer-social/facebook.png) no-repeat;
+}
+.footer.social.twitter {
+	background:url(../images/footer/footer-social/twitter.png) no-repeat;
+}
+.footer.social.youtube {
+	background:url(../images/footer/footer-social/youtube.png) no-repeat;
+}
+.footer.social.pinterest {
+	background:url(../images/footer/footer-social/pinterest.png) no-repeat;
+}
+.footer.social.instagram {
+	background:url(../images/footer/footer-social/instagram.png) no-repeat;
+}
+.footer.social.googleplus {
+	background:url(../images/footer/footer-social/googleplus.png) no-repeat;
+}
+/*.social.vimeo {
 	background:url(../images/nav/temp-social/vimeo.png) no-repeat;
 }
 

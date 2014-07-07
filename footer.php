@@ -29,13 +29,20 @@ if ($pos == true) {
 			1767 12th St. #169 Hood River, OR 97031<br>
 			*call 541-241-MTNS for our office location<br>
 			t. 541-241-6867</p>
-			e. <a href="mailto:info@trewgear.com">info@trewgear.com</a>
-			<div class="trew_nav_social">
-				<a href="http://www.facebook.com/TREWGear" class="social facebook"></a>
-				<a href="http://instagram.com/trew_gear" class="social instagram"></a>
-				<a href="http://twitter.com/trew_gear" class="social twitter"></a>
-				<a href="https://vimeo.com/trewgear" class="social vimeo"></a>
-				<!-- <a href="http://www.flickr.com/photos/33132443@N04" class="social flickr"></a> -->
+			e. <a href="mailto:info@trewgear.com">info@trewgear.com</a><br>
+				
+			<a id="newsletter" href="#"></a>
+
+
+			<div class="trew_footer_social">
+				<a href="http://www.facebook.com/TREWGear" class="footer social facebook"></a>
+				<a href="http://twitter.com/trew_gear" class="footer social twitter"></a>
+				<a href="#" class="footer social youtube"></a>
+				<a href="#" class="footer social pinterest"></a>
+				<a href="http://instagram.com/trew_gear" class="footer social instagram"></a>
+				<a href="#" class="footer social googleplus"></a>
+				<!-- <a href="https://vimeo.com/trewgear" class="footer social vimeo"></a>
+				<!-- <a href="http://www.flickr.com/photos/33132443@N04" class="footer social flickr"></a> -->
 			</div>
 			<div class="clear"></div>
 			<div class="socialIcon"><a href="http://onepercentfortheplanet.org" target="_blank"><img src="/resources/images/footer/onepercent.gif" border=0></a></div>
