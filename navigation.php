@@ -22,14 +22,12 @@ if ($pos == true) {
 	<div id="trew-nav-top">
 		<div class="content">
 			<div class="trew-nav-social">
-				<a href="http://www.facebook.com/TREWGear" class="social facebook"></a>
-				<a href="http://twitter.com/trew_gear" class="social twitter"></a>
-				<a href="#" class="social youtube"></a>
-				<a href="#" class="social pinterest"></a>
-				<a href="http://instagram.com/trew_gear" class="social instagram"></a>
-				<a href="#" class="social googleplus"></a>
-
-
+				<a href="http://www.facebook.com/TREWGear" class="nav social facebook"></a>
+				<a href="http://twitter.com/trew_gear" class="nav social twitter"></a>
+				<a href="#" class="nav social youtube"></a>
+				<a href="#" class="nav social pinterest"></a>
+				<a href="http://instagram.com/trew_gear" class="nav social instagram"></a>
+				<a href="#" class="nav social googleplus"></a>
 				<!-- <a href="https://vimeo.com/trewgear" class="social vimeo"></a>
 				<!-- <a href="http://www.flickr.com/photos/33132443@N04" class="social flickr"></a> -->
 			</div>
