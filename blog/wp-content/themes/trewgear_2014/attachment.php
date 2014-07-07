@@ -4,8 +4,14 @@
 	<?php 
 	require_once("../navigation.php");
 	?>
-<div id="blogHeader"></div>
-	<div id="container">
+	<div class="page-header">
+		<div class="content overflow-hidden">
+			<div class="vertical-center">
+				<h1 class="title white">Blog</h1>
+			</div>
+		</div>
+	</div>
+	<div class="content overflow-hidden">
 		<div id="content">
 
 <?php the_post() ?>

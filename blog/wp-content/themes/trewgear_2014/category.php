@@ -2,9 +2,15 @@
 
 <div id="outer">
 	<?php require_once("../navigation.php"); ?>
-	<div id="blogHeader"></div>
+	<div class="page-header">
+		<div class="content overflow-hidden">
+			<div class="vertical-center">
+				<h1 class="title white">Blog</h1>
+			</div>
+		</div>
+	</div>
 	
-	<div id="container">
+	<div class="content overflow-hidden">
 		<div id="mainContent">
 			
 			
@@ -29,7 +35,7 @@
 					<span class="meta-sep"></span>
 					<span class="comments-link"><?php comments_popup_link( __( '0 Comments', 'sandbox' ), __( '1 Comments', 'sandbox' ), __( 'Comments (%)', 'sandbox' ) ) ?></span>
 				</div>
-				<div class="header1"><a href="<?php the_permalink() ?>" title="<?php printf( __( 'Permalink to %s', 'sandbox' ), the_title_attribute('echo=0') ) ?>" rel="bookmark"><?php the_title() ?></a></div>
+				<a href="<?php the_permalink() ?>" title="<?php printf( __( 'Permalink to %s', 'sandbox' ), the_title_attribute('echo=0') ) ?>" rel="bookmark"><h3 class="entry-title"><?php the_title() ?></h3></a>
 				
 				<div class="entry-content">
 <?php the_excerpt(__( 'Read More <span class="meta-nav">&raquo;</span>', 'sandbox' )) ?>

@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-	<div id="container">
+	<div class="content overflow-hidden">
 		<div id="content">
 
 <?php the_post() ?>

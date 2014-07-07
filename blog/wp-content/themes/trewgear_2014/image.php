@@ -5,9 +5,15 @@
 	<?php 
 	require_once("../navigation.php");
 	?>
-<div id="blogHeader"></div>
+	<div class="page-header">
+		<div class="content overflow-hidden">
+			<div class="vertical-center">
+				<h1 class="title white">Blog</h1>
+			</div>
+		</div>
+	</div>
 
-	<div id="container">
+	<div class="content overflow-hidden">
 		<div id="mainContent">
 <?php the_post() ?>
 

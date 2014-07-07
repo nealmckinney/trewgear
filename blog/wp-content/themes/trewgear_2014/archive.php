@@ -10,7 +10,7 @@
 			</div><!-- flashNav -->
 		</div><!-- navLayer -->
 	
-	<div id="container">
+	<div class="content overflow-hidden">
 		<div id="content">
 
 <?php the_post() ?>
@@ -41,7 +41,7 @@
 
 				</div>
 				
-				<div class="header1"><a href="<?php the_permalink() ?>" title="<?php printf( __( 'Permalink to %s', 'sandbox' ), the_title_attribute('echo=0') ) ?>" rel="bookmark"><?php the_title() ?></a></div>
+				<a href="<?php the_permalink() ?>" title="<?php printf( __( 'Permalink to %s', 'sandbox' ), the_title_attribute('echo=0') ) ?>" rel="bookmark"><h3 class="entry-title"><?php the_title() ?></h3></a>
 				
 				
 				

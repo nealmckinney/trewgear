@@ -13,7 +13,7 @@
 		</div><!-- navLayer -->
 	
 	<div id="htmlLayer" style="padding-top:93px; z-index:1">
-	<div id="container" style="left:117px; top:40px">	
+	<div class="content overflow-hidden" style="left:117px; top:40px">	
 		<div id="content2">
 			
 			
