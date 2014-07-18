@@ -5,20 +5,29 @@ function ButtonGroup(elements) {
 }
 
 ButtonGroup.prototype.toString = function() {
-	return "ButtonGroup: " + this.buttonClass;
+	return "ButtonGroup";
 }
 
 ButtonGroup.prototype.initObjects = function() {
-	EventDispatcher.init(this);
+	if (!this.eventInit) {
+		EventDispatcher.init(this);
+		this.eventInit = true;
+	}
 	var len = this.elements.length;
 	for (var i=0; i < len; i++) {
 		var element = this.elements[i];
-		$(element).click(proxy(this.onBtnClick, this, i));
+		$(element).on("click", {index:i}, this.onBtnClick.bind(this));
 	};
 }
 
 
 // ACTIONS =====================================================================================================================
+
+ButtonGroup.prototype.updateButtons = function(elements) {
+	this.elements = elements;
+	this.initObjects();
+};
+
 
 ButtonGroup.prototype.selectButton = function(index) {
 	if (this.selectedIndex != null) {
@@ -67,11 +76,23 @@ ButtonGroup.prototype.getButton = function(index) {
 	return this.elements[index];
 }
 
+ButtonGroup.prototype.getCurrentButton = function() {
+	return this.elements[this.selectedIndex];
+}
+
+ButtonGroup.prototype.clear = function() {
+	if (this.selectedIndex != null) {
+		var prevElement = this.elements[this.selectedIndex];
+		if ($(prevElement).hasClass("selected")) $(prevElement).removeClass("selected");
+		this.selectedIndex = null;
+	}
+}
+
 
 // EVENTS ======================================================================================================================
 
-ButtonGroup.prototype.onBtnClick = function(e, index) {
-	if (!index) index = 0; // this is for a bug in proxy
+ButtonGroup.prototype.onBtnClick = function(e) {
+	var index = e.data.index;
 	if (index == this.selectedIndex) return;
 	var element = this.elements[index];
 	if ($(element).hasClass("disabled")) return;

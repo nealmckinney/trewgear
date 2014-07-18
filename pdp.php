@@ -222,23 +222,18 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		
 		$sizes = $colors[0]->sizes;
 		$len = count($sizes);
-		echo '<div class="select-skin" id="sizeSelectWrap">';
-		echo '<select id="sizeSelect">';
-		echo "<option value=''>SELECT A SIZE</option>";
+		echo '<div class="rotation-nav sizeSelect" id="sizeSelect">';
 		for ($i=0; $i < $len; $i++) {
 			$sku = $sizes[$i]->sku;
 			$qty = $sizes[$i]->QtyAvailable;
 			$name = $sizes[$i]->sizeName;
-			echo "<option value='{$sku},{$qty},{$name}'>SIZE {$name}</option>";
+			echo "<div class='multi-nav-item size' data-size='{$name}' data-value='{$sku},{$qty},{$name}'>{$name}<div class='indicator'></div></div>";
 		}
-		echo '</select>';
 		echo '</div>';
 		echo "<div class='clear'></div>";
 		
 		// color nav:
-		echo '<div class="select-skin" id="colorSelectWrap">';
-		echo '<select id="colorSelect">';
-		echo "<option value='-1'>SELECT A COLOR</option>";
+		echo '<div class="rotation-nav colorSelect" id="colorSelect">';
 		$len = count($colors);
 		for ($i=0; $i < $len; $i++) {
 			$imagePath = $colors[$i]->images[0];
@@ -246,25 +241,9 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 				$zoomPath = $colors[$i]->images[2];
 				$hex = str_replace("#", "", $colors[$i]->colorValue);
 				$colorName = $colors[$i]->colorName;
-				// echo "<div class='colorThumb' data-image='{$imagePath}' data-zoom='{$zoomPath}' data-name='{$colorName}' data-index='{$i}' style='background:#{$hex};'></div>";
-				echo "<option value='{$i}'>COLOR {$colorName}</option>";
+				echo "<div class='multi-nav-item color' data-value='{$i}' data-name='{$colorName}' style='background-color:#{$hex};'><div class='indicator'></div></div>";
 			}
 		}
-		echo "</select>";
-		echo "</div>";
-		
-		echo '<div id="colorNav">';
-		$len = count($colors);
-		for ($i=0; $i < $len; $i++) {
-			$imagePath = $colors[$i]->images[0];
-			if (strpos($imagePath, "disabled") === false) {
-				$zoomPath = $colors[$i]->images[2];
-				$hex = str_replace("#", "", $colors[$i]->colorValue);
-				$colorName = $colors[$i]->colorName;
-				echo "<a class='colorThumb' href='' title='{$colorName}' data-index='{$i}' style='background:#{$hex};'></a>";
-			}
-		}
-		echo "<div class='background'></div>";
 		echo "</div>";
 
 		echo "<div class='clear'></div>";
@@ -379,14 +358,17 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 	
 	<script>
 	
+	var sizeSelect;
+	var colorSelect;
+	
 	function onSizeSelectChange() {
-		var values = $('#sizeSelect').val().split(",");
-		console.log("values: "+values);
+		var index = sizeSelect.selectedIndex;
+		var btn = sizeSelect.getCurrentButton();
+		var values = $(btn).data("value").split(",");
 		if (values.length < 2) return;
 		var sku = values[0];
 		var qty = values[1];
-		window.selectedSize = values[2];
-		console.log("onSizeSelectChange sku: " + sku + " qty: " + qty);
+		window.selectedSize = $(btn).data("size");
 		var buyBtn = $("#buyBtn");
 		if (!buyBtn.hasClass("delayed")) {
 			if (qty == 0) {
@@ -400,16 +382,10 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 	}
 	
 	function onColorSelectChange() {
-		console.log("onColorSelectChange");
-		var index = $('#colorSelect').val();
+		var index = colorSelect.selectedIndex;
 		if (index == -1) index = 0;
-		console.log("index: "+index);
-		console.log("colors: "+colors);
 		var color = colors[index];
 		if (!color) return;
-		
-		
-		console.log("color: "+color);
 		
 		$(".colorThumb").removeClass("selected");
 		$(".colorThumb[data-index*="+index+"]").addClass("selected");
@@ -437,20 +413,19 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		
 
 		$("#sizeSelect").empty();
-		$("#sizeSelect").append("<option value=''>SELECT A SIZE</option>");
 		var sizes = colors[index].sizes;
 		var len = sizes.length;
 		for (var i=0; i < len; i++) {
-			$("#sizeSelect").append("<option value='"+sizes[i].sku+","+sizes[i].QtyAvailable+","+sizes[i].sizeName+"'>SIZE "+sizes[i].sizeName+"</option>");
+			$("#sizeSelect").append("<div class='multi-nav-item size' data-index='"+i+"' data-size='"+sizes[i].sizeName+"' data-value='"+sizes[i].sku+","+sizes[i].QtyAvailable+","+sizes[i].sizeName+"'>"+sizes[i].sizeName+"<div class='indicator'></div></div>");
 		};
 		
+		sizeSelect.updateButtons($("#sizeSelect").find(".multi-nav-item"));
+		
 		if (window.selectedSize) {
-			$("#sizeSelect option").filter(function() {
-			    var values = $(this).val().split(",");
-			    return values[2] == window.selectedSize; 
-			}).attr('selected', true);
+			var selected = $("#sizeSelect").find(".multi-nav-item[data-size='"+window.selectedSize+"']");
+			var triggerIndex = (selected.length == 1) ? selected.data("index") : 0;
 		}
-		sizeSelect.onSelectChange();
+		sizeSelect.triggerButton(triggerIndex);
 		
 		
 		//populate image nav:
@@ -498,10 +473,9 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 	
 	var root = this;
 	$(document).ready(function() {
-		var sizeSelect = new SelectSkin($("#sizeSelectWrap"));
-		sizeSelect.addEventListener("onChange", root, root.onSizeSelectChange);
-		sizeSelect.onSelectChange();
-		root.sizeSelect = sizeSelect;
+		sizeSelect = new ButtonGroup($("#sizeSelect").find(".multi-nav-item"));
+		sizeSelect.addEventListener("click", root, root.onSizeSelectChange);
+		sizeSelect.triggerButton(0);
 		//sizeSelect.onChange = onSizeSelectChange;
 		// show first color:
 		$("#productBackground").css("opacity", 0);
@@ -510,21 +484,9 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		var colors = jQuery.parseJSON(<?php echo json_encode($colorsTest); ?>);
 		root.colors = colors;
 		
-		var colorSelect = new SelectSkin($("#colorSelectWrap"));
-		colorSelect.addEventListener("onChange", root, root.onColorSelectChange);
-		//colorSelect.onSelectChange();
-
-		$(".colorThumb").on("click", function(e) {
-			e.preventDefault();
-			var index = $(this).attr("data-index");
-			console.log("index: "+index);
-			$('#colorSelect').val(index);
-			colorSelect.onSelectChange();
-		});
-		
-		//var color1 = $("#colorNav").find(".colorThumb")[0];
-		//$(color1).trigger("click");
-		colorSelect.onSelectChange();
+		colorSelect = new ButtonGroup($("#colorSelect").find(".multi-nav-item"));
+		colorSelect.addEventListener("click", root, root.onColorSelectChange);
+		colorSelect.triggerButton(0);
 		
 		$(window).resize(function() {
 		  onResize();
@@ -560,7 +522,6 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		
 		$(".image-item").on("click", function() {
 			var src = $(this).attr("src");
-			console.log("src: "+src);
 			$("#productImage").attr("src", src);
 		});
 		
@@ -608,7 +569,6 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 	    //ec.cart.triggerUpdateUI();
 	    ec.clientid = 'trewgear';
 	    ec.ready(function () {
-			console.log("ec ready");
 	        // var hash = window.location.hash.substr(1);
 	        // ec.getProduct({
 	        //     productURL: hash
@@ -631,8 +591,6 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 			var color = $('#colorSelect').val();
 	        var qty   = 1;//$('.quantity-box select').val();
 	
-			//console.log("sku: "+sku);
-			console.log("color: "+color);
 			//return;
 
 	        if (sku == "select size" || !sku) {
@@ -645,16 +603,15 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 	            return;
 			}
 	
-			console.log("sku: "+sku);
 	        //ec.loadingModal(ec.page.messages.addToCartLoading);
 	        ec.cart.snapshot();
 	        ec.cart.addQuantity(sku, parseInt(qty));
 
 	        ec.validateCart(function (data) {
-			console.log("ec.validateCart data: "+JSON.stringify(data));
+			//console.log("ec.validateCart data: "+JSON.stringify(data));
 	            if (data.success == false) {
 	                ec.cart.undo();
-					console.log("data.errors: "+data.errors);
+					//console.log("data.errors: "+data.errors);
 					var error = JSON.stringify(data.errors, null, 2);
 	                alert("Error: " + error);
 					Shadowbox.open({
@@ -669,7 +626,7 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 	})(emeraldcode);
 	
 	var promoCookie = $.cookie("promotion");
-	console.log("promoCookie: "+promoCookie);
+	//console.log("promoCookie: "+promoCookie);
 	</script>
 	
 </body>
