@@ -11,13 +11,6 @@ $authcode = $_GET["authcode"];
 <?php require_once("meta.php"); ?>
 
 <link href="//api.hubsoft.ws/demo/css/checkout.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
-
-<script type="text/javascript" src="/resources/js/vendor/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="/resources/js/jquery-more.js"></script>
-<script type="text/javascript" src="/resources/js/vendor/jquery.cookie.js"></script>
-<script type="text/javascript" src="/resources/js/vendor/modernizr-2.6.2.min.js"></script>
-
 
 </head>
 <body>
@@ -32,23 +25,15 @@ $authcode = $_GET["authcode"];
 		            <h3>TREW Pro Program</h3>
 					<h5 style="color:#000;">Enter your one time use code here:</h5>
 		        </div>
-		        <div class="modal-body">
+		        <div class="modal-body" style="margin-bottom:15px;">
 		            <input type="text" id="authCode" required="" class="email" placeholder="promo code">
 		        </div>
 		        <div class="modal-footer">
-		            <button type="submit" class="btn btn-primary" id="promoBtn">Submit</button>
+		            <button type="submit" class="button radius animated" id="promoBtn">Submit</button>
 		        </div>
 				<h3 id="message" style="color:#000; display:none;">Looking up code...</h3>
 		    </form>
-			
-			
-			<!-- this is the required script files to run the demo -->
-			<!-- <script type="text/javascript" src="/resources/js/json2.js"></script>
-			<script src="//api.hubsoft.ws/js/cartgui.js"></script>
-			<script src="//api.hubsoft.ws/js/api.js"></script> -->
-			<script src="//api.hubsoft.ws/@js"></script>
-			
-			<script type="text/javascript" src="/resources/js/main.js"></script>
+
 
 
 			<script>
@@ -78,18 +63,9 @@ $authcode = $_GET["authcode"];
 				
 				
 				var authcode = "<?php echo $authcode; ?>";
-				//console.log("authcode: "+authcode);
 				emeraldcode.clientid = 'trewgear';
                 emeraldcode.ready(function () {
-							//                     emeraldcode.validateAuthCode({code : authcode}, function(data) {
-							//                         if (data.success) {
-							// var promoCookie = $.cookie("promotion");
-							//                             $("#message").html("Code has been validated. Shop now!");
-							// setTimeout(goHome, 2000);
-							//                         } else {
-							//                             $("#message").html('bad authorization code: ' + authcode);
-							//                         }
-							//                     });
+
                 });
             })();
 

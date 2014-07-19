@@ -1,3 +1,5 @@
+<?php require_once("functions.php"); ?>
+
 <?php
 
 function country_code_to_country( $code ){
@@ -253,50 +255,36 @@ function country_code_to_country( $code ){
 }
 
 $json = "http://trewgear.hubsoft.ws/api/v1/dealers";
-//$jsonfile = file_get_contents($json);
-$ch =  curl_init($json);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-$result = curl_exec($ch);
+$result = get_content("cache/dealers.txt", $json, 3);
 $info = json_decode($result);
 $dealers = $info->dealers;
+
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!doctype html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>TREW | Ski/Snowboard Outerwear – Hood River, OR</title>
 <?php require_once("meta.php"); ?>
-<link href="resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
-<link href="/resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="/resources/js/vendor/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="/resources/js/jquery-more.js"></script>
-<script type="text/javascript" src="/resources/js/vendor/modernizr-2.6.2.min.js"></script>
-
-<!-- <script type="text/javascript" src="resources/js/json2.js"></script>
-<script src="//api.hubsoft.ws/js/cartgui.js"></script>
-<script src="//api.hubsoft.ws/js/api.js"></script>
-<script src="//api.hubsoft.ws/js/plugins/ejs.js"></script> -->
-<script src="//api.hubsoft.ws/@js"></script>
-
-<script type="text/javascript" src="/resources/js/main.js"></script>
-
 </head>
 <body>
-	
-	<!-- {"AccountCode":"EU-1","AccountName":"black sheep sports","City":"Munchen","CountryCode":"DE","Latitude":48.1286,"Longitude":11.5731,"Notes":"","PhoneNumber":"+49 151 24 13 13 29","StateCode":"","StoreCode":"EU-1","StoreName":"black sheep sports","StoreURL":"www.blacksheepsports.de","Street":"Baaderstrase 12","Zip":"80469","AccountNotes":null} -->
-	
-<div id="outer">
+
 
 	<?php 
 	require_once("navigation.php");
 	?>
-	<div id="content" class="dealersPage" style="padding-right:0;">
-		<div class="page-marquee dealers"></div>
-		<div class="content">
-			<p class="photoCredit about">Photo By Lance Koudele</p>
-			<h2>Dealers</h2>
-			<div class="dealers">
+	
+	<div class="page-header">
+		<div class="content overflow-hidden">
+			<div class="vertical-center">
+				<h1 class="title white">Dealers</h1>
+			</div>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="dealers">
 			<?php
 			$len = count($dealers);
 			for ($i=0; $i < $len; $i++) {
@@ -319,24 +307,25 @@ $dealers = $info->dealers;
 				echo "</p></div>";
 			}
 			?>
-			</div>
 		</div>
-	</div><!-- content -->
-	<div class="clear">&nbsp;</div>
+	</div>
+
 	<?php 
 	require_once("footer.php");
 	?>
-	
-</div><!-- outer -->
+
 	
 </body>
+</html>
 
-<script type="text/javascript" src="resources/js/jquery.columnizer.min.js"></script>
+<script src="<?php echo $rootpath?>resources/js/jquery.columnizer.js"></script>
 
 <script>
-	$('.dealer').addClass("dontsplit");
-	$(".dealers").columnize({
-        width: 620,
-        columns: 3
-    });
+	$(document).ready(function() {
+		$('.dealer').addClass("dontsplit");
+		$(".dealers").columnize({
+	        width: 620,
+	        columns: 3
+	    });
+	});
 </script>
