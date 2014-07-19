@@ -10,6 +10,13 @@ You should have received a copy of the GNU General Public License along with SAN
 */
 
 // Produces a list of pages in the header without whitespace
+
+function new_excerpt_more( $more ) {
+	return '... <p><a class="cta read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '<span class="arrow"></span></a></p>';
+}
+add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+
 function sandbox_globalnav() {
 	if ( $menu = str_replace( array( "\r", "\n", "\t" ), '', wp_list_pages('title_li=&sort_column=menu_order&echo=0') ) )
 		$menu = '<ul>' . $menu . '</ul>';

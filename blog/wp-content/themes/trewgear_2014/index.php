@@ -12,25 +12,26 @@
 	</div>
 	<div class="content overflow-hidden">
 	<div id="mainContent">
-
+	<?php $count = 0;?>
 	<?php while ( have_posts() ) : the_post() ?>
-			<div class="standardPost">
+			<div class="standardPost<?php if ($count > 0) { echo " secondary"; }?>">
+				<a href="<?php the_permalink() ?>" title="<?php printf( __('Permalink to %s', 'sandbox'), the_title_attribute('echo=0') ) ?>" rel="bookmark"><h3 class="entry-title"><?php the_title() ?></h3></a>
 				<div class="entry-meta-sm">
-					<span class="entry-date"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>"><?php unset($previousday); printf( __( '%1$s &#8211; %2$s', 'sandbox' ), the_date( '', '', '', false ), get_the_time() ) ?></abbr></span>
-					<span class="meta-sep"></span>
 					<span>by <?php the_author(); ?></span>
 					<span class="meta-sep"></span>
-					<?php _e('Category', 'pyrmont_v2'); ?>:&nbsp;<span class="category"><?php the_category(', ') ?></span>
+					<span class="entry-date"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>"><?php unset($previousday); printf( __( '%1$s &#8211; %2$s', 'sandbox' ), the_date( '', '', '', false ), get_the_time() ) ?></abbr></span>
 					<span class="meta-sep"></span>
-					<span class="comments-link"><?php comments_popup_link( __( '0 Comments', 'sandbox' ), __( '1 Comments', 'sandbox' ), __( 'Comments (%)', 'sandbox' ) ) ?></span>
+					<span class="category"><?php the_category(', ') ?></span>
+					<!--<span class="meta-sep"></span>-->
+					<span class="comments-link" style="display:none;"><?php comments_popup_link( __( '0 Comments', 'sandbox' ), __( '1 Comments', 'sandbox' ), __( 'Comments (%)', 'sandbox' ) ) ?></span>
 				</div>
-				<a href="<?php the_permalink() ?>" title="<?php printf( __('Permalink to %s', 'sandbox'), the_title_attribute('echo=0') ) ?>" rel="bookmark"><h3 class="entry-title"><?php the_title() ?></h3></a>
 				<div class="entry-content">
-					<?php the_content( __( 'Read More <span class="meta-nav">&raquo;</span>', 'sandbox' ) ) ?>
+					<?php the_excerpt( __( 'Read More <span class="meta-nav">&raquo;</span>', 'sandbox' ) ) ?>
 					<?php wp_link_pages('before=<div class="page-link">' . __( 'Pages:', 'sandbox' ) . '&after=</div>') ?>
 				</div>
 			</div><!-- .standardPost -->
 			<?php comments_template() ?>
+			<?php $count++;?>
 	<?php endwhile; ?>
 
 		<div id="nav-below" class="navigation">

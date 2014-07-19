@@ -1,23 +1,45 @@
 
+h3.entry-title { font-size:36px; }
+h3.widgettitle {
+	font-size:21px;
+	border-bottom:#000 2px solid;
+}
+
+a.read-more {
+	display:inline-block;
+	font-weight:600;
+	font-weight:18;
+	height:30px;
+	line-height:30px;
+}
+
+a.read-more.cta .arrow {
+	padding-left:25px;
+}
 
 #mainContent {
-	width:645px;
+	width:730px;
 	float:left;
 	margin-bottom:40px;
 }
 
 #sidebar {
-	width:305px;
+	width:260px;
 	float:right;
-	padding-top:20px;
+/*	padding-top:20px;*/
 }
 
 #sidebar ul li {
 	display:block;
 }
 
+#sidebar ul li a {
+	font-size:14px;
+	line-height:24px;
+}
+
 #sidebar ul li.widget {
-	border-top:#000 1px solid;
+/*	border-top:#000 1px solid;*/
 	padding:15px 0;
 }
 
@@ -93,6 +115,11 @@
 .standardPost {
 	margin:0px 0px 40px 0px;
 /*	width:563px;*/
+	border-bottom:#000 2px solid;
+}
+
+.standardPost.secondary {
+	
 }
 
 
@@ -139,7 +166,12 @@ left:auto;
 }
 
 
-
+.entry-meta-sm * {
+	font-size:12px;
+	font-weight:100;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
 
 
 .entry-meta-text {
@@ -148,12 +180,17 @@ left:auto;
 }
 
 .meta-sep {
+	position:relative;
+	top:-6px;
 	display:inline-block;
 	vertical-align: bottom;
-	padding: 0px 5px 0px 5px;
-	width:1px;
-	height:20px;
-	background:url(../../../../resources/images/blog/verticalDividerShort.gif) top center no-repeat;
+	 width:6px;
+	height:6px;
+	margin:0 5px;
+	background:#000;
+	-webkit-border-radius:999px;
+	   -moz-border-radius:999px;
+	        border-radius:999px;
 }
 
 .entry-date {
