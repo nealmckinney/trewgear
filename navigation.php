@@ -49,7 +49,7 @@ if ($pos == true) {
 			    <li><a class="animated" href="/productwall/mens">MEN</a></li>
 				<li><a class="animated" href="/productwall/womens">WOMEN</a></li>
 				<li><a class="animated" href="/productwall/accessories">ACCESSORIES</a></li>
-			    <li><a class="animated" href="/mission">ABOUT US</a></li>
+			    <li><a class="animated" href="/about-us">ABOUT US</a></li>
 				<li><a class="animated" href="/blog">BLOG</a></li>
 				<li><a class="animated" href="/dealers">DEALERS</a></li>
 				<li><a class="animated" href="/tour">TOUR</a></li>

@@ -29,6 +29,10 @@ p.intro {
 	font-size:21px;
 }
 
+b {
+	font-weight:600;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, sans-serif;
 	font-weight: 600;
@@ -611,6 +615,53 @@ input, input:focus {
 
 .multi-nav-item.selected {
 	cursor:default;
+}
+
+.about-us-wrap {
+	background:url(../images/about/about-bg.jpg) top center;
+	min-height:1339px;
+	padding-top:190px;
+}
+
+.about-content {
+	background-color:#000;
+	background-color:rgba(0,0,0,0.9);
+	background-image:url(../images/about/about-logo.png);
+	background-position:30px 50px;
+	background-repeat:no-repeat;
+	width:1110px;
+	margin:0 auto;
+}
+
+.about-content .inner {
+	padding:60px 100px 50px 190px;
+}
+
+.about-content * {
+	color:#fff;
+	font-size:18px;
+	line-height:24px;
+}
+
+.about-content a {
+	font-weight:600px;
+	display:block;
+	margin-bottom:15px;
+	padding-left:40px;
+	height:30px;
+	line-height:30px;
+}
+
+.about-content a.about-social {
+	background:url(../images/about/about-share.png) left center no-repeat;
+}
+
+.about-content a.about-video {
+	background:url(../images/about/about-watch.png) left center no-repeat;
+}
+
+.about-content a.about-pdf {
+	background:url(../images/about/about-pdf.png) left center no-repeat;
 }
 
 
