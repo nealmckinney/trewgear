@@ -555,6 +555,8 @@ h6 { font-size:18px; }
 }
 
 input, input:focus {
+	font-size:16px;
+	padding:4px;
 	border:#999 1px solid;
 	background-color:none;
 	outline:none;
@@ -663,6 +665,66 @@ input, input:focus {
 .about-content a.about-pdf {
 	background:url(../images/about/about-pdf.png) left center no-repeat;
 }
+
+.team-grid {
+	overflow:hidden;
+	padding:40px 0px;
+	margin:0 -15px;
+}
+
+.team-member {
+	width:360px;
+	margin:10px;
+	float:left;
+}
+
+.team-member .title {
+	text-align:center;
+	font-size:21px;
+	text-transform:uppercase;
+}
+
+.team-member .image {
+	width:360px;
+	height:360px;
+	margin-bottom:30px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+ul.pullright.nav.right-nav {
+    position:absolute;
+	font-size:10px;
+	line-height:14px;
+	top:10px;
+	right:0;
+}
+
+ul.pullright.nav.right-nav li {
+	list-style:none;
+	float:left;
+	margin-left:10px;
+}
+
+ul.pullright.nav.right-nav li a {
+	color:#969696;
+	text-decoration:none;
+}
+
+
+#cartStatus {
+	background:url(../images/ui/cart.png) 0px 0px no-repeat;
+	padding-left:25px;
+	margin-top:15px;
+	color:#969696;
+	font-size:17px;
+	font-family:"ExpansionN11D" !important;
+	font-weight:normal !important;
+	text-transform:uppercase;
+}
+
+#cartStatusLi, ul.pullright.nav.right-nav li.loggedin, ul.pullright.nav.right-nav li.loggedout { display:none; }
 
 
 /* OVERRIDING SUB CLASSES: */

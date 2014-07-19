@@ -36,7 +36,7 @@ $(document).ready(function() {
 			navCollapse.animate({"height":0}, 300, "easeOutExpo");
 		} else {
 			navCollapse.addClass("open");
-			var height = $("#trew-nav").height();
+			var height = $(".nav-inner").height();
 			navCollapse.animate({"height":height}, 500, "easeOutExpo");
 			setTimeout(function() {
 				navCollapse.addClass("auto");
