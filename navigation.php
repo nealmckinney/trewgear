@@ -42,27 +42,27 @@ if ($pos == true) {
         <div class="icon-bar"></div>
     </div>
 	
-	<a id="trew-nav-logo" href="/"></a>
+	<a id="trew-nav-logo" href="<?php echo $rootpath?>"></a>
 	<div id="trew-nav-wrap">
 		<div class="nav-collapse">
 			<div class="nav-inner">
 				<ul id="trew-nav">
-				    <li><a class="animated" href="/productwall/mens">MEN</a></li>
-					<li><a class="animated" href="/productwall/womens">WOMEN</a></li>
-					<li><a class="animated" href="/productwall/accessories">ACCESSORIES</a></li>
-				    <li><a class="animated" href="/about-us">ABOUT US</a></li>
-					<li><a class="animated" href="/blog">BLOG</a></li>
-					<li><a class="animated" href="/dealers">DEALERS</a></li>
-					<li><a class="animated" href="/tour">TOUR</a></li>
-					<li><a class="animated last" href="/team">TEAM</a></li>
+				    <li><a class="animated" href="<?php echo $rootpath?>productwall/mens">MEN</a></li>
+					<li><a class="animated" href="<?php echo $rootpath?>productwall/womens">WOMEN</a></li>
+					<li><a class="animated" href="<?php echo $rootpath?>productwall/accessories">ACCESSORIES</a></li>
+				    <li><a class="animated" href="<?php echo $rootpath?>about-us">ABOUT US</a></li>
+					<li><a class="animated" href="<?php echo $rootpath?>blog">BLOG</a></li>
+					<li><a class="animated" href="<?php echo $rootpath?>dealers">DEALERS</a></li>
+					<li><a class="animated" href="<?php echo $rootpath?>tour">TOUR</a></li>
+					<li><a class="animated last" href="<?php echo $rootpath?>team">TEAM</a></li>
 				</ul>
 			
 				<ul class="nav pullright right-nav">
 			        <li class="loggedin"><a>Welcome, <span class="username"></span></a></li>
-			        <li class="loggedin"><a href="/account">My Account</a></li>
+			        <li class="loggedin"><a href="<?php echo $rootpath?>account">My Account</a></li>
 			        <li class="loggedin signoutlink"><a href="#">Sign Out</a></li>
-			        <li class="loggedout"><a href="/account">Sign In</a></li>
-			        <li id="cartStatusLi"><a id="cartStatus" href="/cart"><i class="icon-shopping-cart icon-white"></i> Cart <span class="count badge badge-inverse">0</span></a></li>
+			        <li class="loggedout"><a href="<?php echo $rootpath?>account">Sign In</a></li>
+			        <li id="cartStatusLi"><a id="cartStatus" href="<?php echo $rootpath?>cart"><i class="icon-shopping-cart icon-white"></i> Cart <span class="count badge badge-inverse">0</span></a></li>
 			    </ul>
 			</div>
 		

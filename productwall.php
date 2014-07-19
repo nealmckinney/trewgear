@@ -58,19 +58,19 @@ $products = $info->products;
 
 			<h4 class="title wall-category">Hard Shell</h4>
 			<?php 
-			getCategories($products, "9296");
+			getCategories($products, "9296", false);
 			?>
 			<div class="clear"></div>
 			
 			<h4 class="title wall-category">Insulated Shell</h4>
 			<?php 
-			getCategories($products, "9449");
+			getCategories($products, "9449", false);
 			?>
 			<div class="clear"></div>
 			
 			<h4 class="title wall-category">Layering / Lifestyle</h4>
 			<?php 
-			getCategories($products, "9365");
+			getCategories($products, "9365", false);
 			?>
 			<div class="clear"></div>
 			
@@ -78,19 +78,19 @@ $products = $info->products;
 			
 			<h4 class="title wall-category">Hard Shell</h4>
 			<?php 
-			getCategories($products, "9381,9383");
+			getCategories($products, "9381,9383", false);
 			?>
 			<div class="clear"></div>
 			
 			<h4 class="title wall-category">Insulated Shell</h4>
 			<?php 
-			getCategories($products, "9453");
+			getCategories($products, "9453", false);
 			?>
 			<div class="clear"></div>
 			
 			<h4 class="title wall-category">Layering / Lifestyle</h4>
 			<?php 
-			getCategories($products, "9382");
+			getCategories($products, "9382", false);
 			?>
 			<div class="clear"></div>
 		
@@ -98,7 +98,7 @@ $products = $info->products;
 			
 			<h4 class="title wall-category">Accessories</h4>
 			<?php 
-			getCategories($products);
+			getCategories($products, null, false);
 			?>
 			<div class="clear"></div>
 

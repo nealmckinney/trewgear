@@ -47,22 +47,22 @@ if ($pos == true) {
 		</div>
 		<div class="column">
 			<ul class="footer-nav">
-				<li><a href="/productwall/mens">Men</a></li>
-				<li><a href="/productwall/womens">Women</a></li>
-				<li><a href="/productwall/accessories">Accessories</a></li>
-				<li><a href="/about-us">About Us</a></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/warranty">Warranty</a></li>
-				<li><a href="/dealers">Dealers</a></li>
-				<li><a href="/affiliateprogram">Affiliate Program</a></li>
+				<li><a href="<?php echo $rootpath?>productwall/mens">Men</a></li>
+				<li><a href="<?php echo $rootpath?>productwall/womens">Women</a></li>
+				<li><a href="<?php echo $rootpath?>productwall/accessories">Accessories</a></li>
+				<li><a href="<?php echo $rootpath?>about-us">About Us</a></li>
+				<li><a href="<?php echo $rootpath?>blog">Blog</a></li>
+				<li><a href="<?php echo $rootpath?>warranty">Warranty</a></li>
+				<li><a href="<?php echo $rootpath?>dealers">Dealers</a></li>
+				<li><a href="<?php echo $rootpath?>affiliateprogram">Affiliate Program</a></li>
 			</ul>
 		</div>
 		<div class="column">
 			<ul class="footer-nav">
-				<li><a href="/dealers">Dealers</a></li>
-				<li><a href="/team">Team</a></li>
-				<li><a href="/warranty">Warranty & Returns</a></li>
-				<li><a href="/affiliateprogram">Affiliate Program</a></li>
+				<li><a href="<?php echo $rootpath?>dealers">Dealers</a></li>
+				<li><a href="<?php echo $rootpath?>team">Team</a></li>
+				<li><a href="<?php echo $rootpath?>warranty">Warranty & Returns</a></li>
+				<li><a href="<?php echo $rootpath?>affiliateprogram">Affiliate Program</a></li>
 			</ul>
 		</div>
 		<div class="clear"></div>
