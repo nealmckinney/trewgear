@@ -5,14 +5,16 @@ p a {
 }
 
 #pdpWrap {
-	background:#fff url(../images/home/2013/slideshow-bg.jpg) top center no-repeat;
-	min-width:980px;
-	margin-top:40px;
+/*	background:#fff url(../images/home/2013/slideshow-bg.jpg) top center no-repeat;*/
+/*	min-width:980px;*/
+	padding-top:65px;
+	padding-bottom:20px;
+	min-height:0;
 }
 
 #pdp {
 /*	background:#fff;*/
-	width:980px;
+	width:1110px;
 	margin:0 auto;
 	margin-bottom:60px;
 	min-height:550px;
@@ -20,10 +22,11 @@ p a {
 }
 
 #pdp p {
-	font-size:14px;
-	line-height:22px;
-	color:#000;
+	font-size:18px;
+	line-height:25px;
+	color:#6f7372;
 	margin-bottom:15px;
+/*	font-weight:300;*/
 /*	margin-right:15px;*/
 }
 
@@ -57,8 +60,8 @@ p a {
 	position:absolute;
 /*	height:560px;*/
 	min-height:350px;
-	top:20px;
-	right:0;
+	top:0;
+	left:0;
 	z-index:20;
 }
 
@@ -96,7 +99,7 @@ p a {
 }
 
 #productZoomOverlay .zoomCenter {
-	width:980px;
+	width:1110px;
 	margin:0 auto;
 }
 
@@ -107,7 +110,6 @@ p a {
 	z-index:3;
 	color:#fff;
 	font-size:18px;
-	font-family: 'ExpansionN13D', Helvetica, Arial, sans-serif;
 	cursor:pointer;
 }
 
@@ -141,15 +143,16 @@ p a {
 
 #pdp #description {
 	position:relative;
-	width:500px;
+	float:right;
+	width:460px;
 	min-height:390px;
-	top:60px;
+	top:0;
 /*	left:120px;*/
 	z-index:10;
 }
 
 #pdp #description p {
-	font-weight:bold;
+/*	font-weight:bold;*/
 }
 
 #pdp #description ul {
@@ -177,16 +180,8 @@ p a {
 }
 
 #pdp #price {
-	float:left;
-	font-family:"ExpansionN11D";
-	font-weight:normal !important;
-	font-size:30px;
-	background:#000;
-	color:#fff;
-	height:38px;
-	line-height:38px;
-	text-align:center;
-	width:70px;
+	font-size:25px;
+	font-weight:600;
 }
 
 #pdp #price.discounted {
@@ -201,17 +196,19 @@ p a {
 }
 
 #chartBtn {
-	float:left;
-	font-family:"ExpansionN13D";
-	font-size:21px;
-	color:#000;
+	background:url(../images/ui/icon-shirt.png) left center no-repeat;
+	padding-left:22px;
+	display:inline-block;
+	margin-top:30px;
+	font-size:18px;
+	color:#0092c5;
+	font-weight:600;
 	text-decoration:none;
 /*	text-shadow: 2px 2px #000;*/
 }
 
-#buyBtn {
+/*#buyBtn {
 	float:left;
-	font-family:"ExpansionN13D";
 	font-size:32px;
 	height:38px;
 	line-height:38px;
@@ -235,7 +232,7 @@ p a {
 
 #buyBtn.disabled.discounted {
 	font-size:18px;
-}
+}*/
 
 
 .pdpOptionBlock {
@@ -304,7 +301,9 @@ p a {
 
 
 #pdpTitle {
-/*	margin-top:100px;*/
+	text-transform:uppercase;
+	font-weight:600;
+	margin-bottom:0;
 }
 
 #related {
@@ -362,7 +361,7 @@ p a {
 }
 
 #features {
-	width:980px;
+	width:1110px;
 	margin:25px auto 40px auto;
 	padding:45px 0;
 	overflow:hidden;
@@ -448,11 +447,60 @@ p.photoCredit.white {
 
 #image-nav .image-item {
 	height:70px;
-	padding:5px;
+/*	padding:5px;*/
 	width:auto;
+	display:inline-block;
+	text-align:center;
 	margin-right:10px;
 	background:#fff;
 	cursor:pointer;
+	overflow:hidden;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}
+
+#image-nav .image-item img {
+	height:70px;
+	width:auto;
+}
+
+#sizeSelect, #colorSelect {
+	text-align:left;
+	margin-bottom:10px;
+}
+
+.multi-nav-item.size {
+	color:#fff;
+	font-size:10px;
+	font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	text-align:center;
+	line-height:28px;
+}
+
+.multi-nav-item.size.selected {
+	background-color:#0092c5;
+}
+
+
+
+#sizeSelect .title, #colorSelect .title {
+	font-size:21px;
+	float:left;
+	width:160px;
+	line-height:30px;
+	font-weight:600;
+}
+
+#selectedColor {
+	font-size:16px;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	position:relative;
+	top:-8px;
+	margin-left:10px;
 }
 
 

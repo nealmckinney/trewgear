@@ -44,6 +44,16 @@ $(document).ready(function() {
 		}
 	});
 	
+	var url = window.location.href;
+	$("#trew-nav a").each(function() {
+		var found = false;
+		var href = $(this).attr("href");
+		if (url.indexOf(href) != -1 && !found) {
+			$(this).parent().addClass("current");
+			found = true;
+		}
+	});
+	
 	
 });
 

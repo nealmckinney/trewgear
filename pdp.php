@@ -222,18 +222,18 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		
 		$sizes = $colors[0]->sizes;
 		$len = count($sizes);
-		echo '<div class="rotation-nav sizeSelect" id="sizeSelect">';
+		echo '<div class="rotation-nav sizeSelect" id="sizeSelect"><h5 class="title">Choose Size</h5>';
 		for ($i=0; $i < $len; $i++) {
 			$sku = $sizes[$i]->sku;
 			$qty = $sizes[$i]->QtyAvailable;
 			$name = $sizes[$i]->sizeName;
-			echo "<div class='multi-nav-item size' data-size='{$name}' data-value='{$sku},{$qty},{$name}'>{$name}<div class='indicator'></div></div>";
+			echo "<div class='multi-nav-item size animated' data-size='{$name}' data-value='{$sku},{$qty},{$name}'>{$name}</div>";
 		}
 		echo '</div>';
 		echo "<div class='clear'></div>";
 		
 		// color nav:
-		echo '<div class="rotation-nav colorSelect" id="colorSelect">';
+		echo '<div class="rotation-nav colorSelect" id="colorSelect"><h5 class="title">Choose Color</h5>';
 		$len = count($colors);
 		for ($i=0; $i < $len; $i++) {
 			$imagePath = $colors[$i]->images[0];
@@ -244,7 +244,7 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 				echo "<div class='multi-nav-item color' data-value='{$i}' data-name='{$colorName}' style='background-color:#{$hex};'><div class='indicator'></div></div>";
 			}
 		}
-		echo "</div>";
+		echo "<span id='selectedColor'></span></div>";
 
 		echo "<div class='clear'></div>";
 		
@@ -252,37 +252,33 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		$unitPrice = $info[0]->colors[0]->sizes[0]->unitPrice;
 		
 		if ($unitPrice != $msrp) {
-			echo "<p id='price' class='discounted'><span class='crossed'>\${$msrp}</span>\${$unitPrice}</p>";
-			echo "<div id='buyBtn' class='discounted'>BUY</div>";
+			echo "<h5 id='price' class='discounted'><span class='crossed'>\${$msrp}</span>\${$unitPrice}</h5>";
+			echo "<div id='buyBtn' class='button radius animated discounted'>BUY</div>";
 		} else {
-			echo "<p id='price'>\${$info[0]->colors[0]->sizes[0]->unitPrice}</p>";
-			echo "<div id='buyBtn'>BUY</div>";
+			echo "<h5 id='price'>\${$info[0]->colors[0]->sizes[0]->unitPrice}</h5>";
+			echo "<div id='buyBtn' class='button radius animated'>BUY</div>";
 		}
 		
 		echo "<div class='error-message' id='pdp-error'></div>";
 		echo "<div class='clear'></div>";
 		
 		if (!$productData->isSwag) {
-			echo "<a id='chartBtn' href='{$rootpath}resources/images/pdp/sizingChart.jpg' rel='shadowbox'>SIZING CHART</a>";
+			echo "<a id='chartBtn' href='{$rootpath}resources/images/pdp/sizingChart.jpg' rel='shadowbox'>Sizing Chart</a>";
 			echo "<div class='clear'></div>";
-			echo "<p class='photoCredit white'>We are here to help get you fitted for the correct size.<br/>Please email <a href='mailto:sizing@trewgear.com' style='color:#000;'>sizing@trewgear.com</a> or call 541-241-6867</p>";
+			echo "<p style='font-size:14px;'>We are here to help get you fitted for the correct size.<br/>Please email <a href='mailto:sizing@trewgear.com' style='color:#0092c5;'>sizing@trewgear.com</a> or call 541-241-6867</p>";
 			
 			echo "<div class='image-nav' id='image-nav'>
-				<img class='image-item' data-index='0' src=''/>
-				<img class='image-item' data-index='1' src=''/>
-				<img class='image-item' data-index='3' src=''/>
-				<img class='image-item' data-index='4' src=''/>
-				<img class='image-item' data-index='5' src=''/>
+				<div class='image-item'><img data-index='0' src=''/></div>
+				<div class='image-item'><img data-index='1' src=''/></div>
+				<div class='image-item'><img data-index='3' src=''/></div>
+				<div class='image-item'><img data-index='4' src=''/></div>
+				<div class='image-item'><img data-index='5' src=''/></div>
 			</div>";
 			
 		}
 		echo "<div class='clear'></div>";
-		
-		
-		
-		// echo '<p class="photoCredit">Photo By Lance Koudele</p>';
 		echo "</div>";
-		echo "</div>"; /* description close */
+		echo "</div><div class='clear'></div>"; /* description close */
 		?>
 			
 	</div>
@@ -346,7 +342,8 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 	</div>
 	</div><!-- features -->
 	</div><!-- featuresWrap -->
-	<?php } else { echo '<div style="height:100px;"></div>'; } ?>
+	<?php } else { //echo '<div style="height:100px;"></div>';
+	} ?>
 	</div><!-- pdpWrap -->
 	
 	<?php
@@ -397,6 +394,9 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		//var index = $(this).attr("data-index");
 		$("#productImage").hide();
 		
+		var name = $(colorSelect.getCurrentButton()).data("name");
+		$("#selectedColor").text(name);
+		
 		
 		addLoader($("#productImageWrap"));
 		
@@ -415,8 +415,9 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		$("#sizeSelect").empty();
 		var sizes = colors[index].sizes;
 		var len = sizes.length;
+		$("#sizeSelect").append('<h5 class="title">Choose Size</h5>');
 		for (var i=0; i < len; i++) {
-			$("#sizeSelect").append("<div class='multi-nav-item size' data-index='"+i+"' data-size='"+sizes[i].sizeName+"' data-value='"+sizes[i].sku+","+sizes[i].QtyAvailable+","+sizes[i].sizeName+"'>"+sizes[i].sizeName+"<div class='indicator'></div></div>");
+			$("#sizeSelect").append("<div class='multi-nav-item size animated' data-index='"+i+"' data-size='"+sizes[i].sizeName+"' data-value='"+sizes[i].sku+","+sizes[i].QtyAvailable+","+sizes[i].sizeName+"'>"+sizes[i].sizeName+"</div>");
 		};
 		
 		sizeSelect.updateButtons($("#sizeSelect").find(".multi-nav-item"));
@@ -429,7 +430,7 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		
 		
 		//populate image nav:
-		var items = $("#image-nav").find(".image-item");
+		var items = $("#image-nav").find(".image-item img");
 		var len = items.length;
 		var count = 0;
 		for (var i=0; i < len; i++) {
@@ -520,7 +521,7 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		var sizeOptions = $("#sizeSelect").find("option");
 		if (sizeOptions.length == 1) $("#chartBtn").hide();
 		
-		$(".image-item").on("click", function() {
+		$(".image-item img").on("click", function() {
 			var src = $(this).attr("src");
 			$("#productImage").attr("src", src);
 		});

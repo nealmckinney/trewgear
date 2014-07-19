@@ -24,7 +24,7 @@ if ($pos == true) {
 	<div class="content">
 		<div id="footerLogo"></div>
 		<div class="column column1">
-			<p><b>Trew Gear LLC</b><br/>
+			<p><b>TREW GEAR LLC</b><br/>
 			Mailing Address:<br>
 			1767 12th St. #169 Hood River, OR 97031<br>
 			*call 541-241-MTNS for our office location<br>
@@ -41,8 +41,6 @@ if ($pos == true) {
 				<a href="#" class="footer social pinterest"></a>
 				<a href="http://instagram.com/trew_gear" class="footer social instagram"></a>
 				<a href="#" class="footer social googleplus"></a>
-				<!-- <a href="https://vimeo.com/trewgear" class="footer social vimeo"></a>
-				<!-- <a href="http://www.flickr.com/photos/33132443@N04" class="footer social flickr"></a> -->
 			</div>
 			<div class="clear"></div>
 			<div class="socialIcon"><a href="http://onepercentfortheplanet.org" target="_blank"><img src="/resources/images/footer/onepercent.gif" border=0></a></div>
@@ -51,7 +49,7 @@ if ($pos == true) {
 			<ul class="footer-nav">
 				<li><a href="/productwall/mens">Men</a></li>
 				<li><a href="/productwall/womens">Women</a></li>
-				<li><a href="/productwall/Apparel">Accessories</a></li>
+				<li><a href="/productwall/accessories">Accessories</a></li>
 				<li><a href="/mission">About Us</a></li>
 				<li><a href="/blog">Blog</a></li>
 				<li><a href="/warranty">Warranty</a></li>
