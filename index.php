@@ -13,6 +13,8 @@ $result = get_content("cache/home-featured.txt", $json, 3);
 $info = json_decode($result);
 $products = $info->products;
 
+//echo $base_path;
+
 ?>
 
 <script type="text/javascript">
@@ -50,7 +52,7 @@ window.onload = function(){
 		<div class="content center">
 			<h4 class="title">WE ARE TREW</h4>
 			<hr/>
-			<p class="intro">Trew is based in Hood River, Oregon among the Cascade Mountains. We strive to produce outerwear that remains relevant and connected to the core of mountain riding.</p>
+			<p class="intro">Trew is based in Hood River, Oregon among the Cascade Mountains. We are dedicated to building products with integrity and creatively rethinking technical garments.</p>
 			<a class="cta" href="http://player.vimeo.com/video/52359303" rel="shadowbox">Watch Our Brand Video <span class="arrow"></span></a>
 		</div>
 	</div>
@@ -176,8 +178,27 @@ window.onload = function(){
 		});
 		
 		$(".featured .multi-nav-item").on("click", function() {
+			var navItem = $(this);
 			var img = $(this).data("image");
-			$(this).parent().parent().parent().parent().find(".left img").attr("src", img);
+			//$(this).parent().parent().parent().parent().find(".left img").attr("src", img);
+			var image = $(this).parent().parent().parent().parent().find(".left img");
+			var parent = image.parent();
+			
+			if ($(this).attr("data-loaded")) {
+				image.css("opacity", .5);
+				image.attr("src", img);
+				image.animate({"opacity":1}, 500, "easeOutQuad");
+			} else {
+				image.animate({"opacity":.5}, 250, "easeOutQuad");
+				addLoader(parent);
+				image.on("load", function() {
+					$(this).stop(true).animate({"opacity":1}, 500, "easeOutQuad");
+					navItem.attr("data-loaded", "true");
+					removeLoader(parent);
+				});
+				image.attr("src", img);
+			}
+			
 			$(this).parent().find(".multi-nav-item").removeClass("selected");
 			$(this).addClass("selected");
 		});

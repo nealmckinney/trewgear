@@ -71,7 +71,7 @@ jQuery(function () {
 
 function addLoader(target, color) {
 	removeLoader(target);
-	var theColor = (color) ? color : "#CC6600";
+	var theColor = (color) ? color : "#0092c5";
 	//<div class='dimmer'></div>
 	var loader = $("<div class='loading'></div>");
 	var opts = {

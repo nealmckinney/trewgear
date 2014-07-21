@@ -13,6 +13,12 @@
 	text-align:center;
 }
 
+.wallItem .loading {
+	position:absolute;
+	left:50%;
+	top:40%;
+}
+
 .wallItem img {
 	height:370px;
 	width:auto;
@@ -62,7 +68,7 @@
 	        box-shadow: 0px 6px 6px rgba(0,0,0,0.20);
 }
 
-.wallItem:hover .button {
+.wallItem a:hover .button {
 	opacity:1;
 	filter:alpha(opacity=100);
 }

@@ -392,14 +392,14 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		var zoom = color.images[2];
 		if (src == currentSrc) return;
 		//var index = $(this).attr("data-index");
-		$("#productImage").hide();
+		//$("#productImage").hide();
 		
-		var name = $(colorSelect.getCurrentButton()).data("name");
+		var btn = colorSelect.getCurrentButton();
+		var name = $(btn).data("name");
 		$("#selectedColor").text(name);
 		
-		
+		/*
 		addLoader($("#productImageWrap"));
-		
 		
 		$("#productImage").on("load", function() {
 			$(this).fadeIn();
@@ -408,6 +408,25 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		});
 		
 		$("#productImage").attr("src", src);
+		*/
+		
+		var image = $("#productImage");
+		
+		if ($(btn).attr("data-loaded")) {
+			image.css("opacity", .5);
+			image.attr("src", src);
+			image.animate({"opacity":1}, 500, "easeOutQuad");
+		} else {
+			image.animate({"opacity":.5}, 250, "easeOutQuad");
+			addLoader($("#productImageWrap"));
+			image.on("load", function() {
+				$(this).stop(true).animate({"opacity":1}, 500, "easeOutQuad");
+				$(btn).attr("data-loaded", "true");
+				removeLoader($("#productImageWrap"));
+			});
+			image.attr("src", src);
+		}
+		
 		$("#productZoomCta").attr("data-img", zoom);
 		
 		
@@ -588,8 +607,21 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 			
 			if ($(this).hasClass("disabled")) return;
 			
-	        var sku   = $('#sizeSelect').val().split(",")[0];
-			var color = $('#colorSelect').val();
+			var btn = sizeSelect.getCurrentButton();
+			var values = $(btn).data("value").split(",");
+			var sku = values[0];
+			//var qty = values[1];
+			
+	        //var sku   = $('#sizeSelect').val().split(",")[0];
+			//var color = $('#colorSelect').val();
+			
+			var index = colorSelect.selectedIndex;
+			if (index == -1) {
+				var color = -1;
+			} else {
+				var color = colors[index];
+			}
+			
 	        var qty   = 1;//$('.quantity-box select').val();
 	
 			//return;

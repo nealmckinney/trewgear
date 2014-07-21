@@ -60,6 +60,7 @@ p a {
 	position:absolute;
 /*	height:560px;*/
 	min-height:350px;
+	min-width:450px;
 	top:0;
 	left:0;
 	z-index:20;
@@ -70,8 +71,8 @@ p a {
 	position:absolute;
 	z-index:20;
 /*	margin:0 auto;*/
-	right:230px;
-	top:200px;
+	right:50%;
+	top:50%;
 }
 
 #productZoomOverlay .loading {

@@ -35,12 +35,10 @@ if ($pos == true) {
 
 
 			<div class="trew_footer_social">
-				<a href="http://www.facebook.com/TREWGear" class="footer social facebook"></a>
-				<a href="http://twitter.com/trew_gear" class="footer social twitter"></a>
-				<a href="#" class="footer social youtube"></a>
-				<a href="#" class="footer social pinterest"></a>
-				<a href="http://instagram.com/trew_gear" class="footer social instagram"></a>
-				<a href="#" class="footer social googleplus"></a>
+				<a class="footer social newsletter" href="http://trewgear.us4.list-manage.com/subscribe/post?u=2d18e9aed6fe74bdfb3e09bc7&id=993cb1dae7" target="_blank">Newsletter</a>
+				<a href="http://www.facebook.com/TREWGear" target="_blank" class="footer social facebook"></a>
+				<a href="http://twitter.com/trew_gear" target="_blank" class="footer social twitter"></a>
+				<a href="http://instagram.com/trew_gear" target="_blank" class="footer social instagram"></a>
 			</div>
 			<div class="clear"></div>
 			<div class="socialIcon"><a href="http://onepercentfortheplanet.org" target="_blank"><img src="/resources/images/footer/onepercent.gif" border=0></a></div>
@@ -52,16 +50,14 @@ if ($pos == true) {
 				<li><a href="<?php echo $rootpath?>productwall/accessories">Accessories</a></li>
 				<li><a href="<?php echo $rootpath?>about-us">About Us</a></li>
 				<li><a href="<?php echo $rootpath?>blog">Blog</a></li>
-				<li><a href="<?php echo $rootpath?>warranty">Warranty</a></li>
-				<li><a href="<?php echo $rootpath?>dealers">Dealers</a></li>
-				<li><a href="<?php echo $rootpath?>affiliateprogram">Affiliate Program</a></li>
 			</ul>
 		</div>
 		<div class="column">
 			<ul class="footer-nav">
+				<li><a href="<?php echo $rootpath?>warranty">Warranty</a></li>
+				<li><a href="<?php echo $rootpath?>delivery-exchanges-and-returns">Delivery, Exchanges, and Returns</a></li>
 				<li><a href="<?php echo $rootpath?>dealers">Dealers</a></li>
 				<li><a href="<?php echo $rootpath?>team">Team</a></li>
-				<li><a href="<?php echo $rootpath?>warranty">Warranty & Returns</a></li>
 				<li><a href="<?php echo $rootpath?>affiliateprogram">Affiliate Program</a></li>
 			</ul>
 		</div>

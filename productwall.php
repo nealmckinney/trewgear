@@ -37,7 +37,6 @@ $json = "http://trewgear.hubsoft.ws/api/v1/products?classifications={$urlID}&ext
 $result = get_content("cache/{$cID}-product-wall.txt", $json, 3);
 $info = json_decode($result);
 $products = $info->products;
-
 ?>
 
 </head>
@@ -114,8 +113,29 @@ $products = $info->products;
 	<script>
 		$(document).ready(function() {
 			$(".wallItem .multi-nav-item").on("click", function() {
+				var navItem = $(this);
 				var img = $(this).data("image");
-				$(this).parent().parent().find(".imageCenter img").attr("src", img);
+				//$(this).parent().parent().find(".imageCenter img").attr("src", img);
+				var image = $(this).parent().parent().find(".imageCenter img");
+				var parent = image.parent().parent();
+				
+				if (img) {
+					if ($(this).attr("data-loaded")) {
+						image.css("opacity", .5);
+						image.attr("src", img);
+						image.animate({"opacity":1}, 500, "easeOutQuad");
+					} else {
+						image.animate({"opacity":.5}, 250, "easeOutQuad");
+						addLoader(parent);
+						image.on("load", function() {
+							$(this).stop(true).animate({"opacity":1}, 500, "easeOutQuad");
+							navItem.attr("data-loaded", "true");
+							removeLoader(parent);
+						});
+						image.attr("src", img);
+					}
+				}
+				
 				$(this).parent().find(".multi-nav-item").removeClass("selected");
 				$(this).addClass("selected");
 			});

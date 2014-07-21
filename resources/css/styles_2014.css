@@ -11,6 +11,8 @@ a, img {
 }
 
 p a:hover { color:#00adee; }
+.static p a { color:#00adee; }
+.static ul { padding-left:30px; margin-bottom:15px; }
 
 body, p, a {
 	font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, sans-serif;
@@ -62,6 +64,7 @@ h6 { font-size:18px; }
 }
 
 .vertical-center {
+	position:relative;
 	width:100%;
 	height:100%;
 	display:table-cell;
@@ -85,6 +88,7 @@ h6 { font-size:18px; }
 	padding:0 30px;
 	height:60px;
 	line-height:60px;
+	cursor:pointer;
 }
 
 .button.radius {
@@ -120,6 +124,8 @@ h6 { font-size:18px; }
 	width:1110px;
 	margin:0 auto;
 }
+
+.content.static { margin-bottom:30px; }
 
 #marqueeWrap {
 	position:relative;
@@ -239,6 +245,20 @@ h6 { font-size:18px; }
 .product-scroller .vertical-center {
 	height:760px;
 	text-align:center;
+}
+
+.product-scroller .vertical-center .loading {
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	text-align:center;
+}
+
+.product-scroller .vertical-center .loading .spinner {
+	left:50%;
+	top:50%;
 }
 
 .product-scroller .rotation-nav {
@@ -412,7 +432,7 @@ h6 { font-size:18px; }
 
 #footer .column {
 	float:left;
-	width:190px;
+	width:290px;
 }
 
 #footer .column.column1 {
@@ -458,7 +478,7 @@ h6 { font-size:18px; }
 	background:url(../images/nav/nav-social/facebook.png) no-repeat;
 }
 .nav.social.twitter {
-	background:url(../images/nav/Nav-social/twitter.png) no-repeat;
+	background:url(../images/nav/nav-social/twitter.png) no-repeat;
 }
 .nav.social.youtube {
 	background:url(../images/nav/nav-social/youtube.png) no-repeat;
@@ -498,6 +518,13 @@ h6 { font-size:18px; }
 }
 .footer.social.googleplus {
 	background:url(../images/footer/footer-social/googleplus.png) no-repeat;
+}
+
+.footer.social.newsletter {
+	width:auto;
+	padding-left:20px;
+	background:url(../images/ui/icon-email.png) 0px 8px no-repeat;
+	line-height:27px !important;
 }
 
 #twitter-feed, #facebook-feed {
@@ -718,14 +745,232 @@ ul.pullright.nav.right-nav li a {
 	padding-left:25px;
 	margin-top:15px;
 	color:#969696;
-	font-size:17px;
-	font-family:"ExpansionN11D" !important;
-	font-weight:normal !important;
+	font-size:16px;
+	font-weight: 600;
 	text-transform:uppercase;
 }
 
 #cartStatusLi, ul.pullright.nav.right-nav li.loggedin, ul.pullright.nav.right-nav li.loggedout { display:none; }
 
+#cartList {
+	color:#000;
+	background:#f5f5f5;
+	
+/*	border:#000 1px solid;*/
+}
+
+#no-items {
+	color:#000;
+}
+
+#cart {
+	width:100%;
+	border-spacing:0;
+	font-size:12px;
+}
+
+#cart a {
+	text-decoration:none;
+}
+
+#cart th {
+	font-size:21px;
+	font-weight:600;
+	background:#000;
+	color:#fff;
+	text-align:left;
+	padding:10px;
+	text-transform:capitalize;
+	letter-spacing:1px;
+}
+
+#cart tr {
+	border-bottom:#000 10px solid;
+	padding-bottom:10px;
+}
+
+#cart td {
+	padding:10px;
+}
+
+#cart td.productName {
+	font-weight:bold;
+}
+
+#cart td, #cart th {
+/*    border-top: #000 1px solid;*/
+    border-bottom: #CCC 1px solid;
+}
+
+#cart input.qty {
+	padding:4px;
+	width:30px;
+	border: #CCC 1px solid;
+}
+
+#cart td.subtotal, #cart td.checkout {
+	text-align:right;
+	background:#fff;
+	border-bottom:none;
+}
+
+.cart-image {
+	height:80px;
+}
+
+button.close {
+	width:25px;
+	height:25px;
+	background:url(../images/ui/close.png);
+	border:none;
+	cursor:pointer;
+}
+
+
+
+#cart-page, #cart-page h1 {
+	color:#000;
+}
+
+#cart-page input, #cart-page textarea, #accountPage input, #accountPage textarea {
+	padding:4px;
+	border: #CCC 1px solid;
+	display:inline-block;
+	margin-bottom:5px;
+}
+
+#cart-page select {
+/*	display:block;*/
+}
+
+#accountPage, #accountPage h3, #accountPage p, #accountPage span, #accountContent, #accountContent h1 {
+	color:#000;
+}
+
+#accountPage a {
+/*	color:#ff0000;*/
+}
+
+#accountPage button.btn-primary, #accountPage a.reset-password {
+	display:block;
+	margin:10px 0;
+}
+
+#accountPage .form-inline {
+	padding:20px;
+	border-top:#CCC 1px solid;
+	border-bottom:#CCC 1px solid;
+}
+
+#accountPage .alert-error {
+	padding:5px 0;
+}
+
+#accountPage .alert-error span {
+	color:#ff0000;
+	font-weight:bold;
+}
+
+
+/* Email Signup -------------------------------------------------------------------------- */
+/*
+#newsletter-signup {
+	float:right;
+}
+
+fieldset {
+	border:none;	
+}
+
+
+input, input:focus {
+	border:#999 1px solid;
+	background-color:none;
+	outline:none;
+}
+
+#signup-label, #mc_embed_signup label {
+	font-family:"ExpansionN11D" !important;
+	font-weight:normal !important;
+	font-size:21px !important;
+	margin:9px 10px 0 0 !important;
+	padding:0 !important;
+	display:block !important;
+	color:#979797;
+	position:absolute;
+	right:170px;
+}
+
+#mc_embed_signup {
+	width:175px;
+	padding:0 !important;
+	font:9px Helvetica,Arial,sans-serif;
+}
+	
+	
+
+#signup-email, #mc_embed_signup input.email {
+	border:none;
+	outline:none;
+	float:left;
+	padding:5px 0px 5px 5px !important;
+	margin:0px !important;
+	color:#fff;
+	background:#979797;
+	height:19px;
+	width:130px !important;
+	display:block !important;
+	-moz-border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+	border-radius:0px !important;
+}
+
+::-webkit-input-placeholder {
+   color: #e1e1e1;
+}
+
+:-moz-placeholder {
+   color: #e1e1e1; 
+}
+
+::-moz-placeholder {
+   color: #e1e1e1;
+}
+
+:-ms-input-placeholder {  
+   color: #e1e1e1;
+}
+
+#signup-button, #mc_embed_signup input.button {
+	width:30px !important;
+	min-width:30px !important;
+	height:29px !important;
+	background:url(../images/nav/signupCta.png);
+	display:block !important;
+	float:left;
+	border:none !important;
+	outline:none !important;
+	margin:0 !important;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	padding:0;
+}
+
+#signup-button:hover, #mc_embed_signup input.button:hover {
+	background-position:0px -29px;
+}
+
+#signup-response {
+	margin-top:20px;
+	float:left;
+	margin-left:5px;
+	width:100px;
+	opacity:.8;
+	filter: alpha(opacity=80);
+	display:none;
+}
+*/
 
 /* OVERRIDING SUB CLASSES: */
 .blue { color:#00adee; }

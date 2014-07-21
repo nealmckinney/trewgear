@@ -1,14 +1,26 @@
 <?php
+
+$base_path = $_SERVER['DOCUMENT_ROOT'];
+
 /* gets the contents of a file if it exists, otherwise grabs and caches */
 function get_content($file,$url,$hours = 24,$fn = '',$fn_args = '') {
+	
+	global $base_path;
+	$file = $base_path."/".$file;
+	//echo $file;
+	
 	//vars
-	$current_time = time(); $expire_time = $hours * 60 * 60; $file_time = filemtime($file);
+	$current_time = time(); $expire_time = $hours * 60 * 60;
+	if(file_exists($file)) {
+		$file_time = filemtime($file);
+	} else {
+		$file_time = $current_time;
+	}
 	//decisions, decisions
 	if(file_exists($file) && ($current_time - $expire_time < $file_time)) {
 		//echo 'returning from cached file';
 		return file_get_contents($file);
-	}
-	else {
+	} else {
 		$content = get_url($url);
 		if($fn) { $content = $fn($content,$fn_args); }
 		//$content.= '<!-- cached:  '.time().'-->';
@@ -16,6 +28,7 @@ function get_content($file,$url,$hours = 24,$fn = '',$fn_args = '') {
 		//echo 'retrieved fresh from '.$url.':: '.$content;
 		return $content;
 	}
+	
 }
 
 /* gets content from a URL via curl */

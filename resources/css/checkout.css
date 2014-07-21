@@ -165,7 +165,6 @@
 
 #cart-page .header .number span, #cart-page .compact .number span, #cart-page .left .report .header .number span
 {
-	font-family:"ExpansionN11D";
     display:block;
     top:0;
     left:0;
@@ -177,9 +176,8 @@
 }
 #cart-page .header .title, #cart-page .compact .title, #cart-page .left .report .header .title
 {
-	font-family:"ExpansionN11D";
     display:inline-block;
-    font-size:34px;
+    font-size:24px;
 	line-height:50px;
 	height:50px;
 	padding-left:20px;
@@ -451,6 +449,8 @@
 }
 /* RIGHT SIDE */
 
+input.input-small { width:175px; margin-bottom:10px !important; display:block !important; }
+
 #cart-page .right
 {
     float:right;
@@ -463,9 +463,8 @@
 #cart-page .right .main-header
 {
 	
-	font-family:"ExpansionN11D";
     display:inline-block;
-    font-size:34px;
+    font-size:24px;
 	line-height:34px;
 	padding-left:20px;
     text-transform:uppercase;
@@ -535,6 +534,10 @@
 #cart-page .right .cart {
     margin-bottom:20px;
 }
+
+#cart-page .right .cart span {
+	font-size:12px;
+}
 #cart-page .right .cart .header
 {
     position:relative;
@@ -583,7 +586,6 @@
 }
 #cart-page .receipt .thank-you .bg-rag .big
 {
-	font-family: 'ExpansionN13D', Helvetica, Arial, sans-serif;
 	font-size:50px;
 	line-height:65px;
     font-weight:bold;
@@ -603,7 +605,6 @@
     color:#000;
 }
 #cart-page .receipt .header {
-    font-family:"ExpansionN11D";
     font-size:34px;
 	line-height:40px;
     display:block;
@@ -764,4 +765,10 @@
     text-decoration:underline;
     padding-left:10px;
     padding-bottom:10px;
+}
+
+select.error {
+	color:#ff0000;
+	outline:#ff0000;
+	border:#ff0000;	
 }

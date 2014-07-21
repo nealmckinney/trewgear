@@ -3,20 +3,10 @@
 <title>TREW | stylish and technical ski/snowboard outerwear</title>
 <meta name = "Title" content = "TREW | stylish and technical ski/snowboard outerwear"/>
 <meta property="og:image" content="http://trewgear.com/resources/images/nav/logo_2013.png"/>
-<?php require_once("meta.php"); ?>
 
 <link href="//api.hubsoft.ws/demo/css/checkout.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="resources/css/bootstrap.css">
-<link href="resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
-
-<!-- <link rel="stylesheet" href="resources/css/bootstrap.min.css"> -->
-<!-- <link rel="stylesheet" href="resources/css/bootstrap-responsive.min.css"> -->
-<!-- <link rel="stylesheet" href="resources/css/bootstrap-theme.css"> -->
-
-<script type="text/javascript" src="resources/js/vendor/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="resources/js/jquery-more.js"></script>
-<script type="text/javascript" src="resources/js/vendor/modernizr-2.6.2.min.js"></script>
-
+<?php require_once("meta.php"); ?>
 
 </head>
 <body>
@@ -42,8 +32,8 @@
 		        </div>
 		        <div class="modal-footer">
 		            <!-- <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Close</button> -->
-		            <button type="submit" class="btn btn-primary">Login</button>
-		            <a href="#" class="reset-password pull-left">Reset Password?</a>
+		            <button type="submit" class="button radius animated">Login</button>
+		            <a href="#" class="reset-password pull-left blue">Reset Password?</a>
 		        </div>
 		    </form>
 
@@ -71,7 +61,7 @@
 
 		    <div class="container">
 		        <div class="loggedout">
-		            <h1>You are Logged out</h1>
+		            <h1 style="color:#fff;">You are Logged out</h1>
 		        </div>
 		        <div id="accountContent" class="loggedin"></div>
 		    </div>
@@ -183,20 +173,13 @@
 		            </div>
 		        </div>
 		    </script>
-		
-			<!-- <script type="text/javascript" src="resources/js/json2.js"></script>
-			<script src="//api.hubsoft.ws/js/cartgui.js"></script>
-			<script src="//api.hubsoft.ws/js/api.js"></script>
-			<script src="//api.hubsoft.ws/js/plugins/ejs.js"></script> -->
-			<script src="//api.hubsoft.ws/@js"></script>
-			
-			<script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
-			<script type="text/javascript" src="resources/js/main.js"></script>
-			<script type="text/javascript" src="resources/js/account.js"></script>
+
 			
 		</div>
 	</div>
 	<?php require_once("footer.php"); ?>
+			<script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="resources/js/account.js"></script>
 </div>
 </body>
 </html>

@@ -3,21 +3,8 @@
 <title>TREW | stylish and technical ski/snowboard outerwear</title>
 <meta name = "Title" content = "TREW | stylish and technical ski/snowboard outerwear"/>
 <meta property="og:image" content="http://trewgear.com/resources/images/nav/logo_2013.png"/>
-<?php require_once("meta.php"); ?>
-
-
 <link href="resources/css/checkout.css" rel="stylesheet" type="text/css"/>
-<link href="resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
-<link href="resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
-
-<script type="text/javascript" src="resources/js/vendor/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="resources/js/jquery-more.js"></script>
-<script type="text/javascript" src="resources/js/vendor/modernizr-2.6.2.min.js"></script>
-
-<script type="text/javascript" src="resources/js/core/events/EventDispatcher.js"></script>
-<script type="text/javascript" src="resources/js/ui/SelectSkin.js"></script>
-
-
+<?php require_once("meta.php"); ?>
 
 </head>
 <body>
@@ -64,7 +51,7 @@
 			        </div>
 					<form action="#" class="form-inline coupon-form">
 						<input type="text" name="coupon" required="" placeholder="enter coupon" class="input-small">
-					    <button class="btn btn-success">apply</button>
+					    <button class="button radius animated btn btn-success">apply</button>
 					</form>
 			    </div>
 			    <div style="clear:both;"></div>
@@ -142,7 +129,7 @@
 			                </label>
 			            </div>
 			            <div class="button-container">
-			                <button class="checkout">Next Step</button> <span class="error-message"></span>
+			                <button class="button radius animated checkout">Next Step</button> <span class="error-message"></span>
 			                <span class="loading" style="display:none"></span>
 			            </div>
 						</div><!-- formWrap -->
@@ -275,7 +262,7 @@
 			                </label>
 			            </div>
 			            <div class="button-container">
-			                <button class="checkout">Next Step</button> <span class="error-message"></span>
+			                <button class="button radius animated checkout">Next Step</button> <span class="error-message"></span>
 			                <span class="loading" style="display:none"></span>
 			            </div>
 			            </div>
@@ -328,7 +315,7 @@
 			            </div>
 			            <div class="error-message"></div>
 			            <div class="button-container" style="margin-left:65px;">
-			                <button class="checkout">Place Order</button>
+			                <button class="button radius animated checkout">Place Order</button>
 			                <span class="loading" style="display:none"></span>
 			            </div>
 			        </form>
@@ -401,7 +388,7 @@
 			            </div>
 			        </div>
 			        <div style="clear:both"></div>
-			        <div class="print-it"><span>Print It</span></div>
+			        <div class="button radius animated print-it"><span>Print It</span></div>
 			        <div style="clear:both"></div>
 			    </div>
 			    <div class="secure">
@@ -769,50 +756,7 @@
 			    </div>
 			</script>
 			
-			<script src="resources/js/terse.js"></script>
-	        <script>
-	            terse('emeraldcode')
-	                .prop('thumbNailImageIndex', 0)
-	                .obj('global').prop('googleAnalytics', '')
-	                .end()
-	                .obj('page')
-	                    .prop('messages', {});
-	            emeraldcode.clientid = 'trewgear';
-	        </script>
-	
-	        <!-- <script type="text/javascript" src="resources/js/json2.js"></script>
-	        <script src="//api.hubsoft.ws/js/cartgui.js"></script>
-	        <script src="//api.hubsoft.ws/js/api.js"></script> -->
-	        <script src="//api.hubsoft.ws/@js"></script>
-	
-	        <script src="//api.hubsoft.ws/js/plugins/jquery.dumbfix.1.0.js"></script>
-	        <script src="//api.hubsoft.ws/js/plugins/jquery.dumbformstate.js"></script>
-	        <script src="//api.hubsoft.ws/js/plugins/jquery.dumbvalidation.js"></script>
-	        <script src="//api.hubsoft.ws/js/validation-methods.js"></script>
-			<script type="text/javascript" src="resources/js/main.js"></script>
-	        <script src="resources/js/checkout_v1.1.js"></script>
-	
-			<script>
 			
-			// function initSelects() {
-			// 	var selects = $(document).find(".select-skin");
-			// 	for (var i=0; i < selects.length; i++) {
-			// 		var select = new SelectSkin($(selects[i]));
-			// 	};
-			// 	var select = new SelectSkin($("#state"));
-			// }
-			
-			
-			$(document).ready(function() {
-				
-			});
-			(function (ec) { // "ec" shortcut for "emeraldcode"
-			    ec.ready(function () {
-			       console.log("ec.ready");
-					//setTimeout(initSelects, 1000);
-			    });
-			})(emeraldcode);
-			</script>
 			<p class="note" style="margin-left:10px;">For International Shipments, TREW reserves the right to alter shipping charges to reflect actual costs of shipping</p>
 			<div style="margin-left:10px;">
 				<!--  GeoTrust QuickSSL [tm] Smart Icon tag. Do not edit. -->
@@ -829,6 +773,51 @@
 	$isCheckout = true;
 	require_once("footer.php"); 
 	?>
+	
+	<script src="<?php echo $rootpath?>resources/js/terse.js"></script>
+    <script>
+        terse('emeraldcode')
+            .prop('thumbNailImageIndex', 0)
+            .obj('global').prop('googleAnalytics', '')
+            .end()
+            .obj('page')
+                .prop('messages', {});
+        emeraldcode.clientid = 'trewgear';
+    </script>
+
+    <!-- <script type="text/javascript" src="resources/js/json2.js"></script>
+    <script src="//api.hubsoft.ws/js/cartgui.js"></script>
+    <script src="//api.hubsoft.ws/js/api.js"></script> -->
+    <script src="//api.hubsoft.ws/@js"></script>
+
+    <script src="//api.hubsoft.ws/js/plugins/jquery.dumbfix.1.0.js"></script>
+    <script src="//api.hubsoft.ws/js/plugins/jquery.dumbformstate.js"></script>
+    <script src="//api.hubsoft.ws/js/plugins/jquery.dumbvalidation.js"></script>
+    <script src="//api.hubsoft.ws/js/validation-methods.js"></script>
+    <script src="<?php echo $rootpath?>resources/js/checkout_v1.1.js"></script>
+
+	<script>
+	
+	// function initSelects() {
+	// 	var selects = $(document).find(".select-skin");
+	// 	for (var i=0; i < selects.length; i++) {
+	// 		var select = new SelectSkin($(selects[i]));
+	// 	};
+	// 	var select = new SelectSkin($("#state"));
+	// }
+	
+	
+	$(document).ready(function() {
+		
+	});
+	(function (ec) { // "ec" shortcut for "emeraldcode"
+	    ec.ready(function () {
+	       console.log("ec.ready");
+			//setTimeout(initSelects, 1000);
+	    });
+	})(emeraldcode);
+	</script>
+	
 </div>
 </body>
 </html>
