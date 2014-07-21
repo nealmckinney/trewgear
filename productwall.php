@@ -119,6 +119,13 @@ $products = $info->products;
 				$(this).parent().find(".multi-nav-item").removeClass("selected");
 				$(this).addClass("selected");
 			});
+			
+			$(".wallItem").each(function() {
+				var colors = $(this).find(".multi-nav-item");
+				var defaultColor = $(this).find(".multi-nav-item[data-tags*='default-color']");
+				var start = (defaultColor.length == 1) ? defaultColor : colors[0];
+				start.click();
+			});
 		});
 	</script>
 	

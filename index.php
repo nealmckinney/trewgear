@@ -182,6 +182,13 @@ window.onload = function(){
 			$(this).addClass("selected");
 		});
 		
+		$(".featured").each(function() {
+			var colors = $(this).find(".multi-nav-item");
+			var defaultColor = $(this).find(".multi-nav-item[data-tags*='default-color']");
+			var start = (defaultColor.length == 1) ? defaultColor : colors[0];
+			start.click();
+		});
+		
 		$(".product-scroller .arrow-large").on("click", function() {
 			var index = $(this).parent().attr("data-index");
 			var featured = $(this).parent().find(".featured");

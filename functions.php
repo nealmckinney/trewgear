@@ -35,7 +35,7 @@ function get_url($url) {
 	//return $content;
 }
 
-function getProductColors($theId, $products, $defaultFile) {
+function getProductColors($theId, $products) {
 	$stringy = "<div class='rotation-nav'>";
 	$len = count($products);
 	for ($i=0; $i < $len; $i++) {
@@ -43,9 +43,10 @@ function getProductColors($theId, $products, $defaultFile) {
 		$id = $item->productUID;
 		$filePath = $item->images[0];
 		$hex = str_replace("#", "", $item->colorValue);
-		$class = ($filePath == $defaultFile) ? 'multi-nav-item selected' : 'multi-nav-item';
+		$tags = implode(",", $item->tags);
+		//$class = ($filePath == $defaultFile) ? 'multi-nav-item selected' : 'multi-nav-item';
 		if ($theId == $id) {
-			$stringy .= "<div class='$class' style='background-color:#$hex;' data-name='$item->colorName' data-image='$filePath'><div class='indicator animated'></div></div>";
+			$stringy .= "<div class='multi-nav-item' style='background-color:#$hex;' data-name='$item->colorName' data-image='$filePath' data-tags='$tags'><div class='indicator animated'></div></div>";
 		}
 	}
 	return $stringy .="</div>";
@@ -100,20 +101,20 @@ function getCategories($products, $cats, $includeDescription) {
 							echo "<div class='item featured' style='display:none;'>";
 						}
 						
-						echo "<div class='left'><div class='vertical-center'><img src='{$filePath}'/></div></div>";
+						echo "<div class='left'><div class='vertical-center'><img src=''/></div></div>";
 						echo "<div class='right center'><div class='vertical-center'>";
 						echo "<h4 class='title'>$name</h4>";
 						echo $item->descriptions[0];
 						echo $item->descriptions[2];
 						echo "<a href='{$rootpath}pdp.php?uID={$id}' class='button radius animated'>Buy Now</a>";
-						echo getProductColors($id, $products, $filePath);
+						echo getProductColors($id, $products);
 						echo "</div></div></div>";
 						
 					} else {
 						
 						// product walls:
-						echo "<div class='wallItem' data-prod-num='$productNumber' data-name='$name'><div class='imageCenter'><a href='{$rootpath}pdp.php?uID={$id}'><div class='button-wrap'><div class='button radius animated'>Learn More</div></div><img src='{$filePath}'/></a></div><a href='{$rootpath}pdp.php?uID={$id}'><h4 class='title'>$name</h4></a><p class='price'>$$price</p>";
-						echo getProductColors($id, $products, $filePath);
+						echo "<div class='wallItem' data-prod-num='$productNumber' data-name='$name'><div class='imageCenter'><a href='{$rootpath}pdp.php?uID={$id}'><div class='button-wrap'><div class='button radius animated'>Learn More</div></div><img src=''/></a></div><a href='{$rootpath}pdp.php?uID={$id}'><h4 class='title'>$name</h4></a><p class='price'>$$price</p>";
+						echo getProductColors($id, $products);
 						echo "</div>";
 						
 					}
