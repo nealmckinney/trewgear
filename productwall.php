@@ -27,11 +27,42 @@ if ($categoryID == "mens") {
 
 echo "<title>".$pageTitle."</title>";
 
-// {"classifications":[{"name":"Trew Gear LLC","id":4880,"parentId":-1},{"name":"Men\u0027s Apparel and Accesories","id":4943,"parentId":4880},{"name":"Women\u0027s Outerwear","id":6429,"parentId":4880},{"name":"Women\u0027s Accessories and Apparel","id":6426,"parentId":4880},{"name":"Men\u0027s Outerwear","id":4940,"parentId":4880},{"name":"Unisex Apparel","id":9377,"parentId":4880},{"name":"Women\u0027s Apparel ","id":6428,"parentId":6426},{"name":"Women\u0027s Jackets","id":6430,"parentId":6429},{"name":"Women\u0027s Pants","id":6431,"parentId":6429},{"name":"Men\u0027s Accesories","id":4945,"parentId":4943},{"name":"Men\u0027s Apparel","id":4944,"parentId":4943},{"name":"Men\u0027s Jackets","id":4941,"parentId":4940},{"name":"Men\u0027s Pants","id":4942,"parentId":4940},{"name":"Women\u0027s Accessories ","id":6427,"parentId":6426},{"name":"Mens Layering","id":9365,"parentId":4941},{"name":"Mens Soft Shell","id":9358,"parentId":4941},{"name":"Mens Hard Shell","id":9379,"parentId":4942},{"name":"Mens Hard Shell","id":9296,"parentId":4941},{"name":"Mens Soft Shell","id":9380,"parentId":4942},{"name":"Womens Hard Shell ","id":9381,"parentId":6430},{"name":"Women Layering","id":9382,"parentId":6430},{"name":"Mens Insulated Shell","id":9449,"parentId":4941},{"name":"Womens Hard Shell ","id":9383,"parentId":6431},{"name":"Mens Insulated Shell","id":9453,"parentId":4942}]}
+/*
+{"classifications":[
+	{"name":"Trew Gear LLC","id":4880,"parentId":-1},
+	{"name":"Men\u0027s Apparel and Accesories","id":4943,"parentId":4880},
+	{"name":"Women\u0027s Outerwear","id":6429,"parentId":4880},
+	{"name":"Women\u0027s Accessories and Apparel","id":6426,"parentId":4880},
+	{"name":"Men\u0027s Outerwear","id":4940,"parentId":4880},
+	{"name":"Unisex Apparel","id":9377,"parentId":4880},
+	{"name":"Women\u0027s Apparel ","id":6428,"parentId":6426},
+	{"name":"Women\u0027s Jackets","id":6430,"parentId":6429},
+	{"name":"Women\u0027s Pants","id":6431,"parentId":6429},
+	{"name":"Men\u0027s Accesories","id":4945,"parentId":4943},
+	{"name":"Men\u0027s Apparel","id":4944,"parentId":4943},
+	{"name":"Men\u0027s Jackets","id":4941,"parentId":4940},
+	{"name":"Men\u0027s Pants","id":4942,"parentId":4940},
+	{"name":"Women\u0027s Accessories ","id":6427,"parentId":6426},
+	
+	{"name":"Mens Layering","id":9365,"parentId":4941},
+	{"name":"Mens Soft Shell","id":9358,"parentId":4941},
+	
+	{"name":"Mens Hard Shell","id":9379,"parentId":4942},
+	{"name":"Mens Hard Shell","id":9296,"parentId":4941},
+	
+	{"name":"Mens Soft Shell","id":9380,"parentId":4942},
+	{"name":"Womens Hard Shell ","id":9381,"parentId":6430},
+	{"name":"Women Layering","id":9382,"parentId":6430},
+	
+	{"name":"Mens Insulated Shell","id":9449,"parentId":4941},
+	{"name":"Mens Insulated Shell","id":9453,"parentId":4942}]}
+	
+	{"name":"Womens Hard Shell ","id":9383,"parentId":6431},
+*/
 
 if ($categoryID == "mens") $urlID = "Men's%20Outerwear";
 if ($categoryID == "womens") $urlID = "Women's%20Outerwear";
-if ($categoryID == "accessories") $urlID = "Men's%20Apparel%20and%20Accesories,Women's%20Accessories%20and%20Apparel";
+if ($categoryID == "accessories") $urlID = "Men's%20Apparel%20and%20Accesories,Women's%20Accessories%20and%20Apparel,Unisex%20Apparel";
 
 $json = "http://trewgear.hubsoft.ws/api/v1/products?classifications={$urlID}&extras=1";
 $result = get_content("cache/{$cID}-product-wall.txt", $json, 3);
@@ -57,13 +88,13 @@ $products = $info->products;
 
 			<h4 class="title wall-category">Hard Shell</h4>
 			<?php 
-			getCategories($products, "9296", false);
+			getCategories($products, "9296,9379", false);
 			?>
 			<div class="clear"></div>
 			
 			<h4 class="title wall-category">Insulated Shell</h4>
 			<?php 
-			getCategories($products, "9449", false);
+			getCategories($products, "9449,9453", false);
 			?>
 			<div class="clear"></div>
 			
@@ -78,12 +109,6 @@ $products = $info->products;
 			<h4 class="title wall-category">Hard Shell</h4>
 			<?php 
 			getCategories($products, "9381,9383", false);
-			?>
-			<div class="clear"></div>
-			
-			<h4 class="title wall-category">Insulated Shell</h4>
-			<?php 
-			getCategories($products, "9453", false);
 			?>
 			<div class="clear"></div>
 			

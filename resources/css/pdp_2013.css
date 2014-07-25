@@ -307,10 +307,6 @@ p a {
 	margin-bottom:0;
 }
 
-#related {
-
-}
-
 
 
 /* tooltip styling */
@@ -358,15 +354,13 @@ p a {
 }
 
 #featuresWrap {
-	background:url(../images/pdp/features-bg-white.png) top center repeat-y;
+	background:#fff;
+	padding-top:40px;
+/*	background:url(../images/pdp/features-bg-white.png) top center repeat-y;*/
 }
 
 #features {
-	width:1110px;
-	margin:25px auto 40px auto;
-	padding:45px 0;
-	overflow:hidden;
-	color:#fff;
+
 }
 
 #features * {
@@ -389,7 +383,12 @@ p a {
 }
 
 #featureBullets {
-	width:390px;
+	width:40%;
+	float:left;
+}
+
+#construction {
+	width:40%;
 	float:right;
 }
 
@@ -420,9 +419,16 @@ p a {
 }
 
 #fabricInfo {
-	width:560px;
-	float:right;
+/*	width:560px;*/
+/*	float:right;*/
+	background-image:url(../images/pdp/fabric-bg.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:40px 0;
 }
+
+#fabricInfo * { color:#fff; }
 
 p.photoCredit {
 	color:#999 !important;
@@ -502,6 +508,23 @@ p.photoCredit.white {
 	position:relative;
 	top:-8px;
 	margin-left:10px;
+}
+
+.textblock * {
+	font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, sans-serif !important;
+	font-weight: 400 !important;
+	font-style: normal;
+	font-size:16px !important;
+	line-height:24px;
+}
+
+.textblock h5 {
+	font-weight: 600 !important;
+	font-size:30px !important;
+}
+
+.textblock strong {
+	font-weight: 600 !important;
 }
 
 

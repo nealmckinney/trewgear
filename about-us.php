@@ -28,7 +28,7 @@
 				<p>Our customers are the core community of powder enthusiasts. They are essential to our product development, and we look forward to connecting with them this and every winter. Follow our blog and look for HaRVey the gnaRV as we roll from mountain to mountain across the nation. Let’s shred!</p>
 				<a class="about-social" href="#">Share your TREW moments using #trewgear</a>
 				<a class="about-video"href="http://player.vimeo.com/video/52359303" rel="shadowbox">Watch our brand video</a>
-				<a class="about-pdf" href="#">Get to know our suppliers and manufacturing practices</a>
+				<a class="about-pdf" href="/resources/pdf/13 TREW_Gear_Supplier_Information.pdf">Get to know our suppliers and manufacturing practices</a>
 			</div>
 		</div>
 	</div>

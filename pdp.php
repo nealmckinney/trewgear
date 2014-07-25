@@ -253,10 +253,10 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		
 		if ($unitPrice != $msrp) {
 			echo "<h5 id='price' class='discounted'><span class='crossed'>\${$msrp}</span>\${$unitPrice}</h5>";
-			echo "<div id='buyBtn' class='button radius animated discounted'>BUY</div>";
+			echo "<div id='buyBtn' class='button radius animated discounted'>PRE-ORDER</div>";
 		} else {
 			echo "<h5 id='price'>\${$info[0]->colors[0]->sizes[0]->unitPrice}</h5>";
-			echo "<div id='buyBtn' class='button radius animated'>BUY</div>";
+			echo "<div id='buyBtn' class='button radius animated'>PRE-ORDER</div>";
 		}
 		
 		echo "<div class='error-message' id='pdp-error'></div>";
@@ -282,39 +282,67 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		?>
 			
 	</div>
-	<?php if ($info[0]->descriptions[3]) { ?>
+	</div><!-- pdpWrap -->
+	
 	<div id="featuresWrap">
-	<div id="features" style="padding-bottom:0;">
+	<div class="content">
 		
-	<div id="overview" class="textblock">
-		<h3>PRODUCT OVERVIEW</h3>
-		<?php echo $info[0]->descriptions[3];?>
-	</div> <!-- productfeaturebullets -->
+	<?
 	
-	<div id="featureBullets" class="textblock">
-		<h3>FEATURES</h3>
-		<?php echo $info[0]->descriptions[4];?>
-	</div> <!-- productfeaturebullets -->
+	$video = $info[0]->descriptions[7];
+	$features = $info[0]->descriptions[4];
+	$construction = $info[0]->descriptions[3];
+	$warranty = $info[0]->descriptions[6];
+	$fabricInfo = $info[0]->descriptions[5];
 	
-	<div class="clear"></div>
 	
+	?>
+	
+	<?php if ($video) { ?>
 	<div id="productVideo">
-		<?php echo $info[0]->descriptions[7];?>
+		<?php echo $video;?>
 	</div>
+	<?php } ?>
 	
-	<div id="fabricPics">
-		<div class="img construction"></div>
-		<div class="img fabric"></div>
+	<?php if ($features) { ?>
+	<div id="featureBullets" class="textblock">
+		<h5>Features</h5>
+		<?php echo $features;?>
 	</div>
-	<div id="fabricInfo" class="textblock">
-		<?php echo $info[0]->descriptions[5];?>
+	<?php } ?>
+	
+	<?php if ($construction) { ?>
+	<div id="construction" class="textblock">
+		<h5>Construction</h5>
+		<?php echo $construction;?>
+		<?php if ($warranty) { ?>
 		<div style="margin-top:20px;">
-			<?php echo $info[0]->descriptions[6];?>
+			<?php echo $warranty;?>
 		</div>
+		<?php } ?>
 	</div>
-	<div class="clear"></div>
+	<?php } ?>
 	
-	<div id="related">
+	<div class="clear"></div>
+</div><!-- content -->
+
+<?php if ($fabricInfo) { ?>
+<div id="fabricInfo" class="textblock">
+	<div class="content">
+		<?php echo $fabricInfo;?>
+	</div>
+</div>
+<?php } ?>
+<div class="clear"></div>
+	
+	<?php
+	$related = $colors[0]->relatedProducts;
+	if ($related) {
+	?>
+	<div class="content">
+	<div id="productWall">
+		
+		<h4 class="title wall-category">Related Products</h4>
 		
 		<?php
 		
@@ -324,27 +352,23 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		
 		
 		$len = count($related);
-		if ($len > 0) echo "<h3>Related Products</h3>";
 		for ($i=0; $i < $len; $i++) {
 		$item = $related[$i];
 		$filePath = $item->images[0];
 		$name = $item->productName;
-		echo "<a class='wallItem' id='wallItem{$i}' data-name='$name' href='{$rootpath}pdp.php?uID={$item->productUID}'><div class='imageCenter'><img src='{$filePath}'/></div></a>";
+		$id = $item->productUID;
+		$price = $item->msrp;
+		$image = $item->images[0];
+		echo "<div class='wallItem'><div class='imageCenter'><a href='{$rootpath}pdp.php?uID={$id}'><div class='button-wrap'><div class='button radius animated'>Learn More</div></div><img src='$image'/></a></div><a href='{$rootpath}pdp.php?uID={$id}'><h4 class='title'>$name</h4></a><p class='price'>$$price</p></div>";
 		}
-		
-		
-		$relatedItems = json_encode($productData->related_products);
-		
-		//print_r($productData->related_products[0]);
-		//die();
 		
 		?>
 	</div>
+	</div>
+	<?php } ?>
 	</div><!-- features -->
 	</div><!-- featuresWrap -->
-	<?php } else { //echo '<div style="height:100px;"></div>';
-	} ?>
-	</div><!-- pdpWrap -->
+	
 	
 	<?php
 	require_once("footer.php");
@@ -357,6 +381,10 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 	
 	var sizeSelect;
 	var colorSelect;
+	
+	function getDefaultIndex() {
+		
+	}
 	
 	function onSizeSelectChange() {
 		var index = sizeSelect.selectedIndex;
@@ -373,14 +401,14 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 				buyBtn.html("Out Of Stock");
 			} else {
 				buyBtn.removeClass("disabled");
-				buyBtn.html("BUY");
+				buyBtn.html("PRE-ORDER");
 			}
 		}
 	}
 	
 	function onColorSelectChange() {
 		var index = colorSelect.selectedIndex;
-		if (index == -1) index = 0;
+		if (index == -1) index = getDefaultIndex();//index = 0;
 		var color = colors[index];
 		if (!color) return;
 		
