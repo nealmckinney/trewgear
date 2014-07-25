@@ -28,7 +28,7 @@
 		
 		<p>We will immediately repair or replace any manufacturer’s defects discovered upon receipt of the product. Or if the TREW product does not meet satisfactions with intended performance and function, return it to us for a full refund, repair, or replacement.</p>
 		
-		<p>The TREW Warranty does not, however, extend upon damages resulting from accident (such as rips, tears, or burns) or damages incurred through unintended uses of the TREW product (such as flaming toilet paper tag, even though TREW products may be the best available garments for said uses).</p>
+		<p>The TREW Warranty does not, however, extend upon damages resulting from normal wear and tear, accidents (such as rips, tears, or burns) or damages incurred through unintended uses of the TREW product (such as flaming toilet paper tag, even though TREW products may be the best available garments for said uses).</p>
 		
 		
 		

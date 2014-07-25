@@ -80,3 +80,26 @@
 	font-weight: 600;
 	font-size:22px;
 }
+
+
+@media (max-width: 1109px) {
+	
+	#productWall {
+		margin-left:0;
+		margin-right:0;
+	}
+	
+}
+
+@media (max-width: 900px) {
+	
+	.wallItem {
+		float:none;
+		width:300px;
+		margin:0 auto 60px auto;
+	}
+}
+
+
+
+

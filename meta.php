@@ -14,7 +14,15 @@ if ($pos == true) {
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1" id="viewport-meta">
+<?php
+//$isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad');
+// if iPad, allow layout to scale to fit minimum width:
+//if ($isiPad === true) {
+	//echo '<meta name="viewport" content="width=device-width" id="viewport-meta">';
+//} else {
+	echo '<meta name="viewport" content="width=device-width, initial-scale=1" id="viewport-meta">';
+//}
+?>
 <meta http-equiv="Content-Language" content="en-us" />
 <meta name = "description" content = "TREW Gear makes uniquely stylish, technical ski and snowboard outerwear for your backcountry freeride adventures.">
 <meta name="abstract" content= "Technical ski and snowboard outerwear">
@@ -27,6 +35,8 @@ if ($pos == true) {
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7607112/719304/css/fonts.css" />
 
 <link href="<?php echo $rootpath?>resources/css/styles_2014.css" rel="stylesheet" type="text/css"/>
+<?php //if ($isiPad === false) { ?>
 <link href="<?php echo $rootpath?>resources/css/styles-responsive.css" rel="stylesheet" type="text/css"/>
+<? //} ?>
 <link href="<?php echo $rootpath?>resources/js/shadowbox-3.0.3/shadowbox.css" rel="stylesheet" type="text/css"/>
 <script src="<?php echo $rootpath?>resources/js/vendor/modernizr-2.6.2.min.js"></script>
