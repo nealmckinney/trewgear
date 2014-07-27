@@ -32,7 +32,7 @@
 			<li>Use the original packaging if possible.</li>
 			<li>Include the packing slip and order confirmation (if possible) that accompanied your order.</li>
 			<li>Include a brief note outlining the reason for a return, or for exchanges, clear instructions regarding the item, size, and color you wish to receive.</li>  
-			<li>Slap the shipping label included in your original shipment on the box and we'll get it a few days!</li>
+			<li>Slap the shipping label included in your original shipment on the box and we'll get it in a few days!</li>
 		</ul>
 		
 		<p>Please contact us at <a href="mailto:info@trewgear.com">mailto:info@trewgear.com</a> or call 541-251-6867 with any questions regarding an exchange or return request.</p>

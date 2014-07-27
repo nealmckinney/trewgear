@@ -84,7 +84,7 @@ function catMatch($classification, $cats) {
 }
 
 function getCategories($products, $cats, $includeDescription) {
-	$ids = [];
+	$ids = array();
 	global $rootpath;
 	$len = count($products);
 	for ($i=0; $i < $len; $i++) {

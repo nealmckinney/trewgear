@@ -24,7 +24,7 @@
 		
 		<p><b>“Believe only what you yourself test and judge to be true.” - Buddha</b></p>
 		
-		<p>TREW confidently stands behind our products and thus we offer our limited lifetime warranty, which guarantees TREW products for the full lifetime of the product. With proper care, your TREW product may very well last well into your old-age, and as you become old and withered your TREW product will shine as a beacon of youth and remind you of all the fun times you had together…</p>
+		<p>TREW confidently stands behind our products and thus we offer our limited lifetime warranty, which guarantees TREW products for the full lifetime of the product. With proper care, your TREW product may very well last well into your old-age, and as you become old and withered your TREW product will shine as a beacon of youth and remind you of all the fun times you had together.</p>
 		
 		<p>We will immediately repair or replace any manufacturer’s defects discovered upon receipt of the product. Or if the TREW product does not meet satisfactions with intended performance and function, return it to us for a full refund, repair, or replacement.</p>
 		
@@ -32,7 +32,7 @@
 		
 		
 		
-		<p><b>INITIATING A WARRANTY CLAIM IS EASY AND CAN BE DONE ONE OF TWO WAYS…</b></p>
+		<p><b>INITIATING A WARRANTY CLAIM IS EASY AND CAN BE DONE ONE OF TWO WAYS.</b></p>
 		<p>Email <a href="mailto:warranty@trewgear.com">WARRANTY@TREWGEAR.COM</a> and we will send you the proper forms as well as answer any questions you might have. </p>
 		<p>OR</p>
 		<p>2. Download one of the forms below and follow the instructions on the form.</p>
