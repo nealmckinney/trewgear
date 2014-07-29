@@ -347,6 +347,14 @@
 	}
 }
 
+/* RETINA */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	#trew-nav-logo {
+	    background: url(../images/nav/logo_2014@2x.png) top center no-repeat;
+		background-size:75px 75px;
+	}
+}
+
 
 
 

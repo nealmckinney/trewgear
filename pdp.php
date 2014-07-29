@@ -33,67 +33,33 @@ if ($pID != "") {
 	switch ($productID) {
 
 		case "cosmic":
-		$productUID = 79402;
+		$productUID = 111253;
 		break;
 
 		case "powfunk":
-		$productUID = 79420;
-		break;
-
-		case "bellows":
-		$productUID = 79419;
+		$productUID = 111530;
 		break;
 
 		case "eaglepant":
-		$productUID = 79423;
+		$productUID = 111532;
 		break;
 
 		case "trewthbib":
-		$productUID = 79424;
+		$productUID = 111533;
+		break;
+		
+		case "hunter":
+		$productUID = 111585;
+		break;
+		
+		case "tracker":
+		$productUID = 111738;
 		break;
 
-		case "wyeast":
-		$productUID = 79422;
-		break;
-		
-		case "ripcitysoftshell":
-		$productUID = 69669;
-		break;
-		
-		case "stella":
-		$productUID = 79425;
-		break;
-		
-		case "chariot":
-		$productUID = 79499;
-		break;
-		
-		case "overtheshoulder":
-		$productUID = 79512;
-		break;
-		
-		case "stellazip":
-		$productUID = 79510;
-		break;
-		
-		case "swift":
-		$productUID = 79421;
-		break;
-		
-		case "vaporizer":
-		$productUID = 79502;
-		break;
-		
-		case "womens-vaporizer":
-		$productUID = 79503;
-		break;
-		
-		case "polarshift":
-		$productUID = 79500;
-		break;
 
 		default:
-		$productUID = 67492;
+		// cosmic
+		$productUID = 111253;
 	}
 }
 

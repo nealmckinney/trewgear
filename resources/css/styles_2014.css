@@ -1006,12 +1006,5 @@ input, input:focus {
 	color:#999;
 }
 
-/* iPad */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
-	html, body {
-		width:1250px !important;
-	}
-/*	.utility-nav { min-width:500px; }*/
-}
 
 

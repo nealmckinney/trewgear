@@ -114,7 +114,7 @@
 }
 #cart-page .left .report .edit {
     position:absolute;
-    color:#ff0000;
+    color:#00adee;
 /*	background:#000;*/
     right:0px;
     top:0px;
@@ -484,7 +484,7 @@ input.input-small { width:175px; margin-bottom:10px !important; display:block !i
     position:absolute;
     right:10px;
     top:15px;
-    color:#ff0000;
+    color:#00adee;
     font-size:12px;
     text-transform:uppercase;
     text-decoration:none;
@@ -683,7 +683,7 @@ input.input-small { width:175px; margin-bottom:10px !important; display:block !i
 	font-size:12px;
 	font-weight:bold;
 	text-transform:uppercase;
-	background:#ff0000;
+	background:#00adee;
 	color:#fff;
 	padding:5px 10px;
 	border:none;

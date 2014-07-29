@@ -35,13 +35,13 @@
 			<li>Slap the shipping label included in your original shipment on the box and we'll get it in a few days!</li>
 		</ul>
 		
-		<p>Please contact us at <a href="mailto:info@trewgear.com">mailto:info@trewgear.com</a> or call 541-251-6867 with any questions regarding an exchange or return request.</p>
+		<p>Please contact us at <a href="mailto:info@trewgear.com">info@trewgear.com</a> or call 541-251-6867 with any questions regarding an exchange or return request.</p>
 
 		<p>All returns will be credited to the original form of payment.  Your account will be credited for the original amount paid.  For exchanges, you will be responsible for any difference in price between items returned and new items requested if the cost of the latter is greater.</p>  
 
 		<p>This return and exchange policy only applies to items purchased at <a href="trewgear.com">trewgear.com</a>, at TREW events, via our phone number, or off our mobile RV store.  Returns and exchanges for items purchased through another vendor must be completed through that vendor.</p> 
 
-		<p>If you have any questions about our exchange or return policies, please contact us at <a href="mailto:info@trewgear.com">mailto:info@trewgear.com</a> or at 541-241-6867.</p>
+		<p>If you have any questions about our exchange or return policies, please contact us at <a href="mailto:info@trewgear.com">info@trewgear.com</a> or at 541-241-6867.</p>
 	</div>
 
 	<?php 
