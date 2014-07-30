@@ -33,47 +33,46 @@ $authcode = $_GET["authcode"];
 		        </div>
 				<h3 id="message" style="color:#000; display:none;">Looking up code...</h3>
 		    </form>
-
-
-
-			<script>
-			
-			function goHome() {
-				window.location.href = "/";
-			}
-
-			(function () {
-				
-				$("#promoBtn").on("click", function(e) {
-					var authcode = $("#authCode").val();
-					if (authcode) {
-						$("#message").fadeIn();
-						emeraldcode.validateAuthCode({code : authcode}, function(data) {
-							if (data.success) {
-								var promoCookie = $.cookie("promotion");
-							    $("#message").html("Code has been validated. Shop now!");
-								setTimeout(goHome, 2000);
-							} else {
-							     $("#message").html('bad authorization code: ' + authcode);
-							}
-						});
-					}
-					e.preventDefault();
-				})
-				
-				
-				var authcode = "<?php echo $authcode; ?>";
-				emeraldcode.clientid = 'trewgear';
-                emeraldcode.ready(function () {
-
-                });
-            })();
-
-			</script>
-
 		</div>
 	</div>
 	<?php require_once("footer.php"); ?>
+	
+	
+	<script>
+	
+	function goHome() {
+		window.location.href = "/";
+	}
+
+	(function () {
+		
+		$("#promoBtn").on("click", function(e) {
+			var authcode = $("#authCode").val();
+			if (authcode) {
+				$("#message").fadeIn();
+				emeraldcode.validateAuthCode({code : authcode}, function(data) {
+					if (data.success) {
+						var promoCookie = $.cookie("promotion");
+					    $("#message").html("Code has been validated. Shop now!");
+						setTimeout(goHome, 2000);
+					} else {
+					     $("#message").html('bad authorization code: ' + authcode);
+					}
+				});
+			}
+			e.preventDefault();
+		})
+		
+		
+		var authcode = "<?php echo $authcode; ?>";
+		emeraldcode.clientid = 'trewgear';
+        emeraldcode.ready(function () {
+
+        });
+    })();
+
+	</script>
+	
 </div>
 </body>
 </html>

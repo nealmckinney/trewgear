@@ -103,9 +103,12 @@ $pageThumb = "http://trewgear.com/resources/images/products/medium/".$productID.
 
 
 $json = "http://trewgear.hubsoft.ws/api/v1/productColors?productUID=$productUID";
+$cachePath = "cache/{$productUID}-product-detail.txt";
+
 if (isset($_COOKIE["promotion"])) {
-	$json = $json . '&promotion=' . $_COOKIE["promotion"];
-	//echo $json;
+	$promo = $_COOKIE["promotion"];
+	$json = $json . '&promotion=' . $promo;
+	$cachePath = "cache/{$productUID}-promo-product-wall.txt";
 }
 
 //$json = $json . '&promotion=GFFAZKQV';
@@ -115,7 +118,7 @@ if (isset($_COOKIE["promotion"])) {
 //curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 //$result = curl_exec($ch);
 
-$result = get_content("cache/{$productUID}-product-detail.txt", $json, 3);
+$result = get_content($cachePath, $json, 3);
 
 $info = json_decode($result);
 
@@ -432,6 +435,12 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		for (var i=0; i < len; i++) {
 			$("#sizeSelect").append("<div class='multi-nav-item size animated' data-index='"+i+"' data-size='"+sizes[i].sizeName+"' data-value='"+sizes[i].sku+","+sizes[i].QtyAvailable+","+sizes[i].sizeName+"'>"+sizes[i].sizeName+"</div>");
 		};
+		
+		if (len < 2) {
+			$("#sizeSelect").hide();
+		} else {
+			$("#sizeSelect").show();
+		}
 		
 		sizeSelect.updateButtons($("#sizeSelect").find(".multi-nav-item"));
 		

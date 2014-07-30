@@ -95,7 +95,15 @@ function getCategories($products, $cats, $includeDescription) {
 		if (strpos($productNumber, "TGF14") !== false) {
 			$filePath = $item->images[0];
 			$name = $item->productName;
-			$price = $item->sizes[0]->unitPrice;
+			$msrp = $item->sizes[0]->msrp;
+			$unitPrice = $item->sizes[0]->unitPrice;
+			
+			if ($unitPrice != $msrp) {
+				$price = "<span class='discounted'><span class='crossed'>\${$msrp}</span> \${$unitPrice}</span>";
+			} else {
+				$price = "<span>\${$unitPrice}</span>";
+			}
+			
 			$classifications = $item->classifications;
 			$len2 = count($item->classifications);
 			for ($j=0; $j < $len2; $j++) {
@@ -126,7 +134,7 @@ function getCategories($products, $cats, $includeDescription) {
 					} else {
 						
 						// product walls:
-						echo "<div class='wallItem' data-prod-num='$productNumber' data-name='$name'><div class='imageCenter'><a href='{$rootpath}pdp.php?uID={$id}'><div class='button-wrap'><div class='button radius animated'>Learn More</div></div><img src=''/></a></div><a href='{$rootpath}pdp.php?uID={$id}'><h4 class='title'>$name</h4></a><p class='price'>$$price</p>";
+						echo "<div class='wallItem' data-prod-num='$productNumber' data-name='$name'><div class='imageCenter'><a href='{$rootpath}pdp.php?uID={$id}'><div class='button-wrap'><div class='button radius animated'>Learn More</div></div><img src=''/></a></div><a href='{$rootpath}pdp.php?uID={$id}'><h4 class='title'>$name</h4></a><p class='price'>$price</p>";
 						echo getProductColors($id, $products);
 						echo "</div>";
 						

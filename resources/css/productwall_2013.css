@@ -38,6 +38,11 @@
 	margin-bottom:10px;
 }
 
+.wallItem .price .crossed {
+	text-decoration: line-through;
+	color:#ff0000;
+}
+
 .wallItem .multi-nav-item {
     width: 20px;
     height: 20px;

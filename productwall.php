@@ -65,7 +65,15 @@ if ($categoryID == "womens") $urlID = "Women's%20Outerwear";
 if ($categoryID == "accessories") $urlID = "Men's%20Apparel%20and%20Accesories,Women's%20Accessories%20and%20Apparel,Unisex%20Apparel";
 
 $json = "http://trewgear.hubsoft.ws/api/v1/products?classifications={$urlID}&extras=1";
-$result = get_content("cache/{$cID}-product-wall.txt", $json, 3);
+$cachePath = "cache/{$cID}-product-wall.txt";
+
+if (isset($_COOKIE["promotion"])) {
+	$promo = $_COOKIE["promotion"];
+	$json = $json . '&promotion=' . $promo;
+	$cachePath = "cache/{$cID}-promo-product-wall.txt";
+}
+
+$result = get_content($cachePath, $json, 3);
 $info = json_decode($result);
 $products = $info->products;
 ?>
