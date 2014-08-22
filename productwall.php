@@ -70,7 +70,8 @@ $cachePath = "cache/{$cID}-product-wall.txt";
 if (isset($_COOKIE["promotion"])) {
 	$promo = $_COOKIE["promotion"];
 	$json = $json . '&promotion=' . $promo;
-	$cachePath = "cache/{$cID}-promo-product-wall.txt";
+	$promoCacheID = substr($promo, 0, 10);
+	$cachePath = "cache/{$cID}-{$promoCacheID}-product-wall.txt";
 }
 
 $result = get_content($cachePath, $json, 3);

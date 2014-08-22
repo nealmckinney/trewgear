@@ -108,7 +108,8 @@ $cachePath = "cache/{$productUID}-product-detail.txt";
 if (isset($_COOKIE["promotion"])) {
 	$promo = $_COOKIE["promotion"];
 	$json = $json . '&promotion=' . $promo;
-	$cachePath = "cache/{$productUID}-promo-product-wall.txt";
+	$promoCacheID = substr($promo, 0, 10);
+	$cachePath = "cache/{$productUID}-{$promoCacheID}-product-wall.txt";
 }
 
 //$json = $json . '&promotion=GFFAZKQV';

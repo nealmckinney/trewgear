@@ -54,11 +54,11 @@ $promotion = $_GET["promotion"];
 				hubsoft.clientid = 'trewgear';
 				var promotion = "<?php echo $promotion; ?>";
 				//console.log("promotion: "+promotion);
-				if (promotion == "GFFAZKQV") {
-					$.cookie('promotion', 'GFFAZKQV', { expires: 1, path: '/' });
+				//if (promotion == "GFFAZKQV") {
+					$.cookie('promotion', promotion, { expires: 1, path: '/' });
 					 $("#message").fadeIn();
 					setTimeout(goHome, 2000);
-				}
+				//}
 			});
 				
 
