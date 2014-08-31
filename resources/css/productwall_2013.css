@@ -3,6 +3,7 @@
 	overflow:hidden;
 	margin-left:-20px;
 	margin-right:-20px;
+	padding-bottom:40px;
 }
 
 .wallItem {
@@ -84,6 +85,20 @@
 	margin:40px 0;
 	font-weight: 600;
 	font-size:22px;
+}
+
+.exclusives {
+	background:#000 url(../images/exclusives-bg.jpg) top center no-repeat;
+}
+
+.exclusives *, .exclusives .wallItem .price { color:#fff; }
+
+.exclusives .title.wall-category {
+	border-bottom:#fff 1px solid;
+}
+
+.exclusives .multi-nav-item {
+	border:rgba(255,255,255,0.25) 2px solid;
 }
 
 

@@ -528,7 +528,19 @@ p.photoCredit.white {
 }
 
 
+#buyBtn.disabled {
+	color:#0092c5;
+	background-color:#fff;
+	cursor:default;
+}
 
+#buyBtn.discounted {
+	width:85px;
+}
+
+#buyBtn.disabled.discounted {
+	font-size:18px;
+}
 
 
 @media (max-width: 1109px) {

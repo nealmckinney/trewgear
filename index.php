@@ -42,14 +42,13 @@ window.onload = function(){
 	<div id="marqueeWrap">
 		<div class="marquee content">
 			<div class="vertical-center">
-				<h2 class="title">Pre-Order<br/>2015 Gear</h2>
-				<h3 class="sub-title">Get a Free Beanie!*</h3>
-				<a class="button radius animated" href="/productwall/mens">Shop Now</a>
+				<h2 class="title">2015 Gear<br/>Now Shipping!</h2>
+				<a class="button radius animated" href="<?php echo $rootpath?>productwall/mens">Shop Now</a>
 				<p>&nbsp;</p>
 			</div>
-			<p class="disclaimer">*Gypsy Beanie will ship in early September with product. Credit card will be charged at time of purchase.</p>
+			<!--<p class="disclaimer">*Gypsy Beanie will ship in early September with product. Credit card will be charged at time of purchase.</p>-->
 		</div>
-		<div class="marquee-background" style="background-image:url(/resources/images/home/marquee-2015-products.jpg);"></div>
+		<div class="marquee-background" style="background-image:url(/resources/images/home/trew-august-marquee-web.jpg);"></div>
 	</div>
 	<div class="we-are-trew">
 		<div class="content center">
