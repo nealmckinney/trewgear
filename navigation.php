@@ -45,6 +45,7 @@ if ($pos == true) {
 				    <li><a class="animated" href="<?php echo $rootpath?>productwall/mens">MEN</a></li>
 					<li><a class="animated" href="<?php echo $rootpath?>productwall/womens">WOMEN</a></li>
 					<li><a class="animated" href="<?php echo $rootpath?>productwall/accessories">ACCESSORIES</a></li>
+					<li><a class="animated" href="<?php echo $rootpath?>exclusives">EXCLUSIVES</a></li>
 				    <li><a class="animated" href="<?php echo $rootpath?>about-us">ABOUT US</a></li>
 					<li><a class="animated" href="<?php echo $rootpath?>blog">BLOG</a></li>
 					<li><a class="animated" href="<?php echo $rootpath?>dealers">DEALERS</a></li>

@@ -119,7 +119,7 @@ if (isset($_COOKIE["promotion"])) {
 //curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 //$result = curl_exec($ch);
 
-$result = get_content($cachePath, $json, 3);
+$result = get_content($cachePath, $json, 1);
 
 $info = json_decode($result);
 
@@ -223,10 +223,10 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		
 		if ($unitPrice != $msrp) {
 			echo "<h5 id='price' class='discounted'><span class='crossed'>\${$msrp}</span>\${$unitPrice}</h5>";
-			echo "<div id='buyBtn' class='button radius animated discounted'>PRE-ORDER</div>";
+			echo "<div id='buyBtn' class='button radius animated discounted'>BUY NOW</div>";
 		} else {
 			echo "<h5 id='price'>\${$info[0]->colors[0]->sizes[0]->unitPrice}</h5>";
-			echo "<div id='buyBtn' class='button radius animated'>PRE-ORDER</div>";
+			echo "<div id='buyBtn' class='button radius animated'>BUY NOW</div>";
 		}
 		
 		echo "<div class='error-message' id='pdp-error'></div>";
@@ -371,7 +371,7 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 				buyBtn.html("Out Of Stock");
 			} else {
 				buyBtn.removeClass("disabled");
-				buyBtn.html("PRE-ORDER");
+				buyBtn.html("BUY NOW");
 			}
 		}
 	}
@@ -559,7 +559,7 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 		// "Stella",
 		// "Chariot",
 		// "Women's Vaporizer",
-		// "Powfunk"
+		 "Vaporizer"
 		];
 		
 		var title = $("#pdpTitle").html();
@@ -569,7 +569,7 @@ echo '<meta property="og:url" content="http://'.$domain.$url.'"/>';
 				var buyBtn = $("#buyBtn");
 				buyBtn.addClass("disabled");
 				buyBtn.addClass("delayed");
-				buyBtn.html("Available September");
+				buyBtn.html("Coming Soon");
 				buyBtn.width(215);
 				break;
 			}
