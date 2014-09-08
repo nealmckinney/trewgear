@@ -33,7 +33,7 @@ $colors = $info[0]->colors;
 			<?php
 			echo $info[0]->descriptions[0];
 			?>
-
+			<div class="clear"></div>
 		</div>
 	<?php 
 	require_once("footer.php");

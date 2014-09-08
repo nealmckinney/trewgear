@@ -26,7 +26,9 @@ if ($pos == true) {
 				<a href="http://twitter.com/trew_gear" target="_blank" class="nav social twitter"></a>
 				<a href="http://instagram.com/trew_gear" target="_blank" class="nav social instagram"></a>
 			</div>
+			<?php if (!isset($_COOKIE["promotion"])) { ?>
 			<p class="note shipping-notice">FREE GROUND SHIPPING FOR U.S.A. CUSTOMERS ON ORDERS OVER $100</p>
+			<?php } ?>
 		</div>
 	</div>
 <div id="trew-nav-main">
